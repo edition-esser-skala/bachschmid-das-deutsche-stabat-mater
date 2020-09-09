@@ -77,10 +77,12 @@
 
 \usepackage{enumitem}
 \setlist[description]{%
-  style=nextline,%
-  leftmargin=2em,%
+  labelindent=2em,%
+  labelwidth=6em,%
+  leftmargin=8em,%
+  labelsep=0pt,
   first=\ltseries,%
-  font=\normalfont%
+  font=\normalfont\itshape\ltseries%
 }
 \def\lyrefitem#1{\item[\lyref{#1}]}
 
@@ -90,16 +92,32 @@
 \def\@firstofthree#1#2#3{#1}
 \def\@secondofthree#1#2#3{#2}
 \def\@thirdofthree#1#2#3{#3}
+\def\@firstoffour#1#2#3#4{#1}
+\def\@secondoffour#1#2#3#4{#2}
+\def\@thirdoffour#1#2#3#4{#3}
+\def\@fourthoffour#1#2#3#4{#4}
 \def\Dotfill{\leavevmode\cleaders\hb@xt@ .75em{\hss .\hss }\hfill \kern \z@}
 
 \def\lyrefnumber#1{\expandafter\@setref\csname r@#1\endcsname\@firstofthree{#1}}
 \def\lyreftitle#1{\expandafter\@setref\csname r@#1\endcsname\@secondofthree{#1}}
 \def\lyrefpage#1{\expandafter\@setref\csname r@#1\endcsname\@thirdofthree{#1}}
 
+\def\lyrefgenrenumber#1{\expandafter\@setref\csname r@#1\endcsname\@firstoffour{#1}}
+\def\lyrefgenregenre#1{\expandafter\@setref\csname r@#1\endcsname\@secondoffour{#1}}
+\def\lyrefgenretitle#1{\expandafter\@setref\csname r@#1\endcsname\@thirdoffour{#1}}
+\def\lyrefgenrepage#1{\expandafter\@setref\csname r@#1\endcsname\@fourthoffour{#1}}
+
 \def\lyref#1{%
   \begingroup%
   \makebox[0pt][l]{\color{oldred}\lyrefnumber{#1}}\hspace*{2em}%
   \lyreftitle{#1}\Dotfill\lyrefpage{#1}%
+  \endgroup%
+}
+\def\lyrefgenre#1{%
+  \begingroup%
+  \makebox[0pt][l]{\color{oldred}\lyrefgenrenumber{#1}}\hspace*{2em}%
+  \makebox[0pt][l]{\ltseries\lyrefgenregenre{#1}}\hspace*{6em}%
+  \lyrefgenretitle{#1}\Dotfill\lyrefgenrepage{#1}%
   \endgroup%
 }
 \InputIfFileExists{../out/lilypond.ref}{}{\InputIfFileExists{../lilypond.ref}{}{}}
@@ -243,7 +261,24 @@ Wolfgang Esser-Skala}
 \cleardoublepage
 \chapter*{Contents.}
 
-\InputIfFileExists{../out/lilypond.toc}{}{\InputIfFileExists{../lilypond.toc}{}{}}
+\lyrefgenre{welchein}
+
+\begin{description}
+	\item[Tenore]
+		Welch ein Anblikk?\\
+		Seht die Mutter der Schmerzen,\\
+		ohnmachtsvoll am Baum der Welten Erlösung!\\
+		Ach! Es blutet ihr Sohn!\\
+		O! Mutterleiden!\\
+		Ach! Ihr Eingebohrner!\\
+		Ach! es blutet der Gottmensch,\\
+		blutet, und stirbt, so quallenvoll und schmächlich!\\
+		Und dies muß die betrübte Mutter sehen!\\
+		O! es durchwühlet mitten ihre gebeugte Seel der Stahl der Leiden.\\
+		Wie Sie seufzet? und mit den Schmerzen ringet?\\
+		Wie Sie verlaßen dasteht?\\
+		Ihrem Sohne zur Seite, Gottes Mutter, Gottes Gebenedeyte.
+\end{description}
 
 \cleardoublepage
 \fi

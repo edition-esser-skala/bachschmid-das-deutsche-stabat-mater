@@ -78,7 +78,7 @@
 		\fill-line {
 			\line {
 				\fontsize #3 {
-	 				\with-color #(rgb-color .8313 0 0) { \fontsize #-4 \fromproperty #'header:type }
+	 				\with-color #(rgb-color .8313 0 0) { \fontsize #-4 \fromproperty #'header:genre }
 	 			 	\hspace #3
 	 			 	\fromproperty #'header:number
 					\hspace #1
@@ -657,6 +657,22 @@ tocLabel = #(define-music-function
  		)
  	)
  )
+
+ tocLabelLong = #(define-music-function
+  	(parser location label number genre text)
+  	(markup? markup? markup? markup?)
+    (add-toc-item!
+  		'tocItemMarkup
+  		(format
+  			#f
+  			"\\newlabel{~a}{{~a}{~a}{~a}"
+ 			label
+  		number
+			genre
+  		text
+  		)
+  	)
+  )
 
 
 

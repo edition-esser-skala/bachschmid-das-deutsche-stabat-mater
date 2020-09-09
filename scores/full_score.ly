@@ -8,7 +8,7 @@
 
 \paper {
 	indent = 1\cm
-	% #(define (page-post-process layout pages) (ly:create-ref-file layout pages))
+	#(define (page-post-process layout pages) (ly:create-ref-file layout pages))
 }
 
 #(set-global-staff-size 15.87)
@@ -17,10 +17,15 @@
 	\bookpart {
 		\header {
 			number = "1"
-			type = "R E C I T A T I V O"
+			genre = "R E C I T A T I V O"
 			title = "Welch ein Anblikk?"
 		}
-		\tocLabel "welchein" "1" "Welch ein Anblikk? (Recitativo)"
+		\paper {
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
+		}
+		\tocLabelLong "welchein" "1" "Recitativo" "Welch ein Anblikk?"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -47,7 +52,7 @@
 				\new Lyrics \lyricsto Tenore \WelchEinTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
-						% \set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
 						\WelchEinOrgano
 					}
@@ -55,7 +60,7 @@
 				\new FiguredBass { \WelchEinBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 50 }
 		}
 	}
 }
