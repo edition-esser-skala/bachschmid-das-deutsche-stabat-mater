@@ -85,6 +85,301 @@ WelchEinTenoreLyrics = \lyricmode {
 	dey -- te. %36 finis
 }
 
+DichErblickenTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \minor \time 2/2 \autoBeamOff \tempoDichErblicken
+		\partial 4 r4 R1*16 %16
+		r2 r4 a8 a
+		\appoggiatura e' d4 d d8([ e)] e([ f)]
+		f([ gis,)] gis4 r2
+		r r4 g8 g %20
+		f([ a)] d4 d8([ e)] d([ cis)]
+		\appoggiatura cis d4 r r2
+		r r4 g,!8 g
+		f([ a)] d4 d8([ e)] d([ cis)]
+		a'2 a8.([ f16)] g8.([ e16)] %25
+		\appoggiatura e8 d4 d d8([ e)] d([ cis)]
+		\appoggiatura cis d4 r r2
+		R1
+		r2 r4 c8 a
+		\appoggiatura g f4 f r f'8 c %30
+		\appoggiatura b a4 a r c8 c
+		f4. e8 f e f es
+		es d d2 cis4
+		d8 e f2 a,4
+		c8 a g4 r2 %35
+		R1*3
+		r2 r4 c8 c
+		\appoggiatura g' f4 f f8 es d cis %40
+		cis d d2 c4
+		\appoggiatura c8 h4. h8 h4 h
+		g'4. b,8 b4 r
+		R1*2 %45
+		a4. a8 b a b h
+		h c c2 b4
+		a8 c a c c([ b)] a([ g)]
+		\appoggiatura g f4 r r c'8([ des)]
+		\appoggiatura c b4 b r b8([ c)] %50
+		\appoggiatura b as4 as r f'8 f
+		e!8.([ f16)] des4 c8.([ des16)] b4
+		\appoggiatura b8 as4 g r c8 des
+		b4 b r b8 c
+		\appoggiatura b as4 as r f'8 f %55
+		e!8.([ f16)] des4 c b8([ as)]
+		\appoggiatura as g4 r r2
+		R1
+		r2 r4 c8 c
+		f([ c)] c4 r c8 c %60
+		f([ c)] c4 r c8 c
+		f4. e8 f e f es
+		es d d2 cis4
+		d8 f e d c([ b)] a([ g)]
+		c4 r c es %65
+		d8 f e d c([ b)] a([ g)]
+		f'4 r f8([ es)] d([ cis)]
+		d f e d c([ b)] a([ g)]
+		\appoggiatura g f4 r r2
+		R1*4 \noBreak %73
+		R1\fermataMarkup \bar "||"
+		\time 3/4 \tempoSehIchDich \partialFourth f8 f \noBreak b4. c8 d c \noBreak %75
+		\appoggiatura c b4 b d8 f
+		f4. d8 es? c
+		\appoggiatura cis d4 r r
+		R2.
+		r4 r f8 g %80
+		f4. d8 es c
+		\appoggiatura c h4 r h8 d
+		\appoggiatura d c4 r c8 es
+		\appoggiatura es d4 r d8 f
+		f4. d8 es c %85
+		\appoggiatura c b4 r d8 d
+		d4. d8 cis d
+		e!8.([ cis16)] a4 r8 e'
+		e4. e8 d e
+		f8.([ e16)] d4 r %90
+		d8([ b)] b4 r
+		d8([ a)] a4 r
+		d8([ cis)] r4 r
+		e8([ d)] r4 r
+		es2 d8.([ e?16)] %95
+		\appoggiatura d8 cis4 r r
+		r r a
+		a2 b!8.([ a16)]
+		a4 r r
+		r r a %100
+		a2 b!8.([ a16)]
+		a4 r d8([ cis)]
+		cis2 b!8.([ a16)]
+		a4 r d8([ cis)]
+		cis2 b!8([ a)] %105
+		a4 r r
+		R2.*2 \noBreak
+		R2.\fermataMarkup \bar "||"
+		\time 2/2 \tempoDichErblickenB \partialFourth a8 a \noBreak \appoggiatura e' d4 d d8([ e)] e([ f)] \noBreak %110
+		f([ gis,)] gis4 r2
+		r r4 g8 g
+		f([ a)] d4 d8([ e)] d([ cis)]
+		\appoggiatura cis d4 r r2
+		r r4 g,!8 g %115
+		f([ a)] d4 d8([ e)] d([ cis)]
+		a'2 a8.([ f16)] g8.([ e16)]
+		\appoggiatura e8 d4 d d8([ e)] d([ cis)]
+		\appoggiatura cis d4 r r2
+		R1 %120
+		r2 r4 f8 d
+		\appoggiatura c b4 b r f'8 d
+		\appoggiatura c h4 h r h8 h
+		c4. h8 c h c h
+		c h c2 cis4 %125
+		d4. cis8 d cis d cis
+		d cis d2 e4
+		f4. f8 f4 gis,
+		h8 a a4 r2
+		f'2. gis,4 %130
+		h8 a a4 r e'8([ f)]
+		f2. gis,4
+		\appoggiatura h8 a4 r r2
+		R1*3 %136
+		r2 r4 a8 a
+		\appoggiatura e' d4 d d8 c! b a
+		a b b2 cis4
+		d4. d8 d4 d %140
+		a'4. c,!8 c4 r
+		R1*2
+		a4. a8 b! a b cis
+		d es es2 d4 %145
+		g8 e g e e([ d)] d([ cis)]
+		\appoggiatura cis d4 r r d8.([ e16)]
+		\appoggiatura d8 cis4 cis r g'8.([ a16)]
+		\appoggiatura g8 f4 f r f8 f
+		es8.([ f16)] d4 cis8.([ d16)] b!4 %150
+		\appoggiatura b8 a4 a r f'8 f
+		es8.([ f16)] es4 r d8 d
+		cis8.([ d16)] cis4 r b!8 b
+		a4 d d8([ e)] d([ cis)]
+		\appoggiatura cis d4 r r2 %155
+		R1
+		r2 r4 a8 a
+		d([ a)] a4 r a8 a
+		d([ a)] a4 r a8 a
+		d4. cis8 d cis d c %160
+		c b b2 cis4
+		d8 f d f f([ e)] d([ cis)]
+		\appoggiatura e d4 r d f
+		e8 g g f f([ e)] d([ cis)]
+		\appoggiatura e d4 r d8([ e)] e([ f)] %165
+		g b a g f([ e)] d([ cis)]
+		\appoggiatura e d4 r r2
+		R1*6 %173
+		R1\fermataMarkup \bar "|." %174 finis
+	}
+}
+
+DichErblickenTenoreLyrics = \lyricmode {
+	Dich er -- %17
+	bli -- cken oh -- ne
+	Thrä -- ne,
+	Got -- tes %20
+	Mut -- ter, kann ich
+	nicht,
+	Got -- tes
+	Mut -- ter, kann ich
+	nicht, Got -- tes %25
+	Mut -- ter, kann ich
+	nicht.
+
+	O, ſie
+	flie -- ßet, o, ſie %30
+	flie -- ßet! A -- ber
+	je -- ne kalt -- er -- preß -- te
+	Au -- gen -- thrä -- ne,
+	Got -- tes Mut -- ter,
+	flie -- ßet nicht, %35
+
+	a -- ber %39
+	je -- ne kalt -- er -- preß -- te %40
+	Au -- gen -- thrä -- ne,
+	Got -- tes Mut -- ter,
+	flie -- ßet nicht,
+
+	je -- ne kalt -- er -- preß -- te %46
+	Au -- gen -- thrä -- ne,
+	Got -- tes Mut -- ter, flie -- ßet
+	nicht. Ich
+	kann nicht, ich %50
+	kann nicht dich er --
+	bli -- cken oh -- ne
+	Thrä -- ne, dich er --
+	bli -- cken oh -- ne
+	Thrä -- ne, Got -- tes %55
+	Mut -- ter, kann ich
+	nicht.
+
+	O, ſie
+	flie -- ßet, o, ſie %60
+	flie -- ßet! A -- ber
+	je -- ne kalt -- er -- preß -- te
+	Au -- gen -- thrä -- ne,
+	Got -- tes Mut -- ter, flie -- ßet
+	nicht, je -- ne %65
+	Au -- gen -- thrä -- ne flie -- ßet
+	nicht, je -- ne
+	Au -- gen -- thrä -- ne flie -- ßet
+	nicht.
+
+	Seh ich %74
+	dich in dei -- nem %75
+	Lei -- de, ſeh ich
+	dich in dei -- nem
+	Schmerz,
+
+	ſeh ich %80
+	dich in dei -- nem
+	Schmerz, ſeh ich
+	dich, ſeh ich
+	dich, ſeh ich
+	dich in dei -- nem %85
+	Schmerz, dich an
+	dei -- nes Soh -- nes
+	Sei -- te, an
+	dei -- nes Soh -- nes
+	Sei -- te, %90
+	Mut -- ter,
+	Mut -- ter,
+	dann,
+	dann
+	weint mein %95
+	Herz,
+	dann
+	weint mein
+	Herz,
+	dann %100
+	weint mein
+	Herz, dann
+	weint mein
+	Herz, dann
+	weint mein %105
+	Herz.
+
+	Dich er -- %109
+	bli -- cken oh -- ne %110
+	Thrä -- ne,
+	Got -- tes
+	Mut -- ter, kann ich
+	nicht,
+	Got -- tes %115
+	Mut -- ter, kann ich
+	nicht, Got -- tes
+	Mut -- ter, kann ich
+	nicht.
+	%120
+	O, ſie
+	flie -- ßet, o, ſie
+	flie -- ßet! A -- ber
+	je -- ne kalt -- er -- preß -- te
+	Au -- gen -- thrä -- ne, %125
+	je -- ne kalt -- er -- preß -- te
+	Au -- gen -- thrä -- ne,
+	Got -- tes Mut -- ter,
+	flie -- ßet nicht.
+	O, ſie %130
+	flie -- ßet nicht, ſie
+	flie -- ßet
+	nicht!
+
+	A -- ber %137
+	je -- ne kalt -- er -- preß -- te
+	Au -- gen -- thrä -- ne,
+	Got -- tes Mut -- ter, %140
+	flie -- ßet nicht,
+
+	je -- ne kalt -- er -- preß -- te %144
+	Au -- gen -- thrä -- ne, %145
+	Got -- tes Mut -- ter, flie -- ßet
+	nicht. Ich
+	kann nicht, ich
+	kann nicht dich er --
+	bli -- cken oh -- ne %150
+	Thrä -- ne, dich er --
+	bli -- cken oh -- ne
+	Thrä -- ne, Got -- tes
+	Mut -- ter, kann ich
+	nicht. %155
+
+	O, ſie
+	flie -- ßet, o, ſie
+	flie -- ßet! A -- ber
+	je -- ne kalt -- er -- preß -- te %160
+	Au -- gen -- thrä -- ne,
+	Got -- tes Mut -- ter, flie -- ßet
+	nicht, je -- ne
+	Au -- gen -- thrä -- ne flie -- ßet
+	nicht, je -- ne %165
+	Au -- gen -- thrä -- ne flie -- ßet
+	nicht. %167 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

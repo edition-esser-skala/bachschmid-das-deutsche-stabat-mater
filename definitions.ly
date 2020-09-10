@@ -675,8 +675,12 @@ tocLabel = #(define-music-function
   )
 
 
+partialFourth = \set Timing.measurePosition = #(ly:make-moment -1/4)
 
 tempoWelchEin = \tempoMarkup "Un poco adagio"
+tempoDichErblicken = \tempoMarkup "Lento"
+	tempoSehIchDich = \tempoMarkup "Larghetto con moto"
+	tempoDichErblickenB = \tempoMarkup "Tempo primo"
 
 
 \include "notes/fl1.ly"
