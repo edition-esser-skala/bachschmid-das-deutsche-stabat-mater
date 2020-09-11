@@ -380,6 +380,201 @@ DichErblickenTenoreLyrics = \lyricmode {
 	nicht. %167 finis
 }
 
+JaHerzensTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key es \major \time 3/4 \autoBeamOff \tempoJaHerzens
+		R2.*13 %13
+		es,4^\tutti r r
+		b' r r8 b %15
+		es es es4 es
+		es8 es b4 c!
+		b8 b16 b b8 b b b
+		b4 r r
+		b2 b4 %20
+		ces r r
+		b8 b b4. b8
+		b4 r r8 b
+		b4 r r8 b
+		b4 r r8 b %25
+		b b c! d es d
+		es4 d r8 b
+		b b a b c d
+		es8.([ d16)] d4 r8 d
+		d([ c)] c4 r8 c %30
+		c([ b)] b b c des
+		\appoggiatura f16 es8 des16([ c)] b4 a8.([ b16)]
+		b4 f' r
+		r c r
+		des8 des des4 des %35
+		c8 c c4 c
+		b8 a b c d! es16([ f)]
+		f4 r r8 d16([ es)]
+		es4 r r8 es16([ d)]
+		d4 r r8 f %40
+		des des des8. des16 des8 des
+		c4 a r8 c
+		des4 des des8 des
+		c a a4 r
+		R2. %45
+		c4 c b
+		b8 b b([ c)] d([ es)]
+		f4 r8 b, b b
+		es es d([ c)] b([ a)]
+		\appoggiatura a b4 r r %50
+		r r r8 b
+		b4. b8 b b
+		b b r4 b8 b
+		c4 c8 c es es16([ d)]
+		d4 r r8 b %55
+		b4. b8 b b
+		b b r4 r
+		c2 c8([ es)]
+		\appoggiatura es16 d8 d r4 r8 es
+		d4. es8 d es %60
+		d es d([ es)] d([ es)]
+		d4 r r8 es
+		d4. es8 d es
+		d es d([ es)] d([ es)]
+		d4 r r %65
+		R2.*3
+		es,4 r r
+		b' r r8 b %70
+		es es es4 es
+		es8 es b4 c!
+		b8 b16 b b8 b b b
+		b4 r r
+		b2 b4 %75
+		ces r r
+		b8 b b4. b8
+		b4 r r8 b16([ g!)]
+		g4 r r8 c
+		c4 r r8 as16([ b)] %80
+		b8 b b b b b
+		es8.([ d16)] d4 r8 b
+		b b b b b b
+		es8.([ d16)] d4 r8 b
+		b4 b r8 b %85
+		b4 b8 b ges b
+		es4. es8 es es16([ d)]
+		d4 r r
+		r es r
+		r b r %90
+		es8 es es4 es
+		d8 d d4 d
+		es8 es es es es es
+		es4 r r8 es
+		es4 r r8 es %95
+		es4 r r8 es
+		es es es8. es16 es8 es
+		f4 d r8 d
+		es4. es8 es es
+		f d d4 r %100
+		R2.
+		b4 b es
+		c8 c es4 d
+		b r8 es es es
+		c c b4 b %105
+		b r r
+		R2.*4 %110
+		R2.\fermataMarkup \bar "|." %111 finis
+	}
+}
+
+JaHerzensTenoreLyrics = \lyricmode {
+	Ja, %14
+	ja, ja, %15
+	Her -- zens Thrä -- nen
+	laß uns wei -- nen,
+	laß ſie uns wei -- nen nur ge --
+	nug,
+	laß ſie %20
+	uns
+	wei -- nen nur ge --
+	nug am
+	Kreuz, am
+	Kreuz bey %25
+	je -- nen hei -- li -- gen Ge --
+	bei -- nen, bey
+	je -- nen hei -- li -- gen Ge --
+	bei -- nen, die
+	dort -- hin, die %30
+	dort -- hin, die dort -- hin
+	unſ -- re Sin -- de __
+	ſchlug, ja,
+	ja,
+	Her -- zens Thrä -- nen %35
+	laß uns wei -- nen,
+	laß uns wei -- nen nur ge --
+	nug am
+	Kreuz, am
+	Kreuz bey %40
+	je -- nen hei -- li -- gen Ge --
+	bei -- nen, die
+	dort -- hin unſ -- re
+	Sin -- de schlug,
+	%45
+	die dort -- hin
+	unſ -- re Sin -- de __
+	schlug, die dort -- hin
+	unſ -- re Sin -- de __
+	schlug. %50
+	Laß
+	uns, o Mitt -- ler,
+	kla -- gen, ach, wir
+	ha -- ben die Wun -- den
+	dir und %55
+	dei -- ner Mut -- ter
+	Wun -- den
+	auch ge --
+	gra -- ben, wir
+	Sin -- den -- knech -- te, %60
+	Sin -- den -- knech -- te __
+	wir, wir
+	Sin -- den -- knech -- te,
+	Sin -- den -- knech -- te __
+	wir. %65
+
+	Ja, %69
+	ja, ja, %70
+	Her -- zens Thrä -- nen
+	laß uns wei -- nen,
+	laß ſie uns wei -- nen nur ge --
+	nug,
+	laß ſie %75
+	uns
+	wei -- nen nur ge --
+	nug am
+	Kreuz, am
+	Kreuz bey %80
+	je -- nen hei -- li -- gen Ge --
+	bei -- nen, bey
+	je -- nen hei -- li -- gen Ge --
+	bei -- nen, die
+	dort -- hin, die %85
+	dort -- hin, die dort -- hin
+	unſ -- re Sin -- de
+	ſchlug,
+	ja,
+	ja, %90
+	Her -- zens Thrä -- nen
+	laß uns wei -- nen,
+	laß uns wei -- nen nur ge --
+	nug am
+	Kreuz, am %95
+	Kreuz bey
+	je -- nen hei -- li -- gen Ge --
+	bei -- nen, die
+	dort -- hin unſ -- re
+	Sin -- de schlug, %100
+
+	die dort -- hin
+	unſ -- re Sin -- de
+	schlug, die dort -- hin
+	unſ -- re Sin -- de %105
+	schlug. %106 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

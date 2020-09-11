@@ -227,3 +227,121 @@ DichErblickenViolinoII = {
 		g2( a4) r\fermata \bar "|." %174 finis
 	}
 }
+
+JaHerzensViolinoII = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \tempoJaHerzens
+		r16 b\p b b b8 b b4
+		r16 es es es es8 es es4
+		r16 ges\f ges ges ges8 ges as4
+		r16 ges ges ges ges8 ges es4
+		r16 f f f f8 f f4 %5
+		r16 ges ges ges ges8 ges ges4
+		r16 ges ges ges ges8 ges ges ges
+		r16 as as as as8 as as as
+		r16 ges ges ges ges8 ges f f
+		r16 es es es es8 es es es %10
+		r16 d d d d8 d d d
+		r16 es es es es8 es es es
+		<b d>4 r r
+		r16 b\p b b b8 b b4
+		r16 es es es es8 es es4 %15
+		r16 ges\f ges ges ges8 ges as4
+		r16 ges ges ges ges8 ges es4
+		r16 f f f f8 f f4
+		r16 ges ges ges ges8 ges ges4
+		r16 ges\p ges ges ges8 ges ges ges %20
+		r16 as as as as8 as as as
+		r16 ges\f ges ges ges8 ges f f
+		es b\p b b b4
+		r8 es16(\f b) ges'([ es)] b'( ges) es'4
+		r8 d,16( b) f'([ d)] b'( f) d'4 %25
+		r16 f, f f f f f f f f f f
+		f f f f f f f f f f f f
+		f f f f f f f f f f f f
+		es( g!) b-! b-! b b b b b b b b
+		r c c c c8 c c4 %30
+		r16 b c b b8 b c des
+		\appoggiatura f16 es8 des16 c b8 b a a
+		r16 des-!\p b( f) r des'-! b( f) r des'-! b( f)
+		r c'-! a( f) r c'-! a( f) r c'-! a( f)
+		r des'-! b( f) r des'-! b( f) r des'-! b( f) %35
+		r c'-! a( f) r c'-! a( f) r c'-! a( f)
+		b\f b a a b b c c d! d es es
+		f4-! r8 b,16\p c b8 b
+		r16 es-! g( es) g( es) g( es) g8-\parenthesize-! r
+		r16 b,-! f'( b,) f'( b,) f'( b,) f'8-! r %40
+		des,\pp des4 des des8(
+		c) c4 c c8(
+		des) des4 des des8(
+		c) c4 c c8
+		r c'16(\f b) b( es) es( d!) d( cis) cis( d) %45
+		c( h) h( c) c( h) h( c) d( b) b( b')
+		b g f es d8-! c-! b-! a-!
+		b16( d) b-! b-! b b b b b b b b
+		b b g' es d d c c b b a a
+		f(\p d) b-. b-. f'( d) b-. b-. f'( d) b-. b-. %50
+		ges'( es) b-. b-. ges'( es) b-. b-. ges'( es) b-. b-.
+		f'( d) b-. b-. f'( d) b-. b-. f'( d) b-. b-.
+		ges'( es) b-. b-. ges'( es) b-. b-. ges'( es) b-. b-.
+		es(\f c) a( c) es( c) a( c) es( c) a( c)
+		b8 d d d d r %55
+		f16(\p d) b-. b-. f'( d) b-. b-. f'( d) b-. b-.
+		ges'( es) b-. b-. ges'( es) b-. b-. ges'( es) b-. b-.
+		es(\f c) a( c) es( c) a( c) es( c) a( c)
+		d\p f f f f f f f f f f f
+		f f f f f f f f f f f f %60
+		f\f f f f f f f f f f f f
+		f\p f f f f f f f f f f f
+		f f f f f f f f f f f f
+		f\f f f f f f f f f f f f
+		f( d) b-. b-. b b b b b b b b %65
+		d'( b) f-. f-. f f f f f f f f
+		b( f) d-. d-. d d d d d d d d
+		f( d) as!-. as-. as as as as as as as as
+		r16 b\p b b b8 b b4
+		r16 es es es es8 es es4 %70
+		r16 ges\f ges ges ges8 ges as4
+		r16 ges ges ges ges8 ges es4
+		r16 f f f f8 f f4
+		r16 ges ges ges ges8 ges ges4
+		r16 ges\p ges ges ges8 ges ges ges %75
+		r16 as as as as8 as as as
+		r16 ges\f ges ges ges8 ges f f
+		es b\p b b b4
+		r8 e16(\f g) g( b) b( des) des4
+		r8 f,16( as) as( c) c( f) f4 %80
+		r16 b, a b b b b b b b b b
+		b b b b b b b b b-! b( a b)
+		b b b b b b b b b b b b
+		b b b b b b b b b b b b
+		r d d d d8( f) d( f) %85
+		r16 es es es es8( ges) es( ges)
+		r16 ges, ges ges ges8 ges es es
+		<f b,>4 r8 d'(\p es f)
+		r16 ges-! es( b) r ges'-! es( b) r ges'-! es( b)
+		r f'-! d( b) r f'-! d( b) r f'-! d( b) %90
+		r ges'-! es( b) r ges'-! es( b) r ges'-! es( b)
+		r f'-! d( b) r f'-! d( b) r f'-! d( b)
+		es\f es d d es es f f g! g as as
+		b4-! r8 es,16\p f es8 es
+		r16 as,-! c( as) c( as) c( as) c8-! r %95
+		r16 es,-! b'( es,) b'( es,) b'( es,) b'8-! r
+		ges8\pp ges4 ges ges8(
+		f) f4 f f8(
+		ges) ges4 ges ges8(
+		f) f4 f f8 %100
+		\once \slurDashed es16(\f^\critnote f') f( es) es( as) as( g!) g( fis) fis( g)
+		f( e) e( f) f( e) e( f) g( es) es( g)
+		f as g f es8 es d d
+		es es4 es es8
+		as16 f as f es8 es d d %105
+		b16(\p g) es-. es-. b'( g) es-. es-. b'( g) es-. es-.
+		g( es) b-. b-. g'( es) b-. b-. g'( es) b-. b-.
+		es( b) g-. g-. g g g g as as as as
+		g g g g g g g g as as as as
+		g( b as b) g( b as b) g( b as b) %110
+		as4( g) r\fermata \bar "|." %111 finis
+	}
+}

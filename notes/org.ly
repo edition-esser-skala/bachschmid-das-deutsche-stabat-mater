@@ -444,6 +444,238 @@ DichErblickenBassFigures = \figuremode {
 	\bo <[7+ 4 2]>2 \bc <[8 3 \l]> %174 finis
 }
 
+JaHerzensOrgano = {
+	\relative c {
+		\clef bass
+		\key es \major \time 3/4 \tempoJaHerzens
+		r8 \mvTr es\p-\soloE es es es4
+		r8 es es es es4
+		r8 es\f es es es es
+		r es es es c!4
+		r8 d d d d4 %5
+		r8 es es es es4
+		r16 es es es es8 es es es
+		es es es es es es
+		r es ges es b' b,
+		r16 ces ces ces ces8 ces ces ces %10
+		b b b b b b
+		ces ces ces ces ces ces
+		b4 r r
+		r8 \mvTr es\p-\tutti es es es4
+		r8 es es es es4 %15
+		r8 es\f es es es es
+		r es es es c!4
+		r8 d d d d4
+		r8 es es es es4
+		r16 es\p es es es8 es es es %20
+		es es es es es es
+		r es\f ges es b' b,
+		r es\p es es es4
+		r8 es\f es es es4
+		r8 d d d d4 %25
+		r8 d es d c b
+		a4 b r
+		r8 d es d c b
+		es4 b' r
+		r8 f f f f4 %30
+		r8 b b b b4
+		es,8 es f f f f
+		b,4 r8 b\p b b
+		a4 r8 a a a
+		b4 r8 b b b %35
+		f'4 r8 f f f
+		b,-!\f b-! b b b b
+		b4 r r
+		r8 b\p b b b4
+		r8 b b b b4 %40
+		r8 b'16(\pp a b a b a) b8 r
+		r f16( e f e f e) f8 r
+		r b16( a b a b a) b8 b,
+		r f'16( e f e f e) f8 f,
+		b\f b b b b b %45
+		a f' a, f' b, d
+		es es f f es es
+		d b d b c d
+		es es f f f, f
+		r b\p b b b4 %50
+		r8 b b b b4
+		r8 b b b b4
+		r8 b b b b4
+		r8 a\f a a a a
+		b b b b b r %55
+		r b\p b b b4
+		r8 b b b b4
+		r8 a\f a a a a
+		b4.\p ces8( b ces)
+		b4. ces8( b ces) %60
+		b(\f ces b ces b ces)
+		b4.\p ces8( b ces)
+		b4. ces8( b ces)
+		b(\f ces b ces b ces)
+		b4 r16 b b b b8 b %65
+		b4 r16 b b b b8 b
+		b4 r16 b b b b8 b
+		b4 r16 b b b b8 b
+		r es\p es es es4
+		r8 es es es es4 %70
+		r8 es\f es es es es
+		r es es es c!4
+		r8 d d d d4
+		r8 es es es es4
+		r16 es\p es es es8 es es es %75
+		es es es es es es
+		r es\f ges es b' b,
+		r es\p es es es4
+		r8 e\f e e e4
+		r8 f f f f4 %80
+		r8 b a as ges f
+		es4 b' r
+		r8 b a as ges f
+		es4 b r
+		r8 b b b b4 %85
+		r8 es es es es4
+		ces8 ces ces ces ces ces
+		b4 r r
+		es\p r8 es es es
+		d4 r8 d d d %90
+		es4 r8 es es es
+		b4 r8 b b b
+		es-!\f es-! es es es es
+		es4 r r
+		r8 es\p es es es4 %95
+		r8 es es es es4
+		r8 es16(\pp d es d es d) es8 r
+		r b'16( a b a b a) b8 r
+		r es,16( d es d es d) es8 r
+		r b'16( a b a b a) b8 r %100
+		es,\f es es es es es
+		d b' d, b' es, g
+		as as b b as as
+		g es g es f g
+		as as b b b, b %105
+		es4\p r8 es16( d es d es d)
+		es4 r8 es16( d es d es d)
+		es8 b es b d b
+		es b es b d b
+		es b es b es b %110
+		es2 r4\fermata \bar "|." %111 finis
+	}
+}
+
+JaHerzensBassFigures = \figuremode {
+	r8 <_-> r2
+	r2.
+	r8 <5 _->4. <6- 4>4
+	r8 <5 _->4. <6!>4
+	r8 <6 5-> r2 %5
+	r8 <5 _-> r2
+	r2.
+	<6- 4>
+	r8 <5 _->4. <_!>4
+	r16 <6! [5-]>8. r2 %10
+	r2.
+	<6! [5-]>
+	r
+	r8 <5 _-> r2
+	r2. %15
+	r8 <5 _->4. <6- 4>4
+	r8 <5 _->4. <6!>4
+	r8 <6 5-> r2
+	r8 <5 _-> r2
+	r2. %20
+	<6- 4>
+	r8 <5 _->4. <[7]>4
+	r8 <_-> r2
+	r2.
+	r8 <6> r2 %25
+	r8 <6> <4!> <6> <6!>4
+	<6 5>2.
+	r8 <6> <4!> <6> <6!>4
+	<_!>2.
+	r8 <7 _!> r2 %30
+	r8 <_-> r2
+	<_->4 <6- 4> <5 _!>
+	<_->2.
+	<[6]>
+	<_-> %35
+	<_!>
+	r4 <_! 1>8 <4 2> <5 3> <6 4>
+	<7- 5>2.
+	r8 <6 4> r2
+	r8 <5 _!> r2 %40
+	r8 <_-> r2
+	r8 <5 _!> r2
+	r8 <_-> r2
+	r8 <5 _!> r2
+	<_!>8 \bo <[4 2]> <3 1> <6 4> <5 3> \bc <[4! 2+]> %45
+	<6 [5-]>2 r8 <[6]>
+	r4 <6 4> <6 4!>
+	<6>2 \bo <[7]>8 \bc <[6]>
+	r4 <8 6>8 <7 5> <6 4> <5 _!>
+	r8 <5 3> r2 %50
+	r8 <6- 4> r2
+	r8 <5 3>4 \bo <[9- 7-]>8 <8 6-> \bc <[7 5]>
+	r8 <6- 4> r2
+	r8 <7- 5> r2
+	<5 3>2. %55
+	r4. \bo <[9- 7-]>8 <8 6-> \bc <[7 5]>
+	r8 <6- 4> r2
+	r8 <7- 5> r2
+	<5 3>4. <6! [4 3]>8 <8> <6!>
+	<8>4. <6!>8 <8> <6!> %60
+	<8> <6!> <8> <6!> <8> <6!>
+	<8>4. <6!>8 <8> <6!>
+	<8>4. <6!>8 <8> <6!>
+	<8> <6!> <8> <6!> <8> <6!>
+	<8>2. %65
+	r
+	r
+	<7->
+	r8 <_-> r2
+	r2. %70
+	r8 <5 _->4. <6- 4>4
+	r8 <5 _->4. <6!>4
+	r8 <6 5-> r2
+	r8 <5 _-> r2
+	r2. %75
+	<6- 4>
+	r8 <5 _->4. <[7]>4
+	r8 <_-> r2
+	r8 <7- 5 _!>4. <7->8 <6!>
+	r <5 _-> r2 %80
+	r4 <3->8 <4!> <6> <8 6>
+	<_->2.
+	r4 <3->8 <4!> <6> <8 6>
+	<_->2.
+	r8 \bo <[8 6-]> \bc <[7 5]>2 %85
+	r8 \bo <[9 4]> \bc <[8 _-]>2
+	\bo <[8] 5->2 \bassFigureExtendersOn  \bc <[7] 5->8 <6! 5-> \bassFigureExtendersOff
+	r2.
+	<5 _->
+	<[6]> %90
+	<5 _->
+	r
+	r4 <_! 1>8 <4 2> <5 3> <6 4>
+	<7- 5>2.
+	r8 <6 4> r2 %95
+	r8 <5 3> r2
+	r8 <5 _-> r2
+	r2.
+	r8 <5 _-> r2
+	r2. %100
+	<_!>8 \bo <[4 2]> <3 1> <6 4> <5 3> \bc <[4! 2+]>
+	\bo <[6 5-]>2 r8 \bc <[6 \l]>
+	r4 <6 4> q
+	<6>2 \bo <[7]>8 \bc <[6]>
+	<6>4 <6 4> q %105
+	r2.
+	r
+	r2 <[6 5]>4
+	r2 q4
+	r8 \bo <[7]>4 <7> \bc <[7]>8 %110
+	\bo <[7 4]>4 \bc <[8 3]>2 %111 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -228,6 +228,124 @@ DichErblickenViolinoI = {
 	}
 }
 
+JaHerzensViolinoI = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \tempoJaHerzens
+		es16(\p b) es-. es-. es( b) es-. es-. es( b) es-. es-.
+		ges( es) ges-. ges-. ges( es) ges-. ges-. ges( es) ges-. ges-.
+		b(\f ges) es-. es-. b'( ges) es-. es-. ces'( as) es-. es-.
+		b'( ges) es-. es-. b'( ges) es-. es-. a( es) c!-. c-.
+		as'( f) d-. d-. as'( f) d-. d-. as'( f) d-. d-. %5
+		b'( ges) es-. es-. b'( ges) es-. es-. b'( ges) es-. es-.
+		es'( b) ges-. ges-. es'( b) ges-. ges-. es'( b) ges-. ges-.
+		es'( ces) as-. as-. es'( ces) as-. as-. es'( ces) as-. as-.
+		es'( b) ges-. ges-. es'( b) ges-. ges-. d'( b) f-. f-.
+		es'( ces) a-. a-. es'( ces) a-. a-. es'( ces) a-. a-. %10
+		f'( d) b-. b-. f'( d) b-. b-. f'( d) b-. b-.
+		es( ces) a-. a-. es'( ces) a-. a-. es'( ces) a-. a-.
+		<b d,>4 r r
+		es,16(\p b) es-. es-. es( b) es-. es-. es( b) es-. es-.
+		ges( es) ges-. ges-. ges( es) ges-. ges-. ges( es) ges-. ges-. %15
+		b(\f ges) es-. es-. b'( ges) es-. es-. ces'( as) es-. es-.
+		b'( ges) es-. es-. b'( ges) es-. es-. a( es) c!-. c-.
+		as'( f) d-. d-. as'( f) d-. d-. as'( f) d-. d-.
+		b'( ges) es-. es-. b'( ges) es-. es-. b'( ges) es-. es-.
+		es'(\p b) ges-. ges-. es'( b) ges-. ges-. es'( b) ges-. ges-. %20
+		es'( ces) as-. as-. es'( ces) as-. as-. es'( ces) as-. as-.
+		es'(\f b) ges-. ges-. es'( b) ges-. ges-. d'( b) f-. f-.
+		es'8 ges,\p ges ges ges4
+		r8 ges16(\f es) b'([ ges)] es'( b) ges'4
+		r8 f,16( d) b'([ f)] d'( b) f'4 %25
+		r16 f g! f a,8-! b-! c-! d-!
+		f8.( es16) d8 d d4
+		r16 b' a b c,8-! d-! es-! f-!
+		g!8.( f16) f8 f f4
+		r16 es es es es8 es es4 %30
+		r16 des es des des8 des es f
+		\appoggiatura as16 ges8 f16 es des8 des c c
+		r16 f-!\p des( b) r f'-! des( b) r f'-! des( b)
+		r f'-! c( a) r f'-! c( a) r f'-! c( a)
+		r f'-! des( b) r f'-! des( b) r f'-! des( b) %35
+		r f'-! c( a) r f'-! c( a) r f'-! c( a)
+		b\f b c c d! d es es f f g g
+		as!4-! r r
+		r16 g-!\p b( g) b( g) b( g) b8-! r
+		r16 f-! b( f) b( f) b( f) b8-! r %40
+		f16(\pp des) b-. b-. f'( des) b-. b-. f'( des) b-. b-.
+		f'( c) a-. a-. f'( c) a-. a-. f'( c) a-. a-.
+		f'( des) b-. b-. f'( des) b-. b-. f'( des) b-. b-.
+		f'( c) a-. a-. f'( c) a-. a-. f'( c) a-. a-.
+		b(\f es) es( d!) d( g) g( f) f( e) e( f) %45
+		es( d) d( es) es( d) d( es) f( d) d( f)
+		g b a g f8-! es-! d-! c-!
+		f( b) r16 d, d d es es f f
+		g es b' g f f es es d d c c
+		b(\p f) d-. d-. b'( f) d-. d-. b'( f) d-. d-. %50
+		b'( ges) es-. es-. b'( ges) es-. es-. b'( ges) es-. es-.
+		b'( f) d-. d-. b'( f) d-. d-. b'( f) d-. d-.
+		b'( ges) es-. es-. b'( ges) es-. es-. b'( ges) es-. es-.
+		ges(\f es) c'( es,) ges( es) c'( es,) ges( es) c'( es,)
+		r8 b'16( ces b ces b ces b ces b ces) %55
+		b(\p f) d-. d-. b'( f) d-. d-. b'( f) d-. d-.
+		b'( ges) es-. es-. b'( ges) es-. es-. b'( ges) es-. es-.
+		ges(\f es) c'( es,) ges( es) c'( es,) ges( es) c'( es,)
+		\appoggiatura d b'4.\p a8( b a)
+		b4. a8( b a) %60
+		b16\f b a a b b a a b b a a
+		b4.\p a8( b a)
+		b4. a8( b a)
+		b16\f b a a b b a a b b a a
+		b'( f) d-. d-. d d d d d d d d %65
+		f( d) b-. b-. b b b b b b b b
+		d( b) f-. f-. f f f f f f f f
+		as!( f) d-. d-. d d d d d d d d
+		es16(\p b) es-. es-. es( b) es-. es-. es( b) es-. es-.
+		ges( es) ges-. ges-. ges( es) ges-. ges-. ges( es) ges-. ges-. %70
+		b(\f ges) es-. es-. b'( ges) es-. es-. ces'( as) es-. es-.
+		b'( ges) es-. es-. b'( ges) es-. es-. a( es) c!-. c-.
+		as'( f) d-. d-. as'( f) d-. d-. as'( f) d-. d-.
+		b'( ges) es-. es-. b'( ges) es-. es-. b'( ges) es-. es-.
+		es'(\p b) ges-. ges-. es'( b) ges-. ges-. es'( b) ges-. ges-. %75
+		es'( ces) as-. as-. es'( ces) as-. as-. es'( ces) as-. as-.
+		es'(\f b) ges-. ges-. es'( b) ges-. ges-. d'( b) f-. f-.
+		es'8 ges,\p ges ges ges4
+		r8 g16(\f b) b( des) des( g) g4
+		r8 as,16( c) c( f) f( as) as4 %80
+		r16 b, a b ces8-! d!-! es-! f-!
+		ges8.( f16) f8 f f4
+		r16 b, a b ces8-! d!-! es-! f-!
+		ges8.( b16) b8 b b4
+		r16 f f f f8( b) f( b) %85
+		r16 ges ges ges ges8( b) ges( b)
+		r16 es, es es es ces8 b a b16~
+		b4 r8 f'(\p ges as)
+		r16 b-! ges( es) r b'-! ges( es) r b'-! ges( es)
+		r b'-! f( d) r b'-! f( d) r b'-! f( d) %90
+		r b'-! ges( es) r b'-! ges( es) r b'-! ges( es)
+		r b'-! f( d) r b'-! f( d) r b'-! f( d)
+		es\f es f f g! g as as b b c c
+		des4-! r r
+		r16 c,-!\p es( c) es( c) es( c) es8-! r %95
+		r16 b-! es( b) es( b) es( b) es8-! r
+		b16(\pp ges) es-. es-. b'( ges) es-. es-. b'( ges) es-. es-.
+		as'( f) d-. d-. as'( f) d-. d-. as'( f) d-. d-.
+		b( ges) es-. es-. b'( ges) es-. es-. b'( ges) es-. es-.
+		as'( f) d-. d-. as'( f) d-. d-. as'( f) d-. d-. %100
+		es(\f^\critnote as) as( g) g( c) c( b) b( a) a( b)
+		as(^\critnote g) g( as) as( g) g( as) b( g) g( b)
+		as c b as g8 g f f
+		b16 g g g g8 g as b
+		c16 as c as g8 g f f %105
+		es16(\p b) g-. g-. es'( b) g-. g-. es'( b) g-. g-.
+		b( g) es-. es-. b'( g) es-. es-. b'( g) es-. es-.
+		g( es) b-. b-. b b b b b b b b
+		g'( es) b-. b-. b b b b b b b b
+		g'( es) b-. b-. b-. b-. b-. b-. b-. b-. b-. b-. %110
+		b2 r4\fermata \bar "|." %111 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

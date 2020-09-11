@@ -227,3 +227,121 @@ DichErblickenViola = {
 		e2( d4) r\fermata \bar "|." %174 finis
 	}
 }
+
+JaHerzensViola = {
+	\relative c' {
+		\clef alto
+		\key es \major \time 3/4 \tempoJaHerzens
+		r16 es,\p es es es8 es es4
+		r16 es es es es8 es es4
+		r16 es'\f es es es8 es es es
+		r16 es es es es8 es c!4
+		r16 d d d d8 d d4 %5
+		r16 es es es es8 es es4
+		r16 es es es es8 es es es
+		r16 ces ces ces ces8 ces ces ces
+		r16 b b b b8 b b b
+		r16 ces ces ces ces8 ces ces ces %10
+		r16 b b b b8 b b b
+		r16 ces ces ces ces8 ces ces ces
+		b4 r r
+		r16 es,\p es es es8 es es4
+		r16 es es es es8 es es4 %15
+		r16 es'\f es es es8 es es es
+		r16 es es es es8 es c!4
+		r16 d d d d8 d d4
+		r16 es es es es8 es es4
+		r16 es\p es es es8 es es es %20
+		r16 ces ces ces ces8 ces ces ces
+		r16 b\f b b b8 b b b
+		r es\p es es es4
+		r8 b\f b b b4
+		r8 b b b b4 %25
+		r8 b c! b es d
+		c8.( a16) b8 b b4
+		r8 d a b c d
+		es8.( d16) d8 d d4
+		r16 f f f f8 f f4 %30
+		r16 b, b b b8 b b b
+		es es f f f, f
+		b4 r8 b\p b b
+		a4 r8 a a a
+		b4 r8 b b b %35
+		a4 r8 a a f'
+		b,\f b b b b b
+		b4 r r
+		r8 b\p b b b4
+		r8 b b b b4 %40
+		f8\pp f4 f f8~
+		f f4 f f8~
+		f f4 f f8~
+		f f4 f f8
+		r b\f b b b b %45
+		a f' a, f' b, d
+		es es f f es es
+		d b d b c d
+		es es f f f, f
+		r b\p b b b4 %50
+		r8 b b b b4
+		r8 b b b b4
+		r8 b b b b4
+		r8 a\f a a a a
+		b f f f f r %55
+		r b\p b b b4
+		r8 b b b b4
+		r8 a\f a a a a
+		b4.\p es8( d es)
+		d4. es8( d es) %60
+		d16\f d es es d d es es d d es es
+		d4.\p es8( d es)
+		d4. es8( d es)
+		d16\f d es es d d es es d d es es
+		b4 r16 f' f f f8 f %65
+		d4 r16 d d d d8 d
+		b4 r16 b b b b8 b
+		b4 r16 b b b b8 b
+		r16 es,\p es es es8 es es4
+		r16 es es es es8 es es4 %70
+		r16 es'\f es es es8 es es es
+		r16 es es es es8 es c!4
+		r16 d d d d8 d d4
+		r16 es es es es8 es es4
+		r16 es\p es es es8 es es es %75
+		r16 ces ces ces ces8 ces ces ces
+		r16 b\f b b b8 b b b
+		r es\p es es es4
+		r8 des\f des des b4
+		r8 f' f f f4 %80
+		r8 b a as ges f
+		\once \slurDashed es8.( d16) d8 d d4
+		r8 b' a as ges f
+		\once \slurDashed es8.( d16) d8 d d4
+		r16 b b b b8 b b4 %85
+		r16 b b b b8 b b4
+		r16 ces ces ces ces8 ces ces ces
+		b4 r r
+		es\p r8 es es es
+		d4 r8 d d d %90
+		es4 r8 es es es
+		b4 r8 b b b
+		es\f es es es es es
+		es4 r r
+		r8 es\p es es es4 %95
+		r8 es es es es4
+		b8\pp b4 b b8~
+		b b4 b b8~
+		b b4 b b8~
+		b b4 b b8 %100
+		r es\f es es es es
+		d b' d, b' es, g
+		as as b b as as
+		g es g es f g
+		as as b b b, b %105
+		es\p es4 es es8~
+		es es,4 es es8~
+		es4 r8 es( f d)
+		es4 r8 es( f d)
+		es( d) es( d) es( d) %110
+		d4( es) r\fermata \bar "|." %111 finis
+	}
+}

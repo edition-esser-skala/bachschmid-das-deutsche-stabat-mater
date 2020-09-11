@@ -63,21 +63,85 @@
 	% 		\midi { \tempo 4 = 50 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "2"
+	% 		genre = "A R I A"
+	% 		title = "Dich erblicken ohne Thräne"
+	% 	}
+	% 	\paper { systems-per-page = #2 }
+	% 	\tocLabelLong "dicherblicken" "2" "Aria" "Dich erblicken ohne Thräne"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "fl" "1, 2" }
+	% 					\set Staff.soloIIText = \markup \remark \medium "fl 2"
+	% 					\partcombine \DichErblickenFlautoI \DichErblickenFlautoII
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\DichErblickenViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\DichErblickenViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\DichErblickenViola
+	% 				}
+	% 			>>
+	% 			\new Staff {
+	% 				\set Staff.instrumentName = "T"
+	% 				\new Voice = "Tenore" { \dynamicUp \DichErblickenTenoreNotes }
+	% 			}
+	% 			\new Lyrics \lyricsto Tenore \DichErblickenTenoreLyrics
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\DichErblickenOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \DichErblickenBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 2 = 55 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "2"
-			genre = "A R I A"
-			title = "Dich erblicken ohne Thräne"
+			number = "3"
+			genre = "C H O R U S"
+			title = "Ja, Herzens Thränen laß uns weinen"
 		}
-		\paper { systems-per-page = #2 }
-		\tocLabelLong "dicherblicken" "2" "Aria" "Dich erblicken ohne Thräne"
+		\tocLabelLong "3" "jaherzens" "Chorus" "Ja, Herzens Thränen laß uns weinen"
 		\score {
 			<<
 				\new StaffGroup <<
+					\new GrandStaff <<
+						\set GrandStaff.instrumentName = "ob"
+						\new Staff {
+							\set Staff.instrumentName = "1"
+							\JaHerzensOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "2"
+							\JaHerzensOboeII
+						}
+					>>
+				>>
+				\new StaffGroup <<
 					\new Staff <<
-						\set Staff.instrumentName = \markup \center-column { "fl" "1, 2" }
-						\set Staff.soloIIText = \markup \remark \medium "fl 2"
-						\partcombine \DichErblickenFlautoI \DichErblickenFlautoII
+						\set Staff.instrumentName = \markup \center-column { "cor (Es)" "1, 2" }
+						% \transpose c es
+						\partcombine \JaHerzensCornoI \JaHerzensCornoII
 					>>
 				>>
 				\new StaffGroup <<
@@ -85,34 +149,54 @@
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\DichErblickenViolinoI
+							\JaHerzensViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\DichErblickenViolinoII
+							\JaHerzensViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "vla"
-						\DichErblickenViola
+						\JaHerzensViola
 					}
 				>>
-				\new Staff {
-					\set Staff.instrumentName = "T"
-					\new Voice = "Tenore" { \dynamicUp \DichErblickenTenoreNotes }
-				}
-				\new Lyrics \lyricsto Tenore \DichErblickenTenoreLyrics
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "S"
+						\new Voice = "Soprano" { \dynamicUp \JaHerzensSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \JaHerzensSopranoLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "A"
+						\new Voice = "Alto" { \dynamicUp \JaHerzensAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \JaHerzensAltoLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "T"
+						\new Voice = "Tenore" { \dynamicUp \JaHerzensTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \JaHerzensTenoreLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "B"
+						\new Voice = "Basso" { \dynamicUp \JaHerzensBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \JaHerzensBassoLyrics
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\DichErblickenOrgano
+						\JaHerzensOrgano
 					}
 				>>
-				\new FiguredBass { \DichErblickenBassFigures }
+				\new FiguredBass { \JaHerzensBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2 = 55 }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 }
