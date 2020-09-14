@@ -345,3 +345,198 @@ JaHerzensViola = {
 		d4( es) r\fermata \bar "|." %111 finis
 	}
 }
+
+FuerDieViola = {
+	\relative c' {
+		\clef alto
+		\key b \major \time 4/4 \tempoFuerDie
+		d'16\f b d b d b d b d b d b d b d b
+		d b d b d b d b d b d b d b d b
+		c a c a c a c a c a c a c a c a
+		c a c a c a c a c a c a c a c a
+		b8-! b b b b b a a %5
+		g-! g, g' g g g f f
+		es es d d c c b b
+		f4 r r2
+		r8 f'\p f f f f f f
+		f f f f f f f f %10
+		f f f f f f f f
+		f f f f f f f f
+		b,2( as)
+		ges( d!)
+		es c-\critnote %15
+		r8 b'\f d f b4 f
+		r8 b, d f b4 f
+		b8 f4 f f f8~
+		f f4 f f f8~
+		f4 b es, c %20
+		b' g es c
+		b'8 b g g es es c c
+		b4 b b r
+		f'16-!\p d f f f8 r f16-! d f f f8 r
+		f16-! d f f f8 r f16-! d f f f8 r %25
+		f16-! c f f f8 r f16-! c f f f8 r
+		f16-! c f f f8 r f16-! c f f f8 r
+		r8 f f f f f f f
+		f f f f f f f f
+		f f f f f f f f %30
+		f f f f f f f f
+		b, b b b b b b b
+		c c c c b b b b
+		c c c c b b b b
+		c4 r r a'(\f %35
+		b) r r fis(
+		g) r r d
+		g, r r2
+		g4\p r g r
+		a4 r r2 %40
+		c4 r c r
+		b r b r
+		b r b r
+		h h h h
+		c r c r %45
+		c r c r
+		<c c,>8\f q4 q q q8~
+		q4 r r2
+		f4\p r f r
+		f f f r %50
+		f2 e
+		f4 f f r
+		f r f r
+		f f f r
+		f2 e %55
+		f4 c c c
+		c r a r
+		fis8\f fis4 fis fis fis8~
+		fis4 r fis\p r
+		fis8\f fis4 fis fis fis8~ %60
+		fis4 fis-!\p r fis'
+		r g r es!
+		r c r d
+		r g8.\f a16 b8 a g f!
+		e4\p g e c %65
+		f f d d
+		b b c c
+		f16-!\fp f f f f f f f f f f f g-!\fp g g g
+		f-!\fp f f f f f f f f f f f g-!\fp g g g
+		f-!\fp f f f f f f f f f f f g-!\fp g g g %70
+		f-!\fp f f f f f f f f f f f g-!\fp g g g
+		f-!\fp f f f g-!\fp g g g f-!\fp f f f g-!\fp g g g
+		f-!\fp f f f g-!\fp g g g f-!\fp f f f g-!\fp g g g
+		f8\p f d d b b c c
+		f f d d b b c c %75
+		f16\f f f f d d d d b b b b c c c c
+		f\ff f, f' f f f f f f f f f e e e e
+		d d d d d d d d d d d d c c c c
+		b b b b a a a a g g g g f f f f
+		c'8\p c c c c c c c %80
+		c c c c c c c c
+		c c c c c c c c \noBreak
+		c4 r r2\fermata \bar "||"
+		\time 3/4 \tempoDuldend \grace s8 r4 f\p f \noBreak
+		r e e %85
+		r c c
+		r f f
+		r8 f f f f4
+		r8 es! es es es4
+		r8 c c c c4 %90
+		r8 des des des des4
+		r8 es es es es4
+		r8 f f f f4
+		r8 ges ges ges ges ges
+		f4. es8\f des c %95
+		r4 b\p b
+		r c c
+		r d! d
+		r es es
+		b r8 b? h h %100
+		c4 r8 a a a
+		b!4 r8 b b b
+		f'4 r8 a, a a
+		b b' b b as!4
+		r8 ges ges ges f4 %105
+		r8 e e e e e
+		r f f f f f
+		r e e e e e
+		r f f f f f
+		r a, a a a4 %110
+		r8 b b b b4
+		r8 g' g g g g
+		r f f f f f
+		r ges ges ges ges ges
+		ges ges ges ges ges ges %115
+		ges2.\fermata \noBreak
+		f4 r r\fermata \bar "||"
+		\time 4/4 \tempoFuerDieB f16\f f f f f f f f f f f f f f f f \noBreak
+		f f f f f f f f f f f f f f f f
+		f f f f f f f f f f f f f f f f %120
+		f f f f f f f f f f f f f f f f
+		es es es es d d d d es es es es d d d d
+		es es es es d d d d es es es es d d d d
+		es8\f es es es f f f f
+		f16\p d f f f8 r f16 d f f f8 r %125
+		f16 d f f f8 r f16 d f f f8 r
+		f16 c f f f8 r f16 c f f f8 r
+		f16 c f f f8 r f16 c f f f8 r
+		r8 f f f f f f f
+		f f f f f f f f %130
+		f f f f f f f f
+		f f f f f f f f
+		b, b b b b b b b
+		c c c c b b b b
+		c c c c b b b b %135
+		f4 r r a'(\f
+		b) r r fis(
+		g) r r d(
+		es) r r2
+		es4\p r es r %140
+		es r r2
+		es4 r es r
+		d r d r
+		es r es r
+		g! g g g %145
+		f r c r
+		c r c r
+		<c c,>8\f q4 q q q8~
+		q4 r r2
+		b4\p r b r %150
+		b b b r
+		b2 a
+		b4 b b r
+		b r b r
+		b b b r %155
+		b2 a
+		b4 b b b
+		f' r f r
+		ges8\f ges4 ges ges ges8
+		f4 r f\p r %160
+		ges8\f ges4 ges ges ges8
+		f4 f-!\p r a,
+		r b r g
+		r es' r c
+		r b8.\f c16 d8 b c d %165
+		es4\p g es a,
+		b b g' g
+		es es f f
+		b16-!\fp b b b b b b b b b b b a-!\fp a a a
+		b-!\fp b b b b b b b b b b b a-!\fp a a a %170
+		b-!\fp b b b b b b b b b b b a-!\fp a a a
+		b-!\fp b b b b b b b b b b b a-!\fp a a a
+		b-!\fp b b b a-!\fp a a a b-!\fp b b b a-!\fp a a a
+		b-!\fp b b b a-!\fp a a a b-!\fp b b b a-!\fp a a a
+		b8\p b g g es es f f %175
+		b16-!\fp b b b b b b b b b b b a-!\fp a a a
+		b-!\fp b b b b b b b b b b b a-!\fp a a a
+		b-!\fp b b b b b b b b b b b a-!\fp a a a
+		b-!\fp b b b b b b b b b b b a-!\fp a a a
+		b-!\fp b b b a-!\fp a a a b-!\fp b b b a-!\fp a a a %180
+		b-!\fp b b b a-!\fp a a a b-!\fp b b b a-!\fp a a a
+		b8\p b g g es es f f
+		b b g g es es f f
+		b\f b g g es es f f
+		b, d f d b d f d %185
+		b d f d b d f d
+		b d f d b d f d
+		b4 r r2\fermata \bar "|." %188 finis
+	}
+}

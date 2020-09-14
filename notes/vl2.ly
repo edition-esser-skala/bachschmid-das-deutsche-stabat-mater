@@ -345,3 +345,198 @@ JaHerzensViolinoII = {
 		as4( g) r\fermata \bar "|." %111 finis
 	}
 }
+
+FuerDieViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoFuerDie
+		f'16\f d f d f d f d f d f d f d f d
+		f d f d f d f d f d f d f d f d
+		f c f c f c f c f c f c f c f c
+		f c f c f c f c f c f c f c f c
+		b-! b, b' b b b b b b b b b a a a a %5
+		g-! g, g' g g g g g g g g g f f f f
+		es es es es d d d d c c c c b b b b
+		<a f'>4 r r2
+		r r4 f'\p
+		b,2.( c4) %10
+		des2.( c4)
+		b2.( c4)
+		des2( d)
+		es f
+		ges es %15
+		b'16-!\fp d,! d d d d d d d d d d c'-!\fp es, es es
+		d'-!\fp d, d d d d d d d d d d c'-!\fp es, es es
+		d'-!\fp d, d d c'-!\fp es, es es d'-!\fp d, d d c'-!\fp es, es es
+		d'-!\fp d, d d c'-!\fp es, es es d'-!\fp d, d d c'-!\fp es, es es
+		d'\f d d d b b b b g g g g es es es es %20
+		d' d d d b b b b g g g g es es es es
+		d' d d d b b b b g g g g es es es es
+		d4 <d d'> q r
+		d'16-!\p d, d' d d8 r d16-! d, d' d d8 r
+		d16-! d, d' d d8 r d16-! d, d' d d8 r %25
+		c16-! a c c c8 r c16-! a c c c8 r
+		c16-! a c c c8 r c16-! a c c c8 r
+		f,4 r r f
+		b,2.( c4)
+		\once \slurDashed des2.( c4) %30
+		b2.( c4)
+		des8 des4 des8 e e4 e8
+		f a4 b ges f8~
+		f a4 b ges f8~
+		f g4\f f es d8~ %35
+		d c4 b a g8~
+		g es'4 d c b8~
+		b b'\p b b b b a a
+		g4 r g' r
+		r8 a, a a a a g g %40
+		f4 r f' r
+		g,8 g g g g g g g
+		g g g g g g g g
+		as as as as as as as as
+		g4 g16( f e d) c4 g'16( f e d) %45
+		c4 g'16( f e d) c4 g'16( f e d)
+		c(\f d e f) g( f e d) c( d e f) g( f e d)
+		c4-! e'-! r2
+		r4 a,8(\p f) r4 b8( f)
+		a4 a a r %50
+		f'8( c) f( c) g'( c,) g'( c,)
+		f4 f, f r
+		r a8( f) r4 b8( f)
+		a4 a a r
+		f'8( c) f( c) g'( c,) g'( c,) %55
+		f f, f f f f f f
+		f4 r a r
+		c8\f a4 c a es!8~
+		es4 r a\p r
+		c8\f a4 c a es8~ %60
+		es4 es-!\p r d
+		r g r b
+		r c r a
+		r b8.\f b16 b4 b
+		r8 b\p b b r b b b %65
+		r a a a r a a a
+		r d d d r g, g g
+		a16-!\fp a a a a a a a a a a a b-!\fp b b b
+		a-!\fp a a a a a a a a a a a b-!\fp b b b
+		a-!\fp a a a a a a a a a a a b-!\fp b b b %70
+		a-!\fp a a a a a a a a a a a b-!\fp b b b
+		a-!\fp a a a b-!\fp b b b a-!\fp a a a b-!\fp b b b
+		a-!\fp a a a b-!\fp b b b a-!\fp a a a b-!\fp b b b
+		a8\p a a a b b g g
+		a a a a b b g g %75
+		a16\f a a a a a a a b b b b g g g g
+		f'-!\ff f, f' f f f f f f f f f e e e e
+		d-! d, d' d d d d d d d d d c c c c
+		b b b b a a a a g g g g f f f f
+		e8\p e e e e e f f %80
+		e e e e e e f f
+		e e f f e e f f \noBreak
+		e4 r r2\fermata \bar "||"
+		\time 3/4 \tempoDuldend \grace s8 r f-!\p a([ f) a( f)] \noBreak
+		r c-! g'([ c,) g'( c,)] %85
+		r e-! g([ e) g( e)]
+		r f-! a([ f) a( f)]
+		r a, a a a4
+		r8 b b b b4
+		r8 es es es es4 %90
+		r8 f f f f4
+		r8 a a a a4
+		r8 b b b b4
+		r8 b b b b b
+		r16 a\f a a a8-! a( b c) %95
+		r d,!-!\p f([ d) b'( d,)]
+		r es-! a([ es) c'( es,)]
+		r f-! as([ f) b( f)]
+		r g-! b([ g) es'( g,)]
+		r f f f g4 %100
+		r8 es es es f4
+		r8 d d d d'4
+		r8 c, c c c'4
+		r8 b b b b b
+		b b b b b b %105
+		b( g!) b( g) b( g)
+		a( f) a( f) a( f)
+		b( g) b( g) b( g)
+		a( f) a( f) a( f)
+		c'( f,) c'( f,) c'( f,) %110
+		b( f) b( f) b( f)
+		b( g) b( g) b( g)
+		a( f) a( f) a( f)
+		b( ges) b( ges) b( ges)
+		b( ges) b( ges) b( ges) %115
+		b2.\fermata \noBreak
+		a4 r r\fermata \bar "||"
+		\time 4/4 \tempoFuerDieB c,16\f c c c c c c c c c c c c c c c \noBreak
+		d d d d d d d d d d d d d d d d
+		c c c c c c c c c c c c c c c c %120
+		d d d d d d d d b' b b b b b b b
+		b b b b b b b b b b b b b b b b
+		b b b b b b b b b b b b b b b b
+		b8-!\f g'-! f-! es-! d-! c-! b-! a-!
+		d16\p d, d' d d8 r d16 d, d' d d8 r %125
+		d16 d, d' d d8 r d16 d, d' d d8 r
+		c16 a c c c8 r c16 a c c c8 r
+		c16 a c c c8 r c16 a c c c8 r
+		f,4 r r f
+		b,2.( c4) %130
+		des2.( c4)
+		b2.( c4)
+		des8 des4 des8 e e4 e8
+		f a4 b ges f8~
+		f a4 b ges f8~ %135
+		f g4\f f es! d8~
+		d c'4 b a g8~
+		g as4 g f es8~
+		es g\p g g g g f f
+		es4 r g' r %140
+		r8 b, b b b b as as
+		g4 r es' r
+		f,8 f f f f f f f
+		ges ges ges ges ges ges ges ges
+		des des des des des des des des %145
+		c4 c'16( b a g) f4 c'16( b a g)
+		f4 c'16( b a g) f4 c'16( b a g)
+		f(\f g a b) c( b a g) f( g a b) c( b a g)
+		f4-! f'-! r2
+		r4 d,8(\p b) r4 es8( b) %150
+		d4 d d r
+		b'8( f) b( f) c'( f,) c'( f,)
+		b4 b, b r
+		r d8( b) r4 es8( b)
+		d4 d d r %155
+		b'8( f) b( f) c'( f,) c'( f,)
+		b b b b b b b b
+		c4 r c r
+		c8\f a4 c a c8~
+		c4 r c\p r %160
+		c8\f a4 c a c8~
+		c4 c-!\p r f,
+		r b r e,
+		r g r es
+		r b'8.\f b16 b4 b %165
+		r8 es\p es es r es es es
+		r d d d r d d d
+		r g g g r c, c c
+		d16-!\fp d d d d d d d d d d d es-!\fp es es es
+		d-!\fp d d d d d d d d d d d es-!\fp es es es %170
+		d-!\fp d d d d d d d d d d d es-!\fp es es es
+		d-!\fp d d d d d d d d d d d es-!\fp es es es
+		d-!\fp d d d es-!\fp es es es d-!\fp d d d es-!\fp es es es
+		d-!\fp d d d es-!\fp es es es d-!\fp d d d es-!\fp es es es
+		d8\p d d d es es c c %175
+		d16-!\fp d d d d d d d d d d d es-!\fp es es es
+		d-!\fp d d d d d d d d d d d es-!\fp es es es
+		d-!\fp d d d d d d d d d d d es-!\fp es es es
+		d-!\fp d d d d d d d d d d d es-!\fp es es es
+		d-!\fp d d d es-!\fp es es es d-!\fp d d d es-!\fp es es es %180
+		d-!\fp d d d es-!\fp es es es d-!\fp d d d es-!\fp es es es
+		d8\p d d d es es c c
+		d d d d es es c c
+		d16\f d d d d d d d es es es es c c c c
+		b b d d f f d d b b d d f f d d %185
+		b b d d f f d d b b d d f f d d
+		b4 <b' b, d,> q q
+		q4 r r2\fermata \bar "|." %188 finis
+	}
+}

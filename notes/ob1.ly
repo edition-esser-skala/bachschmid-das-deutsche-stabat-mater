@@ -103,3 +103,124 @@ JaHerzensOboeI = {
 		\once \slurDashed as4( g) r\fermata \bar "||" %111 finis
 	}
 }
+
+FuerDieOboeI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoFuerDie
+		b''4\f r b r
+		b r b r
+		a r a r
+		a r a r
+		b2. a4 %5
+		g2. f4
+		es \pa d c b \pd
+		f' r r2
+		R1*7 %15
+		b4\f r r a(
+		b) r r a-!
+		b( a) b( a)
+		b( a) b( a)
+		b2 c4 a %20
+		b2 c4 a
+		b b c a
+		b b b r
+		R1*8 %31
+		b1\p
+		a4 r b r
+		a r b r
+		a r r cis(\f %35
+		d) r r a(
+		b) r r fis(
+		g) r r2
+		R1*5 %43
+		r4 as\p as as
+		g r g r %45
+		g r g r
+		g\f g g g
+		g r r8 g(-\solo a b)
+		c4( a8) r d4( b8) r
+		c( d c b) a4 r %50
+		R1
+		r2 r8 b( a b)
+		c4( a8) r d4( b8) r
+		c( d c b) a4 r
+		R1*3 %57
+		es!4\f es es r
+		R1
+		es4 es es r %60
+		R1*7 %67
+		a4\p r a( b)
+		a-! r a( b)
+		a-! r a( b) %70
+		a-! r a( b)
+		a( b) a( b)
+		a( b) a( b)
+		a r r2
+		a4 r r2 %75
+		a2\f b4 g
+		\pa f2. e4
+		d2. \pd c'4
+		b a g f
+		e2.(\p f4) %80
+		e2.( f4)
+		e( f) e( f) \noBreak
+		e r r2\fermata \bar "||"
+		\time 3/4 \tempoDuldend \grace s8 R2.*32 %115
+		R2.\fermataMarkup \noBreak
+		R\fermataMarkup \bar "||"
+		\time 4/4 \tempoFuerDieB a4\f r a r \noBreak
+		b r b r
+		a r a r %120
+		b r b r
+		g f g f
+		g f g f
+		g8 b a g f es d c
+		\pao b4 r r2 %125
+		R1*7 %132
+		b'1\p
+		a4 r b r
+		a r b r %135
+		a r r cis(\f
+		d) r r a(
+		b) r r as(
+		g) r r2
+		R1*5 %144
+		r4 b\p b b %145
+		a r a r
+		a r a r
+		a\f a a a
+		a r r8 \once \slurDashed c,(-\solo d es!)
+		f4( d8) r g4( es8) r %150
+		f( g f es) d4 r
+		R1
+		r2 r8 es( d es)
+		f4( d8) r g4( es8) r
+		f( g f es) d4 r %155
+		R1*3
+		es4\f es es r
+		R1 %160
+		es4 es es r
+		R1*7 %168
+		d4\p r d( es)
+		d r d( es) %170
+		d r d( es)
+		d r d( es)
+		d( es) d( es)
+		d( es) d( es)
+		d r r2 %175
+		d4 r d( es)
+		d r d( es)
+		d r d( es)
+		d r d( es)
+		d( es) d( es) %180
+		d( es) d( es)
+		d r r2
+		R1
+		b'2\f c4 a
+		b r b r %185
+		b r b r
+		b b b b
+		b r r2\fermata \bar "|." %188 finis
+	}
+}

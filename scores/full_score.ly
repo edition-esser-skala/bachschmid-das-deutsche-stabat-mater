@@ -115,88 +115,146 @@
 	% 		\midi { \tempo 2 = 55 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "3"
+	% 		genre = "C H O R U S"
+	% 		title = "Ja, Herzens Thränen laß uns weinen"
+	% 	}
+	% 	\tocLabelLong "3" "jaherzens" "Chorus" "Ja, Herzens Thränen laß uns weinen"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = "ob"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\JaHerzensOboeI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\JaHerzensOboeII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "cor (Es)" "1, 2" }
+	% 					% \transpose c es
+	% 					\partcombine \JaHerzensCornoI \JaHerzensCornoII
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\JaHerzensViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\JaHerzensViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\JaHerzensViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \JaHerzensSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \JaHerzensSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \JaHerzensAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \JaHerzensAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \JaHerzensTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \JaHerzensTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \JaHerzensBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \JaHerzensBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\JaHerzensOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \JaHerzensBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 80 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "3"
-			genre = "C H O R U S"
-			title = "Ja, Herzens Thränen laß uns weinen"
+			number = "4"
+			genre = "A R I A"
+			title = "Für die Laſter ſeiner Kinder"
 		}
-		\tocLabelLong "3" "jaherzens" "Chorus" "Ja, Herzens Thränen laß uns weinen"
+		\paper { systems-per-page = #2 }
+		% \tocLabelLong "4" "fuerdie" "Aria" "Für die Laster seiner Kinder"
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\set GrandStaff.instrumentName = "ob"
-						\new Staff {
-							\set Staff.instrumentName = "1"
-							\JaHerzensOboeI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "2"
-							\JaHerzensOboeII
-						}
+				\new StaffGroup \with { \smallGroupDistance } <<
+					\new Staff <<
+						\set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+						\partcombine \FuerDieOboeI \FuerDieOboeII
 					>>
 				>>
-				\new StaffGroup <<
+				\new StaffGroup \with { \smallGroupDistance } <<
 					\new Staff <<
 						\set Staff.instrumentName = \markup \center-column { "cor (Es)" "1, 2" }
 						% \transpose c es
-						\partcombine \JaHerzensCornoI \JaHerzensCornoII
+						\partcombine \FuerDieCornoI \FuerDieCornoII
 					>>
 				>>
-				\new StaffGroup <<
+				\new StaffGroup \with { \smallGroupDistance } <<
 					\new GrandStaff \with { \smallGroupDistance } <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\JaHerzensViolinoI
+							\FuerDieViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\JaHerzensViolinoII
+							\FuerDieViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "vla"
-						\JaHerzensViola
+						\FuerDieViola
 					}
 				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \JaHerzensSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \JaHerzensSopranoLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \JaHerzensAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \JaHerzensAltoLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "T"
-						\new Voice = "Tenore" { \dynamicUp \JaHerzensTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \JaHerzensTenoreLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \JaHerzensBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \JaHerzensBassoLyrics
-				>>
+				\new Staff {
+					\set Staff.instrumentName = "B"
+					\new Voice = "Basso" { \dynamicUp \FuerDieBassoNotes }
+				}
+				\new Lyrics \lyricsto Basso \FuerDieBassoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\JaHerzensOrgano
+						\FuerDieOrgano
 					}
 				>>
-				\new FiguredBass { \JaHerzensBassFigures }
+				\new FiguredBass { \FuerDieBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 80 }
+			\midi { \tempo 4 = 140 }
 		}
 	}
 }

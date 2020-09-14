@@ -199,6 +199,318 @@ JaHerzensBassoLyrics = \lyricmode {
 	schlug. %106 finis
 }
 
+FuerDieBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \autoBeamOff \tempoFuerDie
+		R1*22 %22
+		r2 r4 f8 f
+		b4. d8 b4 f
+		d b r b'8 b %25
+		c4. c8 es4 c
+		a f r2
+		R1*2
+		b2. c8([ des)] %30
+		des2. c4
+		b2. e,4
+		\appoggiatura g8 f4 r b e,
+		\appoggiatura g8 f4 r b e,
+		\appoggiatura g8 f4 r r2 %35
+		R1*2
+		d'4. c8 b4 a
+		g a \appoggiatura c8 b4 a8([ g)]
+		c4. b8 a4 g %40
+		f g \appoggiatura b8 a4 g8([ f)]
+		b2. b4
+		b2. b4
+		h2. h8([ c)]
+		c4 r c c %45
+		c2. c4
+		c2 c,4 c
+		c4 r r2
+		R1
+		r2 r4 f8 g %50
+		a4 f g b
+		a8.([ g16)] f4 r2
+		R1
+		r2 r4 f8 g
+		a4 f g b %55
+		a8.([ g16)] f4 r2
+		a4 b c d
+		es!4. fis,8 fis4 r
+		a b c d
+		es4. fis,8 fis4 r %60
+		es'2 fis,
+		d' es,!
+		c' d,
+		b'4 r r2
+		b2. b4 %65
+		a2 d
+		b c
+		f,4 r r c'8 c
+		a4 f c'4. c8
+		a4 f r c'8 c %70
+		a4 f c'4. c8
+		a4 b a b
+		a b a b
+		a d b c
+		f, d' b c %75
+		f, d' b c
+		f, r r2
+		R1*5 \noBreak %82
+		R1\fermataMarkup \bar "||"
+		\time 3/4 \tempoDuldend \appoggiatura g8 f4 f r \noBreak
+		\appoggiatura a8 g4 g r %85
+		c4. b8 a g
+		\appoggiatura g f4 f r
+		f2 f8([ ges)]
+		ges4 r r
+		\appoggiatura b8 a4 a a %90
+		\appoggiatura c8 b4 b r
+		c2 c8([ des)]
+		des2 c8([ b)]
+		b2 e,8([ f)]
+		f4 r r %95
+		b2 b8([ c)]
+		\appoggiatura b a4 a r
+		as2 as8([ b)]
+		\appoggiatura as g4 g r
+		r f d' %100
+		c8([ es,)] es4 r
+		r d b'
+		a8([ c,)] c4 r
+		r b' b
+		b2 b4 %105
+		\afterGrace des2_( { es16[ des]) } c8[( b)]
+		\appoggiatura b a4 r r
+		\afterGrace b2_( { c16[ b]) } a8[( g)]
+		\appoggiatura g f4 r r
+		f2 f4 %110
+		f2 f4
+		b4.( c8) b([ c)]
+		\appoggiatura b a4 r r
+		b b b
+		b2 b4 %115
+		b2\fermata e,8([ f)] \noBreak
+		f4 r r\fermata \bar "||"
+		\time 4/4 \tempoFuerDieB R1*6 %123
+		r2 r4 f8 f
+		b4. d8 b4 f %125
+		d b r b'8 b
+		c4. c8 es4 c
+		a f r2
+		R1*2 %130
+		b2. c8([ des)]
+		des2. c8([ b)]
+		b2. e,4
+		\appoggiatura g8 f4 r b e,
+		\appoggiatura g8 f4 r b e, %135
+		\appoggiatura g8 f4 r r2
+		R1*2
+		b4. as8 g4 f
+		es f \appoggiatura as8 g4 f8([ es)] %140
+		b'4. as8 g4 f
+		es f \appoggiatura as8 g4 f8([ es)]
+		d2. d4
+		es2. es4
+		e2. e8([ f)] %145
+		f4 r f f
+		f2. f4
+		f2. f4
+		f r r2
+		R1 %150
+		r2 r4 b8 c
+		d4 b c es
+		d8.([ c16)] b4 r2
+		R1
+		r2 r4 b8 c %155
+		d4 b c es
+		d8.([ c16)] b4 r2
+		a4 b c d
+		es4. ges,8 ges4 r
+		a b c d %160
+		es4. ges,8 ges4 r
+		es'2 f,
+		d' e,
+		c' es,
+		b'4 r r2 %165
+		g2. g4
+		f2 b
+		es, f
+		b,4 r r f'8 f
+		b4. b8 b4 c %170
+		b f r a8 a
+		b4. b8 b4 c
+		b a b a
+		b a b a
+		b g es f %175
+		b,4 r r f'8 f
+		b4. b8 b4 c
+		b f r a8 a
+		b4. b8 b4 c
+		b a b a %180
+		b a b a
+		b g es f
+		b g es f
+		b g es f
+		b, r r2 %185
+		R1*2
+		R1\fermataMarkup \bar "|." %188 finis
+	}
+}
+
+FuerDieBassoLyrics = \lyricmode {
+	Für die %23
+	Laſ -- ter ſei -- ner
+	Kin -- der, für die %25
+	Mü -- ße -- that der
+	Kin -- der
+
+	lei -- det %30
+	Je -- ſus
+	Schmach und
+	Hohn, Schmach und
+	Hohn, Schmach und
+	Hohn, %35
+
+	la -- ßet ſich in %38
+	Pur -- pur klei -- den,
+	trägt zur Fül -- le %40
+	ſei -- ner Lei -- den
+	ei -- ne
+	dorn -- ge --
+	flocht -- ne
+	Kron, ei -- ne %45
+	dorn -- ge --
+	floch -- te -- ne
+	Kron.
+
+	Sei -- ne %50
+	mü -- de Wür -- ger
+	kei -- chen,
+
+	Strei -- che
+	fol -- gen Gei -- ßel -- %55
+	strei -- chen
+	un -- ter Spott und
+	Höl -- len -- ton,
+	un -- ter Spott und
+	Höl -- len -- ton, %60
+	un -- ter
+	Spott und
+	Höl -- len --
+	ton,
+	un -- ter %65
+	Spott und
+	Höl -- len --
+	ton, sei -- ne
+	mü -- de Wür -- ger
+	kei -- chen, Strei -- che %70
+	fol -- gen Gei -- ßel --
+	strei -- chen, Gei -- ßel --
+	strei -- chen un -- ter
+	Spott und Höl -- len --
+	ton, und Höl -- len -- %75
+	ton, und Höl -- len --
+	ton.
+
+	Dul -- dend, %84
+	dul -- dend, %85
+	gleich dem Op -- fer --
+	lam -- me,
+	naht er
+	ſich
+	dem Kreu -- zes %90
+	Stam -- me
+	zu des
+	ho -- hen
+	Wohl -- thuns
+	Lohn. %95
+	Die -- se
+	Lei -- den
+	al -- le
+	dul -- den
+	nur zur %100
+	Til -- gung
+	unſ -- rer
+	Schul -- den
+	ſiehſt du,
+	Mut -- ter, %105
+	dei -- nen
+	Sohn,
+	dei -- nen
+	Sohn,
+	ſiehſt du, %110
+	Mut -- ter,
+	dei -- nen
+	Sohn,
+	ſiehſt du, o
+	Mut -- ter, %115
+	dei -- nen
+	Sohn.
+
+	Für die %124
+	Laſ -- ter ſei -- ner %125
+	Kin -- der, für die
+	Mü -- ße -- that der
+	Kin -- der
+
+	lei -- det %131
+	Je -- ſus
+	Schmach und
+	Hohn, Schmach und
+	Hohn, Schmach und %135
+	Hohn,
+
+	la -- ßet ſich in %139
+	Pur -- pur klei -- den, %140
+	trägt zur Fül -- le
+	ſei -- ner Lei -- den
+	ei -- ne
+	dorn -- ge --
+	flocht -- ne %145
+	Kron, ei -- ne
+	dorn -- ge --
+	flocht -- ne
+	Kron.
+	%150
+	Sei -- ne
+	mü -- de Wür -- ger
+	kei -- chen,
+
+	Strei -- che %155
+	fol -- gen Gei -- ßel --
+	strei -- chen
+	un -- ter Spott und
+	Höl -- len -- ton,
+	un -- ter Spott und %160
+	Höl -- len -- ton,
+	un -- ter
+	Spott und
+	Höl -- len --
+	ton, %165
+	un -- ter
+	Spott und
+	Höl -- len --
+	ton, ſei -- ne
+	mü -- de Wür -- ger %170
+	kei -- chen, Strei -- che
+	fol -- gen Gei -- ßel --
+	strei -- chen, Gei -- ßel --
+	strei -- chen un -- ter
+	Spott und Höl -- len -- %175
+	ton, ſei -- ne
+	mü -- de Wür -- ger
+	kei -- chen, Strei -- che
+	fol -- gen Gei -- ßel --
+	strei -- chen, Gei -- ßel -- %180
+	strei -- chen un -- ter
+	Spott und Höl -- len --
+	ton, und Höl -- len --
+	ton, und Höl -- len --
+	ton. %185 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

@@ -682,6 +682,9 @@ tempoDichErblicken = \tempoMarkup "Lento"
 	tempoSehIchDich = \tempoMarkup "Larghetto con moto"
 	tempoDichErblickenB = \tempoMarkup "Tempo primo"
 tempoJaHerzens = \tempoMarkup "Larghetto"
+tempoFuerDie = \tempoMarkup "Allegro"
+	tempoDuldend = \tempoMarkup "Larghetto con moto"
+	tempoFuerDieB = \tempoMarkup "Allegro"
 
 
 \include "notes/fl1.ly"
