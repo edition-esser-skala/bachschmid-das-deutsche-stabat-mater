@@ -540,3 +540,57 @@ FuerDieViolinoII = {
 		q4 r r2\fermata \bar "|." %188 finis
 	}
 }
+
+VerlassenViolinoII = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key d \minor \time 2/4 \tempoVerlassen
+		r16 f8\p f16 r g8 g16
+		r a8 a16 r a8 a16
+		r a8 a16 r a8 a16
+		r e8 e16 r e8 e16
+		R2 %5
+		r16 b'-!\f g( e) cis( e) a,( cis)
+		d e8 d cis b!16~
+		b a8 d e cis16
+		r d-!\p e( f) r d-! e( f)
+		<e cis>8-\parenthesize-! r cis( d) %10
+		cis-! r cis( d)
+		cis( d) cis( d)
+		cis cis cis r
+		r16 f8 f16 r g8 g16
+		r a8 a16 r a8 a16 %15
+		r a8 a16 r a8 a16
+		r a8 a16 r a8 a16
+		R2
+		r16 b-!\f g( e) cis( e) a,( cis)
+		r8 a'\p r g %20
+		r16 f( b f) d4
+		r16 d( f d) b4
+		r16 d d d d4
+		r16 d d d d4
+		r16 cis-. cis-. cis-. d-. d-. d-. d-. %25
+		cis cis cis cis d d d d
+		e e e e d d d d
+		cis8 cis cis r
+		r16 a' a a a a a a
+		a a a a a a a a %30
+		r f f f f8( e)
+		r16 d-. d-. d-. d( b) d( b)
+		r d-. d-. d-. d( b) d( b)
+		r d-. d-. d-. d( b) d( b)
+		r d-. d-. d-. d( f) d( f) %35
+		r d-. d-. d-. d( f) d( f)
+		r d8 d16 r d8 d16
+		r d8 d16 r d8 d16
+		r d8 d16 r d8 d16
+		r cis\pp cis cis d4 %40
+		r16 cis cis cis d4
+		r16 cis cis cis a4
+		r16 b b b g4
+		a8-! a4 b16( g)
+		a8-! a4 b16( g) %45
+		a8-. a-. a-. a-.
+		a2\fermata \bar "|."
+	}
+}

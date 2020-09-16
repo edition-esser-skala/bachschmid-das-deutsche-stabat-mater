@@ -575,6 +575,76 @@ JaHerzensTenoreLyrics = \lyricmode {
 	schlug. %106 finis
 }
 
+VerlassenTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\twofourtime \key d \minor \time 2/4 \autoBeamOff \tempoVerlassen
+		R2*12 %12
+		r4 r8 a
+		d16([ a)] a8 r4
+		r r8 f'16([ e)] %15
+		e([ cis)] a8 r4
+		R2*2
+		r4 r16 cis d e
+		f8. f16 f8 e16([ f)] %20
+		\appoggiatura e d8 d r f16 d
+		\appoggiatura c b8 b r d16 b
+		\appoggiatura a gis8 gis r16 f' e f
+		f8. f16 f8 gis,
+		\appoggiatura h16 a8 a r4 %25
+		R2*2
+		r4 r8 f'16([ g)]
+		\appoggiatura e d8 d r g16([ e)]
+		\appoggiatura e d8 d r4 %30
+		d8. d16 d([ f)] e([ d)]
+		d4 r
+		b8. b16 b([ d)] c([ b)]
+		b4 r8 b
+		\appoggiatura a gis4 r %35
+		r r8 f'
+		f([ gis,)] r f'
+		f([ gis,)] r f'
+		f([ gis,)] r gis
+		b!([ a)] r4 %40
+		R2*6 %46
+		R2\fermataMarkup \bar "|." %47 finis
+	}
+}
+
+VerlassenTenoreLyrics = \lyricmode {
+	Ver -- %13
+	la -- ßen!
+	Ver -- %15
+	la -- ßen!
+
+	Im letz -- ten %19
+	Kamp -- fe ganz ver -- %20
+	la -- ßen, ganz ver --
+	la -- ßen, ganz ver --
+	la -- ßen, im letz -- ten
+	Kamp -- fe ganz ver --
+	la -- ßen, %25
+
+	o %28
+	Mut -- ter, o
+	Mut -- ter, %30
+	ſiehſt du dei -- nen
+	Sohn,
+	ſiehſt du dei -- nen
+	Sohn. Er
+	ſtirbt, %35
+	dein
+	Sohn, er
+	ſtirbt, dein
+	Sohn, er
+	ſtirbt. %40 finis
+}
+
+% Verlaßen!
+% Im letzten Kampfe ganz verlaßen,
+% o Mutter, ſiehſt du deinen Sohn,
+% Er ſtirbt, dein Sohn, er ſtirbt.
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

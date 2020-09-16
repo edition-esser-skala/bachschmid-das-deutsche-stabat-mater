@@ -540,3 +540,57 @@ FuerDieViola = {
 		b4 r r2\fermata \bar "|." %188 finis
 	}
 }
+
+VerlassenViola = {
+	\relative c' {
+		\clef alto
+		\twofourtime \key d \minor \time 2/4 \tempoVerlassen
+		r16 d8\p d16 r e8 e16
+		r f8 f16 r f8 f16
+		r e8 e16 r d8 d16
+		r cis8 cis16 r cis8 cis16
+		R2 %5
+		r16 b'-!\f g( e) cis( e) a,( cis)
+		d8 g f e
+		d c! b a
+		gis\p r gis r
+		a-! r a( b) %10
+		a-! r a( b)
+		a( b) a( b)
+		a a a r
+		r16 d8 d16 r e8 e16
+		r f8 f16 r f8 f16 %15
+		r e8 e16 r d8 d16
+		r cis8 cis16 r cis8 cis16
+		R2
+		r16 b'-!\f g( e) cis( e) a,( cis)
+		r8 d\p r a %20
+		r b b r
+		r b b r
+		r b b r
+		r b b b
+		r16 a-. a-. a-. a-. a-. a-. a-. %25
+		a a a a a a a a
+		a a a a f f f f
+		e8 a a r
+		r16 d d d e8( cis)
+		r16 d d d e8( cis) %30
+		r16 a a a a8 a
+		r16 b b b b8 b
+		r16 b b b b8 b
+		r16 b b b b8 b
+		r16 b b b b b b b %35
+		b b b b b b b b
+		b b b b b b b b
+		b b b b b b b b
+		b b b b b b b b
+		a\pp a a a b b b b %40
+		a a a a b b b b
+		a a a a f f f f
+		g g g g e e e e
+		f8-! f4 g16( e)
+		f8-! f4 g16( e) %45
+		f8-. f-. f-. f-.
+		f2\fermata \bar "|." %47 finis
+	}
+}

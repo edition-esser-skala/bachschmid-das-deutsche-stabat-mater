@@ -199,62 +199,111 @@
 	% 		\midi { \tempo 4 = 80 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "4"
+	% 		genre = "A R I A"
+	% 		title = "Für die Laſter ſeiner Kinder"
+	% 	}
+	% 	\paper { systems-per-page = #2 }
+	% 	\tocLabelLong "4" "fuerdie" "Aria" "Für die Laster seiner Kinder"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup \with { \smallGroupDistance } <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+	% 					\partcombine \FuerDieOboeI \FuerDieOboeII
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup \with { \smallGroupDistance } <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "cor (Es)" "1, 2" }
+	% 					% \transpose c es
+	% 					\partcombine \FuerDieCornoI \FuerDieCornoII
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup \with { \smallGroupDistance } <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\FuerDieViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\FuerDieViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\FuerDieViola
+	% 				}
+	% 			>>
+	% 			\new Staff {
+	% 				\set Staff.instrumentName = "B"
+	% 				\new Voice = "Basso" { \dynamicUp \FuerDieBassoNotes }
+	% 			}
+	% 			\new Lyrics \lyricsto Basso \FuerDieBassoLyrics
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\FuerDieOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \FuerDieBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 140 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "4"
-			genre = "A R I A"
-			title = "Für die Laſter ſeiner Kinder"
+			number = "5"
+			genre = "A R I O S O"
+			title = "Verlaßen!"
 		}
-		\paper { systems-per-page = #2 }
-		% \tocLabelLong "4" "fuerdie" "Aria" "Für die Laster seiner Kinder"
+		\paper {
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
+		}
+		\tocLabelLong "5" "verlassen" "Arioso" "Verlaßen!"
 		\score {
 			<<
-				\new StaffGroup \with { \smallGroupDistance } <<
-					\new Staff <<
-						\set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
-						\partcombine \FuerDieOboeI \FuerDieOboeII
-					>>
-				>>
-				\new StaffGroup \with { \smallGroupDistance } <<
-					\new Staff <<
-						\set Staff.instrumentName = \markup \center-column { "cor (Es)" "1, 2" }
-						% \transpose c es
-						\partcombine \FuerDieCornoI \FuerDieCornoII
-					>>
-				>>
-				\new StaffGroup \with { \smallGroupDistance } <<
+				\new StaffGroup <<
 					\new GrandStaff \with { \smallGroupDistance } <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\FuerDieViolinoI
+							\VerlassenViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\FuerDieViolinoII
+							\VerlassenViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "vla"
-						\FuerDieViola
+						\VerlassenViola
 					}
 				>>
 				\new Staff {
-					\set Staff.instrumentName = "B"
-					\new Voice = "Basso" { \dynamicUp \FuerDieBassoNotes }
+					\set Staff.instrumentName = "T"
+					\new Voice = "Tenore" { \dynamicUp \VerlassenTenoreNotes }
 				}
-				\new Lyrics \lyricsto Basso \FuerDieBassoLyrics
+				\new Lyrics \lyricsto Tenore \VerlassenTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\FuerDieOrgano
+						\VerlassenOrgano
 					}
 				>>
-				\new FiguredBass { \FuerDieBassFigures }
+				\new FiguredBass { \VerlassenBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 140 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

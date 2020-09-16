@@ -541,6 +541,60 @@ FuerDieViolinoI = {
 	}
 }
 
+VerlassenViolinoI = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key d \minor \time 2/4 \tempoVerlassen
+		d'8.(\p a16) cis8.( a16)
+		d( a) f-! r d'( a) f-! r
+		e'8.( a,16) f'8.( a,16)
+		e'( cis) a-! r e'( cis) a-! r
+		r b'-!\f g( e) cis( b) g( e) %5
+		cis( e) g,8~ \kneeBeam g16 b''( a g)
+		f e8 d cis b!16~
+		b a8 gis a g16
+		\appoggiatura g f8\p e16 d \appoggiatura g16 f8 e16 d
+		a'8-! r16 b-! a( gis) gis( a) %10
+		a8-! r16 b-! a( gis) gis( a)
+		a gis8 a gis a16~
+		a8 e e r
+		d'8.( a16) cis8.( a16)
+		d( a) f-! r d'( a) f-! r %15
+		e'8.( a,16) f'8.( a,16)
+		e'( cis) a-! r e'( cis) a-! r
+		r b'-!\f g( e) cis( b) g( e)
+		cis( e) g,8~ \kneeBeam g16 b''( a g)
+		r8 f\p r e %20
+		r16 d( f) d b4
+		r16 b( d b) f4
+		r16 gis gis gis gis4
+		r16 gis gis gis gis4
+		r8 gis16( a) r8 gis16( a) %25
+		r8 gis16( a) r8 gis16( a)
+		r8 gis16( a) r8 gis16( a)
+		a8 e e r
+		r16 f' f f g8( e)
+		r16 f f f g8( e) %30
+		r16 d d d d8( cis)
+		r16 f,-. f-. f-. f( d) f( d)
+		r f-. f-. f-. f( d) f( d)
+		r f-. f-. f-. f( d) f( d)
+		r gis-. gis-. gis-. gis( d) gis( d) %35
+		r gis-. gis-. gis-. gis( d) gis( d)
+		r gis8 gis16 r gis8 gis16
+		r gis8 gis16 r gis8 gis16
+		r gis8 gis16 r gis8 gis16
+		r8 b!16(\pp a) r8 a16( gis) %40
+		r8 b!16( a) r8 a16( gis)
+		r8 g16( fis) r8 f16( e)
+		r8 e16( d) r8 d16( cis)
+		d8 d4 d8~
+		d d4 d8~ %45
+		d-. d-. d-. d-.
+		d2\fermata \bar "|." %47 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

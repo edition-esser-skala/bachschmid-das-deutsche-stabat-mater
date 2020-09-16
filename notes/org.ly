@@ -1062,6 +1062,110 @@ FuerDieBassFigures = \figuremode {
 	r %188 finis
 }
 
+VerlassenOrgano = {
+	\relative c {
+		\clef bass
+		\twofourtime \key d \minor \time 2/4 \tempoVerlassen
+		r8 d\p r e
+		r d r d
+		r cis r d
+		r a r a
+		R2 %5
+		r16 b'-!\f g( e) cis( e) a,( cis)
+		d8 g f e
+		d c! b a
+		gis\p r gis r
+		a-\parenthesize-! r a( b) %10
+		a-\parenthesize-! r \once \slurDashed a( b)
+		a( b) a( b)
+		a4 r
+		r8 d r e
+		r d r d %15
+		r cis r d
+		r a r a
+		R2
+		r16 b'-!\f g( e) cis( e) a,( cis)
+		r8 d\p r a %20
+		r b b r
+		r b b r
+		r b b r
+		r b b b
+		r a r f' %25
+		r e r d
+		r cis r d
+		a4 r
+		r16 d f d cis e a,8
+		r16 d f d cis e a,8 %30
+		r a r a
+		r b b b
+		r b r b
+		r b b b
+		r b r b %35
+		r b r b
+		r16 b8 b16 r b8 b16
+		r b8 b16 r b8 b16
+		r b-. b-. b-. b-. b-. b-. b-.
+		r8 a\pp b4 %40
+		r8 a b4
+		r8 a d4
+		r8 g, a4
+		r8 d r d
+		r d r d %45
+		r d d d
+		d2\fermata \bar "|." %47 finis
+	}
+}
+
+VerlassenBassFigures = \figuremode {
+	r4. <6\\>8
+	r2
+	r8 <[6]>4.
+	r8 <_+>4.
+	r2 %5
+	r
+	r8 <6> q <6\\>
+	<6-> <6> <6\\> \bo <8 [_+]>16 \bc <7! [\t]>
+	<7 5 [_!]>2
+	<5 _+>4. <6\\>8 %10
+	<_+>4. <6\\>8
+	<8> <6\\> <8> <6\\>
+	<[_+]>2
+	r4. <6\\>8
+	r2 %15
+	r8 <[6]>4.
+	r8 <_+>4.
+	r2
+	r
+	r4. <_+>8 %20
+	r <3>4.
+	r2
+	r8 <6\\ 5>4.
+	r2
+	r8 <_+>4 <6>8 %25
+	r <6\\>4.
+	r8 <[6]>4.
+	<_+>2
+	r4 \bo <[6 5]>8 \bc <[_+ \l]>
+	r4 \bo <[6 5]>8 \bc <[_+ \l]> %30
+	r8 <6 4>4 <5 _+>8
+	r <3>4.
+	r2
+	r
+	r8 <6\\>4. %35
+	r2
+	r
+	r
+	r
+	r8 <_+> <6\\>4 %40
+	r8 <_+> <6\\>4
+	r8 <_+>4.
+	r8 <6> <[7] _+>4
+	r8 \bo <[5 3]>4 \bc <[6 4]>8
+	r \bo <[5 3]>4 \bc <[6 4]>8 %45
+	r <[5 3]>4.
+	r2 %47 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
