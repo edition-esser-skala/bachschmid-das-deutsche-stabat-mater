@@ -199,6 +199,181 @@ JaHerzensSopranoLyrics = \lyricmode {
 	schlug. %106 finis
 }
 
+WennEinstSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 3/4 \autoBeamOff \tempoWennEinst
+		\partial 4. r8 r4 R2.*20 %20
+		r4 r8 a' b c
+		d4. c8 d es
+		\appoggiatura d16 c8 c r h c d
+		es4. d8 es f
+		\appoggiatura es16 d8 d r4 r %25
+		\appoggiatura f8 es8. d16 \appoggiatura d8 c4 r
+		\appoggiatura es8 d8. c16 \appoggiatura c8 b4 r
+		\appoggiatura d16 c8 c c4 c
+		c4.( d16[ es)] d8 d
+		es f g([ a)] b([ f)] %30
+		f8. d16 c4 r
+		R2.*9 %40
+		r4 r r8 g
+		c g g g16([ a)] c([ b)] a([ g)]
+		\appoggiatura g f8 f r4 r8 c'
+		c g g g16([ a)] c([ b)] a([ g)]
+		\appoggiatura g f8 f r4 r8 c'16([ cis)] %45
+		d([ cis)] d([ cis)] d8([ cis)] d([ cis)]
+		d8. f16 \appoggiatura e?8 d4 r8 d16([ c)]
+		c([ h)] c([ h)] c8([ h)] c([ h)]
+		c8. f16 \appoggiatura d8 c4 r8 c16([ b)]
+		b([ a)] b([ a)] b8([ a)] b([ a)] %50
+		b8. d16 \appoggiatura c8 b4 r8 b16([ a)]
+		a8 c b([ a)] g([ f)]
+		e16([ f)] g([ a)] \appoggiatura a8 b4 r8 b16([ a)]
+		a8 b c d c16([ a)] b([ g)]
+		\appoggiatura g8 f4 r r %55
+		R2.*2
+		r4 r r8 b16([ a)]
+		a4. c8 \appoggiatura c16 b8 a16([ g)]
+		a8. c16 \appoggiatura c8 b4 r8 g %60
+		a4. c8 c16([ b)] a([ g)]
+		a8. c16 \appoggiatura c8 b4 r8 c
+		f e f([ e)] d([ cis)]
+		d([ cis)] d([ c)] b([ a)]
+		g a b([ c)] d([ e)] %65
+		\appoggiatura e f4 r r8 c
+		\appoggiatura e?16 d8 c16([ b)] a4 g
+		f'4.( e8) d([ cis)]
+		d c16([ b)] a4 g8.([ f16)]
+		f4 r r %70
+		R2.*14 %84
+		r4 r8 a b c %85
+		d4. c8 d es!
+		\appoggiatura d16 c8 c r h c d
+		es4. d8 es f
+		\appoggiatura es16 d8 d r4 r
+		\appoggiatura f8 es8. d16 c4 r %90
+		\appoggiatura es8 d8. c16 b4 r
+		\appoggiatura d16 c8 c c4 c
+		c4.( d16[ es)] d8 f
+		g f es([ d)] cis([ d)]
+		f8. d16 c4 r8 f, %95
+		b d d f f16([ d)] b([ as)]
+		\appoggiatura as g8 g r4 r8 b
+		b d d f f16([ d)] b([ as)]
+		\appoggiatura as g8 g r4 r8 es'
+		es16([ d)] es([ d)] es8([ d)] es([ d)] %100
+		es8. g16 \appoggiatura f8 es4 r8 es16([ d)]
+		d([ cis)] d([ cis)] d8([ cis)] d([ cis)]
+		d8. f16 \appoggiatura es8 d4 r8 d16([ c)]
+		c([ h)] c([ h)] c8([ h)] c([ h)]
+		c8. es16 \appoggiatura d8 c4 r8 es %105
+		d f es([ d)] c([ b)]
+		a16([ b)] c([ d)] \appoggiatura d8 es4 r8 c
+		d es f g f16([ d)] es([ c)]
+		\appoggiatura c8 b4 r r
+		R2.*2 %111
+		r4 r r8 c16([ b)]
+		b4. d8 \appoggiatura d16 c8 b16([ a)]
+		b8. d16 \appoggiatura d8 c4 r8 c16([ b)]
+		b4. d8 \appoggiatura d16 c8 b16([ a)] %115
+		b8. d16 \appoggiatura d8 c4 r8 fis
+		g fis g([ f)] es([ d)]
+		es([ d)] es([ d)] c([ b)]
+		a([ b c b)] c([ d)]
+		\appoggiatura d es4 r r8 d %120
+		\appoggiatura f16 es8 d16([ c)] b4 a
+		d4.( b8) c([ d)]
+		\appoggiatura f16 es8 d16([ c)] b4 a8.([ b16)]
+		b4 r r
+		R2.*5 %129
+		R2.\fermataMarkup \bar "|." %130 finis
+	}
+}
+
+WennEinstSopranoLyrics = \lyricmode {
+	Wenn einſt mein %21
+	lez -- ter Kampf be --
+	gin -- net, laß mich, Gott,
+	je -- ne Städ -- te
+	ſe -- hen, %25
+	laß mich, Gott,
+	laß mich, Gott,
+	je -- ne Städ -- te
+	ſe -- hen, wo
+	du ge -- hängt auf %30
+	Gol -- ga -- tha.
+
+	Dein %41
+	Blut iſt auch für mich ge --
+	flos -- sen, es
+	wird im Kamp -- fe Kraft mir
+	ge -- ben: Dann, %45
+	Bun -- des -- mitt -- ler,
+	ſie -- gen wir, dann,
+	Bun -- des -- mitt -- ler,
+	ſie -- gen wir, dann,
+	Bun -- des -- mitt -- ler, %50
+	ſie -- gen wir, dann,
+	Bun -- des -- mitt -- ler,
+	ſie -- gen wir und
+	dan -- ken, dan -- ken e -- wig
+	dir, %55
+
+	dann, %58
+	Bun -- des -- mitt -- ler,
+	ſie -- gen wir, dann, %60
+	Bun -- des -- mitt -- ler,
+	ſie -- gen wir, dann,
+	Bun -- des -- mitt -- ler,
+	ſie -- gen wir,
+	ſie -- gen, ſie -- gen %65
+	wir und
+	dan -- ken e -- wig
+	dir, __ und
+	dan -- ken e -- wig
+	dir. %70
+
+	Wenn einſt mein %85
+	lez -- ter Kampf be --
+	gin -- net, laß mich, Gott,
+	je -- ne Städ -- te
+	ſe -- hen,
+	laß mich, Gott, %90
+	laß mich, Gott,
+	je -- ne Städ -- te
+	ſe -- hen, wo
+	du ge -- hängt auf
+	Gol -- ga -- tha. Dein %95
+	Blut iſt auch für mich ge --
+	flos -- sen, es
+	wird im Kamp -- fe Kraft mir
+	ge -- ben: Dann,
+	Bun -- des -- mitt -- ler, %100
+	ſie -- gen wir, dann,
+	Bun -- des -- mitt -- ler,
+	ſie -- gen wir, dann,
+	Bun -- des -- mitt -- ler,
+	ſie -- gen wir, dann, %105
+	Bun -- des -- mitt -- ler,
+	ſie -- gen wir und
+	dan -- ken, dank -- ken e -- wig
+	dir,
+
+	dann, %112
+	Bun -- des -- mitt -- ler,
+	ſie -- gen wir, dann,
+	Bun -- des -- mitt -- ler, %115
+	ſie -- gen wir, dann,
+	Bun -- des -- mitt -- ler,
+	ſie -- gen wir,
+	ſie -- gen
+	wir und %120
+	dan -- ken e -- wig
+	dir, __ und
+	dan -- ken e -- wig
+	dir. %124 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

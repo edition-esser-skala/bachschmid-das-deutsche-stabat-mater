@@ -1166,6 +1166,272 @@ VerlassenBassFigures = \figuremode {
 	r2 %47 finis
 }
 
+WennEinstOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 3/4 \tempoWennEinst
+		\partial 4. r8 r4 b4\mf b b
+		f' f f
+		a, a a
+		b8.\fp b16 b4 r
+		b8.\fp b16 b4 r %5
+		b8.\fp b16 b4 r
+		b\p r8 b b b
+		f'4 r8 f f f
+		b4 r8 b b b
+		f4 r8 f f f %10
+		b,4 r r
+		r r r16 b d b
+		f'4 r r
+		r r r16 f a f
+		b4\f r8 b b b %15
+		b4 r8 b b b
+		b\p es, f4 f
+		b\f r8 b c f,
+		b4 r8 b c f,
+		b es, f f f, f %20
+		b2 r4
+		b\p b b
+		f' f f
+		a, a a
+		b b b %25
+		r8 f' f f f4
+		r8 b b b b4
+		r8 es, es es e4
+		r8 f f f b4
+		r8 f f f f f %30
+		f4 f r
+		f f f
+		c c c
+		e e e
+		f f f %35
+		r8 c c c c4
+		r8 f f f f4
+		r8 b, b b h4
+		r8 c c c f4
+		r8 b, b b h h %40
+		c c c c c4
+		r8 e e e e4
+		r8 f f f f4
+		r8 e e e e4
+		r8 f f f f4 %45
+		r8 f f f f f
+		f f f f f f
+		f f f f f f
+		f f f f f f
+		c c c c c c %50
+		c c c c c c
+		r f, g a b h
+		c4 r8 c e c
+		f4. b,8 c c
+		f4 r r %55
+		r r r16 f a f
+		c4 r r
+		r r r16 c e c
+		f8 f f f c4
+		r8 f c' c c,4 %60
+		r8 f f f c4
+		r8 f c' c c,4
+		R2.*2
+		c4 c c %65
+		r8 f a f a f
+		b4 c c,
+		r8 f f f f f
+		b,\f b c c c c
+		r f a f g c, %70
+		r f a f g c,
+		f f g g a a
+		b b a a g g
+		f b c c c, c
+		f2 r4 %75
+		f\p f f
+		c c c
+		e e e
+		f f f
+		r8 c c c c4 %80
+		r8 f f f f4
+		r8 b, b b h4
+		r8 c c c f4
+		r8 b, c c c c
+		f4 f r %85
+		b, b b
+		f' f f
+		a, a a
+		b b b
+		r8 f' f f f4 %90
+		r8 b b b b4
+		r8 es, es es e4
+		r8 f f f b4
+		r8 es, es es e e
+		f f f f f4 %95
+		r8 d d d d4
+		r8 es es es es4
+		r8 d d d d4
+		r8 es es es es4
+		r8 es es es es es %100
+		es es es es es es
+		b b b b b b
+		b b b b b b
+		f' f f f f f
+		f f f f f f %105
+		r b, c d es e
+		f4 r8 f a f
+		b4. es,8 f f
+		b,4 r r
+		r r r16 b d b %110
+		f'4 r r
+		r r r16 f a f
+		b8 b b b f4
+		r8 b, f' f f,4
+		r8 b' b b f4 %115
+		r8 b,[ f' f] f, r
+		R2.*2
+		f'4 f f
+		r8 f a f b b, %120
+		es4 f f
+		r8 b, b b b b
+		es\f es f f f, f
+		r b d b es4
+		r8 b d b es4 %125
+		b'8\p es, f4 f
+		b\f r8 b c f,
+		b4 r8 b c f,
+		b es, f f f, f
+		b2 r4\fermata \bar "|." %130 finis
+	}
+}
+
+WennEinstBassFigures = \figuremode {
+	r4. r2.
+	<[7]>
+	<[6 5]>
+	r2.
+	r %5
+	r
+	r4. \bo <[5 3]>8 <6 4> \bc <[5 3]>
+	\bo <[7 \l]>4. <7 5>8 <8 6> \bc <[7 5]>
+	r4. \bo <[5 3]>8 <6 4> \bc <[5 3]>
+	\bo <[7 \l]>4. <7 5>8 <8 6> \bc <[7 5]> %10
+	r2.
+	r
+	r
+	r
+	r2 <6 4>4 %15
+	<5 3>2 <6 4>4
+	<5 3> \bo <[8 6]>8 \bc <[7 5]> <6 4> <5 3>
+	r2 \bo <[6]>8 \bc <[\t]>
+	r2 \bo <[6]>8 \bc <[\t]>
+	r4 <6 4> <5 3> %20
+	r2.
+	r
+	r
+	<[6 5]>
+	r %25
+	r8 <[7]> r2
+	r2.
+	r8 <6 5>4. <[\t \t]>4
+	r2.
+	r8 <7 5>4. <6 4>4 %30
+	<\t \t> <5 3>2
+	r2.
+	<_!>
+	<[6 5]>
+	r %35
+	r8 <7 _!> r2
+	r2.
+	r8 <6 5>4. <[\t \t]>4
+	r8 <[_!]>4. r4
+	\bo <[10 8]>8 \bc <[9 7]> <8 6> <7 5> \bo <[6 4]> \bc <[7 5]> %40
+	<6 4>4 <5 _!>2
+	r8 <[6 5]> r2
+	r2.
+	r8 <[6 5]> r2
+	r2. %45
+	r8 <6 4> r2
+	<\t \t>2.
+	<5 3>
+	r
+	<7 _!> %50
+	r
+	r8 <5 3> <10 8> <8 6> <6 4!> <5 3>
+	<_!>2.
+	r2 <6 4>8 <5 _!>
+	r2. %55
+	r
+	<_!>
+	r2 r16 <_!>8.
+	r2 <7 [_!]>4
+	r4 q2 %60
+	r2 q4
+	r q2
+	r2.*2
+	<_!>2. %65
+	r
+	<[6]>4 <6 4> <5 _!>
+	r4. \bo <[7! 5]>8 <6 4> \bc <[5+ 3]>
+	r8 <[6]> <6 4>4 <5 _!>
+	r2 <[6!]>8 <\t> %70
+	r2 \bo <[6!]>8 \bc <[\t]>
+	r4 <6!> <5->
+	<3> q q
+	r <6 4> <5 _!>
+	r2. %75
+	r
+	<_!>
+	<[6 5]>
+	r
+	r8 <[7 _!]> r2 %80
+	r2.
+	r8 <6 5>4. <[\t \t]>4
+	r8 <_!> r2
+	r4 <8 6>8 <7 5> <6 4> <5 _!>
+	r2. %85
+	r
+	r
+	<[6 5]>
+	r
+	r8 <[7]> r2 %90
+	r2.
+	r8 <6 5>4. <[\t \t]>4
+	r2.
+	\bo <[10 8]>8 <9 7> <8 6> \bc <[7 5]> <6\\ 4> <7 5>
+	<6 4>4 <5 3>2 %95
+	r8 <6 5-> r2
+	r2.
+	r8 <[6 5-]> r2
+	r2.
+	r %100
+	r
+	r
+	r
+	<[7]>
+	r %105
+	r8 <5 3> <10 8> <8 6> <6 4> <5 3>
+	r2.
+	r2 <6 4>8 <5 3>
+	r2.
+	r %110
+	r
+	r
+	r
+	r4 <[7]>2
+	r2. %115
+	r4 <[7]>2
+	r2.*2
+	r2.
+	r8 <7> r2 %120
+	r4 <6 4> <5 3>
+	r2.
+	r4 <6 4> <5 3>
+	r2.
+	r %125
+	r4 \bo <[8 6]>8 <7 5> <6 4> \bc <[5 3]>
+	r2 \bo <[6]>8 \bc <[\t]>
+	r2 \bo <[6]>8 \bc <[\t]>
+	r4 <6 4> <5 3>
+	r2. %130 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

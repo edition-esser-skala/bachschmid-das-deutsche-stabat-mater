@@ -126,3 +126,92 @@ DichErblickenFlautoI = {
 		cis2( d4) r\fermata \bar "|." %174 finis
 	}
 }
+
+WennEinstFlautoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 3/4 \tempoWennEinst
+		\partial 4. r8 r4 b''2.\mf
+		c
+		a
+		b2 r4
+		b2.~ %5
+		b~
+		b4 r r
+		R2.
+		r8 b-!\p c( d) es( d)
+		c-! a-! b( c) d( c) %10
+		r16 d,-.^\solo d-. d-. es-. es-. f-. f-. g-. g-. a-. a-.
+		b-. b-. c-. c-. d-. d-. es-. es-. f4
+		r16 c,-. c-. c-. d-. d-. es-. es-. f-. f-. g-. g-.
+		a-. a-. b-. b-. c-. c-. d-. d-. es4
+		r r b16( a b g) %15
+		f4 r b16( a b g)
+		R2.
+		r4 f'(\p es)
+		r f( es)
+		r8 es\f d d c c %20
+		\pa \appoggiatura c b4 \pd r r
+		R2.*4 %25
+		es2.\p
+		d
+		R2.*8 %35
+		b2.\p
+		a
+		R2.*2
+		r8 c(\p b a g a) %40
+		c16( a c a) g8 g g4
+		R2.*4 %45
+		d'8\p r d r d r
+		d4 r8 d d d
+		c r c r c r
+		c4 r8 c c c
+		b r b r b r %50
+		b4 r8 b b b
+		a4 r r
+		R2.*2
+		r8 a,-.^\solo b-. c-. d-. e-. %55
+		f-. g-. a-. b-. c4-!
+		r8 g,-. a-. b-. c-. d-.
+		e-. f-. g-. a-. b4-!
+		R2.*11 %69
+		a2(\f b4) %70
+		a2( b4)
+		a r r
+		d( c b)
+		a16( b c d) \appoggiatura d c8 b16 a \appoggiatura c b8 a16 g
+		\pa \appoggiatura g8 f4 \pd r r %75
+		R2.*4
+		b2.\p %80
+		a
+		R2.*2
+		r8 d-!\p c( b) a( g)
+		R2.*5 %89
+		es'2.\p %90
+		d
+		R2.*2
+		r8 f-!\p es( d) cis( d)
+		\once \slurDashed f8.( d16) c8[ c] c r %95
+		R2.*4
+		es8\p r es r es r %100
+		es r es r es r
+		d r d r d r
+		d r d r d r
+		c r c r c r
+		c r c r c r %105
+		d4 r r
+		R2.*2
+		r16 d,^\solo-. d-. d-. es-. es-. f-. f-. g-. g-. a-. a-.
+		b-. b-. c-. c-. d-. d-. es-. es-. f4 %110
+		r16 c,-. c-. c-. d-. d-. es-. es-. f-. f-. g-. g-.
+		a-. a-. b-. b-. c-. c-. d-. d-. es4
+		R2.*11 %123
+		b2.~\f
+		b %125
+		R
+		r4 f'(\p es)
+		r f( es)
+		r8 es\f d d c c
+		\pao b2 r4\fermata \bar "|." %130 finis
+	}
+}

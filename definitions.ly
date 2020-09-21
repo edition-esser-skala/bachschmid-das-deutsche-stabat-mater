@@ -685,7 +685,8 @@ tempoJaHerzens = \tempoMarkup "Larghetto"
 tempoFuerDie = \tempoMarkup "Allegro"
 	tempoDuldend = \tempoMarkup "Larghetto con moto"
 	tempoFuerDieB = \tempoMarkup "Allegro"
-tempoVerlaßen = \tempoMarkup "Adagio"
+tempoVerlassen = \tempoMarkup "Adagio"
+tempoWennEinst = \tempoMarkup "Larghetto"
 
 
 \include "notes/fl1.ly"
