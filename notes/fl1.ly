@@ -215,3 +215,173 @@ WennEinstFlautoI = {
 		\pao b2 r4\fermata \bar "|." %130 finis
 	}
 }
+
+WirWollenFlautoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \tempoWirWollen
+		\partial 4. r8 r4 r d''(\mf a)
+		r d( a)
+		R2.
+		r4 d( a)
+		R2.*3 %7
+		fis'8-.^\solo e-. d-. cis-. h-. a-.
+		R2.
+		fis'8-. e-. d-. cis-. h-. a-. %10
+		R2.*3
+		r8 a-.^\solo a-. a-. h([ a)]
+		fis'-. e-. d-. cis-. h-. a-. %15
+		g32( fis g8.) r8 g( a g)
+		e'-. d-. cis-. h-. a-. g-.
+		fis32( e fis8.) r8 a( h a)
+		fis'-. e-. d-. cis-. h-. a-.
+		d-. cis-. h-. a-. g-. fis-. %20
+		h-. a-. g-. fis-. e-. d-.
+		\appoggiatura d cis4 r r
+		r d'(\mfE a)
+		r d( a)
+		R2.*2 %26
+		r4 d(\pE a)
+		r d( a)
+		fis2 g8( e)
+		fis4 r r %30
+		d'2 e8( cis)
+		d4 r r
+		fis,2 g8( e)
+		d4 r r
+		r d'(\mf a) %35
+		r d( a)
+		R2.
+		r4 d( a)
+		R2.*3 %41
+		d8-.^\soloE cis-. h-. a-. g-. fis-.
+		R2.
+		d'8-. cis-. h-. a-. g-. fis-.
+		R2. %45
+		r8 fis'-. e-. d-. cis-. h-.
+		a-! d-. cis-. h-. a-. g-.
+		fis-! h-. a-. g-. fis-. e-.
+		d4 r r
+		R2.*2 %51
+		r4 r gis(\fE
+		a) h cis
+		d cis r
+		c\p c c %55
+		c2 r4
+		R2.
+		r8 e,-.^\solo fis-. gis-. a-. h-.
+		cis!-. h-. a-. gis-. fis-. e-.
+		d32( cis d8.) r8 d( e d) %60
+		h'-. a-. gis-. fis-. e-. d-.
+		cis32( h cis8.) r8 e( fis e)
+		cis'-. h-. a-. gis-. fis-. e-.
+		a-. gis-. fis-. e-. d-. cis-.
+		fis-. e-. d-. cis-. h-. a-. %65
+		e'4 r r
+		d'2.\fE
+		cis4 cis cis
+		d2.
+		cis4 cis cis %70
+		d d d
+		cis r r
+		cis2 h4
+		a r r
+		c2.~\p %75
+		c4 c c
+		c2.~
+		c4 c c
+		h h h
+		h2( cis!4) %80
+		R2.
+		r4 r8 e(^\solo d cis)
+		h-. a-. gis-. fis-. e-. d-.
+		cis32( d e8.) r8 e'( d cis)
+		h-. a-. gis-. fis-. e-. d-. %85
+		cis32( d e8.) r8 e'( d cis)
+		h-. a-. gis-. fis-. e-. d-.
+		cis4 r r
+		cis'2.\fE
+		h4 h h %90
+		a e'-.\p e-.
+		a,2 h8( gis)
+		a4-! e'-. e-.
+		a,2 h8( gis)
+		\appoggiatura gis4 a2 h8( gis) %95
+		\appoggiatura gis a4-. a-. h8( gis) \noBreak
+		\appoggiatura gis a4 r r8\fermata \tempoWirTrozen r \noBreak
+		\time 4/4 cis4\f r cis r \noBreak
+		cis2. h4
+		cis r cis r %100
+		cis cis cis cis
+		d r r2
+		R1*4 %106
+		d2 e
+		d e
+		d( cis4) r
+		d2 e %110
+		d e
+		\once \slurDashed d2( cis4) r
+		a\p r a r
+		b r b r
+		d2 d4 d %115
+		d2 d4 d
+		d\f r d r
+		cis! r d( h!)
+		cis r d( h!)
+		cis2 d4( h!) %120
+		cis2 d4( h!) \noBreak
+		\time 3/4 cis4 r8\fermata \tempoWirWollenB r r4 \noBreak
+		r4 d(\mf a) \noBreak
+		r d( a)
+		R2. %125
+		r4 d( a)
+		R2.*3
+		d8-.^\soloE cis-. h-. a-. g-. fis-. %130
+		R2.
+		d'8-. cis-. h-. a-. g-. fis-.
+		R2.
+		r8 fis'-. e-. d-. cis-. h-.
+		a-! d-. cis-. h-. a-. g %135
+		fis-! h-. a-. g-. fis-. e-.
+		d4 r r
+		R2.*8 %145
+		r8 a'-.^\solo h-. cis-. d-. e-.
+		fis-. e-. d-. cis-. h-. a-.
+		g32( fis g8.) r8 g( a g)
+		e'-. d-. cis-. h-. a-. g-.
+		fis32( e fis8.) r8 a( h a) %150
+		fis'-. e-. d-. cis-. h-. a-.
+		d-. cis-. h-. a-. g-. fis-.
+		e-. h'-. a-. g-. fis-. e-.
+		fis4 r r
+		cis'2.\fE %155
+		d
+		cis
+		d
+		cis4 cis cis
+		d d r %160
+		d2 cis4
+		d r r
+		d2.~\p
+		d~
+		d~ %165
+		d
+		R2.*3
+		r4 r8 fis!-.^\solo e-. d-. %170
+		cis-. h-. a-. g-. fis-. e-.
+		fis32( g a8.) r8 fis'-. e-. d-.
+		cis-. h-. a-. g-. fis-. e-.
+		fis32( g a8.) r8 fis'-. e-. d-.
+		cis-. h-. a-. g-. fis-. e-. %175
+		fis4 r r
+		d'2.
+		cis4 cis cis
+		d r r
+		d2\p e8( cis) %180
+		d4 r r
+		d2 e8( cis)
+		\appoggiatura cis d4 d e8( cis)
+		\appoggiatura cis d4 d e8( cis)
+		d4-\parenthesize-! r r\fermata \bar "|." %185 finis
+	}
+}

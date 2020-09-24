@@ -511,6 +511,295 @@ FuerDieBassoLyrics = \lyricmode {
 	ton. %185 finis
 }
 
+WirWollenBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 3/4 \autoBeamOff \tempoWirWollen
+		\partial 4. r8 r4 R2.*33 %33
+		r4 r8 d d d
+		d4 d r %35
+		d d r
+		d4. d8 d d
+		d4 d r8 d
+		a'8. a,16 a4 r8 a'
+		d8. d,16 d4 r8 d %40
+		d4( fis) a
+		d, r r8 d
+		d4( fis) a
+		d, r r8 d
+		d4( fis) a %45
+		d, r r
+		R2.*3
+		d'4 d4. d8 %50
+		d4 d, r
+		d' d, r
+		cis'8 cis h4 a
+		gis a r
+		f f f %55
+		f2 f4
+		e2 e4
+		a, r r
+		a' a a
+		e' e, r %60
+		e8 e e4 e
+		a a, r
+		cis8 cis cis4 cis
+		d8 d d4 d
+		d8 d d4 dis %65
+		e e r
+		e e4. e8
+		a4 a, r
+		e'8 e e4. e8
+		a4 a, r %70
+		e' e e
+		a2 a4
+		e2 e4
+		a, r r
+		a' a a %75
+		e2 e4
+		f8 f f4 f
+		c2 c4
+		d d dis
+		e( gis) a %80
+		d,( e) e
+		a, r r
+		e' e e
+		a a, r
+		e'8 e e4. e8 %85
+		a4 a, r
+		e' e e
+		a2 a4
+		e2 e4
+		e2 e4 %90
+		a, r r
+		R2.*5 \noBreak %96
+		r4 r r8\fermata \tempoWirTrozen a' \noBreak
+		\time 4/4 a4. a8 a4 a \noBreak
+		a a, r2
+		a'2. a4 %100
+		a a, r8 e' e e
+		fis4. fis8 fis4 fis
+		g r gis gis
+		a r ais ais
+		h r h h %105
+		cis r r cis
+		d fis, e cis
+		d fis e cis
+		d8([ e fis g)] a4 r
+		r2 r4 cis %110
+		d fis, e cis
+		d8([ e fis g)] a4 a
+		d d, r d
+		g g, r2
+		f'2. e4 %115
+		d2. c4
+		b2. b4
+		a r a' a
+		a r a a
+		a a a a %120
+		a a a a \noBreak
+		\time 3/4 a r8\fermata \tempoWirWollenB d, d d \noBreak
+		d4 d r\noBreak
+		d d r
+		d4. d8 d d %125
+		d4 d r8 d
+		a'8. a,16 a4 r8 a'
+		d8. d,16 d4 r8 d
+		d4( fis) a
+		d, r r8 d %130
+		d4( fis) a
+		d, r r8 d
+		d4( fis) a
+		d, r r
+		R2.*3 %137
+		d4 d d
+		dis dis r
+		dis dis r %140
+		a'4. a8 a a
+		g4 g r
+		g g g
+		g2 g4
+		gis2 gis8([ a)] %145
+		a4 r r
+		d, d d
+		a' a, r
+		a'8 a a4 a
+		d d, r %150
+		fis fis fis
+		g2 g4
+		a2 a4
+		d, r r
+		a' a4. a8 %155
+		d4 d, r
+		a'8 a a4 a
+		d d, r
+		a' a a
+		d2 d4 %160
+		a2 a4
+		d, r r
+		d' d d
+		a2 a4
+		b8 b b4 b %165
+		f2 f4
+		g g g
+		gis2 gis4
+		a2 a4
+		d, r r %170
+		a' a a
+		d d, r
+		a'8 a a4 a
+		d d, r
+		a' a a %175
+		d2 d4
+		a2 a4
+		a2 a4
+		d, r r
+		R2.*5 %184
+		R2.\fermataMarkup \bar "|." %185 finis
+	}
+}
+
+WirWollenBassoLyrics = \lyricmode {
+	Wir wol -- len %34
+	lei -- den, %35
+	lei -- den,
+	wie der Mitt -- ler
+	lei -- den, das
+	wol -- len wir, das
+	wol -- len wir, zu %40
+	Gott __ ge --
+	kehrt, das
+	wol -- len
+	wir, zu
+	Gott __ ge -- %45
+	kehrt.
+
+	Wir wol -- len %50
+	ſter -- ben,
+	ſter -- ben,
+	wol -- len es mit
+	Freu -- den,
+	weil Je -- ſus %55
+	Tod und
+	Ster -- ben
+	lehrt.
+	Wir wol -- len
+	lei -- den, %60
+	wie der Mitt -- ler
+	lei -- den,
+	wie der Mitt -- ler,
+	wie der Mitt -- ler,
+	wie der Mitt -- ler %65
+	lei -- den,
+	wir wol -- len
+	lei -- den,
+	wie der Mitt -- ler
+	lei -- den, %70
+	das wol -- len
+	wir zu
+	Gott ge --
+	kehrt.
+	Wir wol -- len %75
+	ſter -- ben,
+	wol -- len es mit
+	Freu -- den,
+	weil Je -- ſus
+	Tod __ und %80
+	Ster -- ben
+	lehrt.
+	Wir wol -- len
+	ſter -- ben,
+	wol -- len es mit %85
+	Freu -- den,
+	weil Je -- ſus
+	Tod und
+	Ster -- ben,
+	Ster -- ben %90
+	lehrt.
+
+	Wir %97
+	tro -- zen al -- len
+	Qual -- len,
+	al -- len %100
+	Schmer -- zen, dem To -- des --
+	pfei -- le, er iſt
+	ſtumpf, er iſt
+	ſtumpf, er iſt
+	ſtumpf, er iſt %105
+	ſtumpf. Wir
+	ſehn ins Grab mit
+	un -- er -- ſchrock -- nem
+	Her -- zen,
+	mit %110
+	un -- er -- ſchrock -- nem
+	Her -- zen, dies
+	ma -- chet, dies
+	ma -- chet,
+	Je -- ſus, %115
+	Je -- ſus,
+	dein Tri --
+	umph, dein Tri --
+	umph, dein Tri --
+	umph, dies ma -- chet, %120
+	Je -- ſus, dein Tri --
+	umph. Wir wol -- len
+	lei -- den,
+	lei -- den,
+	wie der Mitt -- ler %125
+	lei -- den, das
+	wol -- len wir, das
+	wol -- len wir, zu
+	Gott __ ge --
+	kehrt, das %130
+	wol -- len
+	wir, zu
+	Gott __ ge --
+	kehrt.
+
+	Wir wol -- len %138
+	ſter -- ben,
+	ſter -- ben, %140
+	wol -- len es mit
+	Freu -- den,
+	weil Je -- ſus
+	Tod und
+	Ster -- ben %145
+	lehrt.
+	Wir wol -- len
+	lei -- den,
+	wie der Mitt -- ler
+	lei -- den, %150
+	das wol -- len
+	wir, zu
+	Gott ge --
+	kehrt,
+	wir wol -- len %155
+	lei -- den,
+	wie der Mitt -- ler
+	lei -- den,
+	das wol -- len
+	wir zu %160
+	Gott ge --
+	kehrt.
+	Wir wol -- len
+	ſter -- ben,
+	wol -- len es mit %165
+	Freu -- den,
+	weil Je -- ſus
+	Tod und
+	Ster -- ben
+	lehrt. %170
+	Wir wol -- len
+	ſter -- ben,
+	wol -- len es mit
+	Freu -- den,
+	weil Je -- ſus %175
+	Tod und
+	Ster -- ben,
+	Ster -- ben
+	lehrt. %179 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

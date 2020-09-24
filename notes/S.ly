@@ -374,6 +374,295 @@ WennEinstSopranoLyrics = \lyricmode {
 	dir. %124 finis
 }
 
+WirWollenSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \autoBeamOff \tempoWirWollen
+		\partial 4. r8 r4 R2.*33 %33
+		r4 r8 a' h a
+		a4 fis r %35
+		a fis r
+		d'4. cis8 h a
+		a4 fis r8 fis
+		fis8. e16 e4 r8 g
+		g8. fis16 fis4 r8 d' %40
+		d2 e8([ cis)]
+		d4 r r8 d
+		d2 e8([ cis)]
+		d4 r r8 d
+		d2 e8([ cis)] %45
+		d4 r r
+		R2.*3
+		fis4 e16([ d8.)] cis16([ h8.)] %50
+		a8([ gis)] gis4 r
+		a8([ gis)] gis4 r
+		a8 a h4 cis
+		d8([ cis)] cis4 r
+		c c c %55
+		c2 d8([ c)]
+		c2 h8([ a)]
+		a4 r r
+		cis! cis cis
+		d d r %60
+		h8 h h4 h
+		cis cis r
+		a8 a a4 a
+		a8 a a4 a
+		h8 h h4 h %65
+		e h r
+		d cis16([ h8.)] a16([ gis8.)]
+		\appoggiatura h8 a4 a r
+		d8 d cis16([ h8.)] a16([ gis8.)]
+		\appoggiatura h8 a4 a r %70
+		d cis16([ h8.)] a16([ gis8.)]
+		a8([ h cis d)] e([ fis)]
+		a,2 h8([ a)]
+		a4 r r
+		c c c %75
+		c4.( d8) c4
+		c8 c c4 c
+		c4.( d8) c4
+		h h h
+		h4.( d8) cis!4 %80
+		h( a) gis8([ a)]
+		a4 r r
+		h h h8.([ cis16)]
+		cis4 cis r
+		h8 h h4 h8.([ cis16)] %85
+		cis4 cis r
+		h h h
+		cis8([ h cis d)] e([ fis)]
+		e2 e4
+		h2 h8.([ a16)] %90
+		a4 r r
+		R2.*5 \noBreak %96
+		r4 r r8\fermata \tempoWirTrozen a \noBreak
+		\time 4/4 a4. a8 cis4 e \noBreak
+		cis a r2
+		cis2. e4 %100
+		cis a r8 a a a
+		d4. d8 d4 a8.([ h16)]
+		h4 r e h8.([ cis16)]
+		cis4 r fis cis8.([ d16)]
+		d4 r g d8.([ e16)] %105
+		e4 r r e
+		fis d e g
+		fis a, g e'
+		\appoggiatura g, fis2 e4 r
+		r2 r4 e' %110
+		fis a, g e'
+		\appoggiatura g, fis2 e4 a8.([ d16)]
+		d4 d r f
+		\appoggiatura e8 d4 d r2
+		d2 d4 r %115
+		d2 d4 r
+		d2. gis,8([ a)]
+		a4 r d d8.([ cis16)]
+		cis4 r d d8.([ cis16)]
+		cis4 cis d d8.([ cis16)] %120
+		cis4 cis d d8.([ cis16)] \noBreak
+		\time 3/4 cis4 r8\fermata \tempoWirWollenB a h a \noBreak
+		a4 fis r \noBreak
+		a fis r
+		d'4. cis8 h a %125
+		a4 fis r8 fis
+		fis8. e16 e4 r8 g
+		g8. fis16 fis4 r8 d'
+		d2 e8([ cis)]
+		d4 r r8 d %130
+		d2 e8([ cis)]
+		d4 r r8 d
+		d2 e8([ cis)]
+		d4 r r
+		R2.*3 %137
+		d4 d8([ e)] d([ c)]
+		c([ h)] h4 r
+		c8([ h)] h4 r %140
+		dis4.^\critnote dis8 dis dis
+		e4 e r
+		e e e
+		e2 e4
+		e2 d!8([ cis)] %145
+		cis4 r r
+		d d d
+		e e r
+		cis8 cis cis4 cis
+		d d r %150
+		d d d
+		d2 d4
+		cis2 cis8.([ d16)]
+		d4 r r
+		g fis16([ e8.)] d16([ cis8.)] %155
+		d4 a r
+		g'8 g fis16([ e8.)] d16([ cis8.)]
+		d4 a r
+		g' fis16([ e8.)] d16([ cis8.)]
+		d8([ e fis g)] a([ h)] %160
+		d,2 e8([ d)]
+		d4 r r
+		d d d
+		d4.( e8) d4
+		d8 d d4 d %165
+		d4.( e8) d4
+		d d d
+		d2 d4
+		d2 e8([ cis)]
+		d4 r r %170
+		cis cis cis
+		d d r
+		cis8 cis cis4 cis
+		d d r
+		cis cis cis %175
+		d2 d4
+		d2 d8([ cis)]
+		cis2 cis8([ d)]
+		d4 r r
+		R2.*5 %184
+		R2.\fermataMarkup \bar "|." %185 finis
+	}
+}
+
+WirWollenSopranoLyrics = \lyricmode {
+	Wir wol -- len %34
+	lei -- den, %35
+	lei -- den,
+	wie der Mitt -- ler
+	lei -- den, das
+	wol -- len wir, das
+	wol -- len wir, zu %40
+	Gott ge --
+	kehrt, das
+	wol -- len
+	wir, zu
+	Gott ge -- %45
+	kehrt.
+
+	Wir wol -- len %50
+	ſter -- ben,
+	ſter -- ben,
+	wol -- len es mit
+	Freu -- den,
+	weil Je -- ſus %55
+	Tod und
+	Ster -- ben
+	lehrt.
+	Wir wol -- len
+	lei -- den, %60
+	wie der Mitt -- ler
+	lei -- den,
+	wie der Mitt -- ler,
+	wie der Mitt -- ler,
+	wie der Mitt -- ler %65
+	lei -- den,
+	wir wol -- len
+	lei -- den,
+	wie der Mitt -- ler
+	lei -- den, %70
+	das wol -- len
+	wir __ zu
+	Gott ge --
+	kehrt.
+	Wir wol -- len %75
+	ſter -- ben,
+	wol -- len es mit
+	Freu -- den,
+	weil Je -- ſus
+	Tod __ und %80
+	Ster -- ben
+	lehrt.
+	Wir wol -- len
+	ſter -- ben,
+	wol -- len es mit %85
+	Freu -- den,
+	weil Je -- ſus
+	Tod __ und
+	Ster -- ben,
+	Ster -- ben %90
+	lehrt.
+
+	Wir %97
+	tro -- zen al -- len
+	Qual -- len,
+	al -- len %100
+	Schmer -- zen, dem To -- des --
+	pfei -- le, er iſt
+	ſtumpf, er iſt
+	ſtumpf, er iſt
+	ſtumpf, er iſt %105
+	ſtumpf. Wir
+	ſehn ins Grab mit
+	un -- er -- ſchrock -- nem
+	Her -- zen,
+	mit %110
+	un -- er -- ſchrock -- nem
+	Her -- zen, dies
+	ma -- chet, dies
+	ma -- chet,
+	Je -- ſus, %115
+	Je -- ſus,
+	dein Tri --
+	umph, dein Tri --
+	umph, dein Tri --
+	umph, dies ma -- chet, %120
+	Je -- ſus, dein Tri --
+	umph. Wir wol -- len
+	lei -- den,
+	lei -- den,
+	wie der Mitt -- ler %125
+	lei -- den, das
+	wol -- len wir, das
+	wol -- len wir, zu
+	Gott ge --
+	kehrt, das %130
+	wol -- len
+	wir, zu
+	Gott ge --
+	kehrt.
+
+	Wir wol -- len %138
+	ſter -- ben,
+	ſter -- ben, %140
+	wol -- len es mit
+	Freu -- den,
+	weil Je -- ſus
+	Tod und
+	Ster -- ben %145
+	lehrt.
+	Wir wol -- len
+	lei -- den,
+	wie der Mitt -- ler
+	lei -- den, %150
+	das wol -- len
+	wir, zu
+	Gott ge --
+	kehrt,
+	wir wol -- len %155
+	lei -- den,
+	wie der Mitt -- ler
+	lei -- den,
+	das wol -- len
+	wir __ zu %160
+	Gott ge --
+	kehrt.
+	Wir wol -- len
+	ſter -- ben,
+	wol -- len es mit %165
+	Freu -- den,
+	weil Je -- ſus
+	Tod und
+	Ster -- ben
+	lehrt. %170
+	Wir wol -- len
+	ſter -- ben,
+	wol -- len es mit
+	Freu -- den,
+	weil Je -- ſus %175
+	Tod und
+	Ster -- ben,
+	Ster -- ben
+	lehrt. %179 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

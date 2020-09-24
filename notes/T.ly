@@ -613,17 +613,17 @@ VerlassenTenoreNotes = {
 
 VerlassenTenoreLyrics = \lyricmode {
 	Ver -- %13
-	la -- ßen!
+	laſ -- ſen!
 	Ver -- %15
-	la -- ßen!
+	laſ -- ſen!
 
-	Im letz -- ten %19
+	Im lez -- ten %19
 	Kamp -- fe ganz ver -- %20
-	la -- ßen, ganz ver --
-	la -- ßen, ganz ver --
-	la -- ßen, im letz -- ten
+	laſ -- ſen, ganz ver --
+	laſ -- ſen, ganz ver --
+	laſ -- ſen, im lez -- ten
 	Kamp -- fe ganz ver --
-	la -- ßen, %25
+	laſ -- ſen, %25
 
 	o %28
 	Mut -- ter, o
@@ -640,10 +640,519 @@ VerlassenTenoreLyrics = \lyricmode {
 	ſtirbt. %40 finis
 }
 
-% Verlaßen!
-% Im letzten Kampfe ganz verlaßen,
-% o Mutter, ſiehſt du deinen Sohn,
-% Er ſtirbt, dein Sohn, er ſtirbt.
+GerneMutterTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\twofourtime \key g \minor \time 2/4 \autoBeamOff \tempoGerneMutter
+		\grace s16 R2*18 %18
+		d4. a16([ b)]
+		\appoggiatura a g8 g r4 %20
+		d'4. a16([ b)]
+		\appoggiatura a g8 g r4
+		es'4. d16([ es)]
+		d8([ cis)] r4
+		d4. c16([ d)] %25
+		c8([ b)] r4
+		a4~ a16([ c)] c([ es)]
+		es4( d16[ es)] c([ a)]
+		g4. \appoggiatura b32 a16([ g)]
+		g4 r %30
+		R2*2
+		r4 r16 g8 g16
+		h([ g)] g([ h)] h([ d)] d([ f)]
+		f([ g,)] g8 r16 f'([ e f)] %35
+		f([ g,]) g8 r16 f'([ e f)]
+		f([ g,)] g8 r4
+		c4. d8
+		d16([ es)] es8 es f
+		fis16([ g)] g8 g g %40
+		g8. f16 es([ d)] c([ b!)]
+		\appoggiatura b8 a4 r
+		R2*2
+		f'16([ es)] d([ es)] f([ d)] g([ f)] %45
+		es([ d c d)] c8 r
+		R2*2
+		f16([ es)] d([ es)] f([ d)] g([ f)]
+		es([ d)] c([ d)] c8 r %50
+		R2
+		r4 r16 f8 f16
+		f([ es)] d([ es)] f([ es)] d([ es)]
+		f8.([ g16)] f8 f16 f
+		f16.([ g32)] es8 d16.([ es32)] c16([ b)] %55
+		b4 r
+		r r16 f'8 f16
+		f16.([ g32)] es8 d16.([ es32)] c16([ b)]
+		b4 r
+		r r16 f'8 f16 %60
+		f16.([ g32)] es8 d16.([ es32)] c8
+		f4 f32([ g16.)] f32([ g16.)]
+		f8. g16 f32([ d16.)] es32[( c16.)]
+		\appoggiatura c8 b4 r
+		R2*5 %69
+		r4 r8 f16 f %70
+		b8. b16 b8. c16
+		\appoggiatura b a8 a r c16 d
+		f([ es)] es8 es8. f16
+		\appoggiatura es8 d4 r8 b16 c
+		cis([ d)] d8 d d16([ e)] %75
+		\appoggiatura d cis8 cis r cis16 d
+		e8. b!16 b([ a)] a([ g)]
+		\appoggiatura g8 f4 r
+		d'4. f16([ e)]
+		e([ d)] r8 r4 %80
+		e16([ d)] r8 r4
+		d4. \appoggiatura f32 e16([ d)]
+		d8 a' f d
+		a4 g'8.([ f16)]
+		f8 a g16([ f)] e([ d)] %85
+		a4 e'8.([ d16)]
+		d4 r
+		R2*4 %91
+		d4. a16([ b)]
+		\appoggiatura a g8 g r4
+		d'4. a16([ b)]
+		\appoggiatura a g8 g r4 %95
+		es'4. d16([ es)]
+		d8([ cis)] r4
+		d4. c16([ d)]
+		c8([ b)] r4
+		a4~ a16([ c)] c([ es)] %100
+		es4( d16[ es)] c([ a)]
+		g4. \appoggiatura b32 a16([ g)]
+		g4 r
+		R2*2 %105
+		r4 r16 g8 g16
+		h([ g)] g([ h)] h([ d)] d([ f)]
+		f([ g,)] g8 r16 f'([ e f)]
+		f([ g,]) g8 r16 f'([ e f)]
+		f([ g,)] g8 r4 %110
+		c4. d8
+		d16([ es)] es8 es d
+		d16([ c)] c8 c b!
+		es8. d16 c([ b)] a([ g)]
+		\appoggiatura g8 fis4 r %115
+		R2*2
+		d'16([ c)] b([ c)] d([ b)] es([ d)]
+		c([ b a b)] a8 r
+		R2*2 %121
+		d16([ c)] b([ c)] d([ b)] es([ d)]
+		c([ b)] a([ b)] a8 r
+		R2
+		r4 r16 d8 d16 %125
+		d([ c)] b([ c)] d([ c)] b([ c)]
+		d8.([ g16)] d8 d16 d
+		d16.([ es32)] c8 b16.([ c32)] a16([ g)]
+		g4 r
+		r r16 d'8 d16 %130
+		d16.([ es32)] c8 b16.([ c32)] a16([ g)]
+		g4 r
+		r r16 d'8 d16
+		d16.([ es32)] c8 b16.([ c32)] a8
+		g'4 fis16([ g)] fis([ g)] %135
+		g8. es16 d32([ b16.)] c32([ a16.)]
+		\appoggiatura a8 g4 r
+		R2*4 %141
+		R2\fermataMarkup \bar "|." %142 finis
+	}
+}
+
+GerneMutterTenoreLyrics = \lyricmode {
+	Ger -- ne, %19
+	Mut -- ter, %20
+	will ich
+	lei -- den,
+	was dein
+	Sohn,
+	was dein %25
+	Sohn,
+	was __ dein
+	Sohn __ ge --
+	lit -- ten
+	hat. %30
+
+	Fol -- gen %33
+	will ich ihm mit
+	Freu -- den, mit __ %35
+	Freu -- den, mit __
+	Freu -- den
+	auf des
+	Le -- bens, auf des
+	Le -- bens, auf des %40
+	Le -- bens Dor -- nen --
+	pfad.
+
+	Ger -- ne will ich %45
+	lei -- den,
+
+	was dein Sohn ge -- %49
+	lit -- ten hat. %50
+
+	Fol -- gen
+	will ich ihm mit
+	Freu -- den auf des
+	Le -- bens Dor -- nen -- %55
+	pfad,
+	auf des
+	Le -- bens Dor -- nen --
+	pfad,
+	auf des %60
+	Le -- bens Dor -- nen --
+	pfad, auf des
+	Le -- bens Dor -- nen --
+	pfad.
+
+	Will den %70
+	Ko -- ſe -- weg ver --
+	ſchmä -- hen, dei -- nem
+	Soh -- ne fol -- ge
+	ich, will mit
+	dir am Kreu -- ze %75
+	ſte -- hen, Mut -- ter,
+	ach, ach laſ -- ſe
+	mich,
+	Mut -- ter,
+	ach, %80
+	ach
+	laſ -- ſe
+	mich, ach, Mut -- ter,
+	laſ -- ſe __
+	mich, ach, Mut -- ter, %85
+	laſ -- ſe __
+	mich.
+
+	Ger -- ne, %92
+	Mut -- ter,
+	will ich
+	lei -- den, %95
+	was dein
+	Sohn,
+	was dein
+	Sohn,
+	was __ dein %100
+	Sohn __ ge --
+	lit -- ten
+	hat.
+
+	Fol -- gen %106
+	will ich ihm mit
+	Freu -- den, mit __
+	Freu -- den, mit __
+	Freu -- den %110
+	auf des
+	Le -- bens, auf des
+	Le -- bens, auf des
+	Le -- bens Dor -- nen --
+	pfad. %115
+
+	Ger -- ne will ich %118
+	lei -- den,
+
+	was dein Sohn ge -- %122
+	lit -- ten hat.
+
+	Fol -- gen %125
+	will ich ihm mit
+	Freu -- den auf des
+	Le -- bens Dor -- nen --
+	pfad,
+	auf des %130
+	Le -- bens Dor -- nen --
+	pfad,
+	auf des
+	Le -- bens Dor -- nen --
+	pfad, auf des %135
+	Le -- bens Dor -- nen --
+	pfad. %137 finis
+}
+
+WirWollenTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 3/4 \autoBeamOff \tempoWirWollen
+		\partial 4. r8 r4 R2.*33 %33
+		r4 r8 d d d
+		d4 a r %35
+		d a r
+		d4. d8 d d
+		d4 a r8 a
+		a8. a16 a4 r8 a
+		a8. a16 a4 r8 a %40
+		a2 a4
+		a r r8 a
+		a2 a4
+		a r r8 a
+		a2 a4 %45
+		a r r
+		R2.*3
+		d4 d4. d8 %50
+		h4 h r
+		h h r
+		cis8 cis d4 e
+		d8([ e)] e4 r
+		a, a a %55
+		a2 a4
+		e'2 d8([ cis!)]
+		cis4 r r
+		a a a
+		h h r %60
+		gis8 gis gis4 gis
+		a a r
+		a8 a a4 a
+		d8 d d4 d
+		h8 h h4 h %65
+		h gis r
+		h4 h4. h8
+		\appoggiatura h cis4 cis r
+		h8 h h4. h8
+		\appoggiatura h cis4 cis r %70
+		h h h
+		cis8([ h a h)] cis([ d)]
+		cis2 gis8([ a)]
+		a4 r r
+		e' e e %75
+		e2 e4
+		c8 c c4 c
+		e2 e4
+		d a a
+		gis4.( h8) a([ e')] %80
+		d4( cis!) h8([ a)]
+		a4 r r
+		e' e e
+		e e r
+		e8 e e4. e8 %85
+		e4 e r
+		gis, gis gis
+		a8([ gis a h)] cis([ d)]
+		cis2 cis4
+		e2 d8.([ cis16)] %90
+		cis4 r r
+		R2.*5 \noBreak %96
+		r4 r r8\fermata \tempoWirTrozen cis \noBreak
+		\time 4/4 cis4. cis8 cis4 cis \noBreak
+		cis a r2
+		cis2. cis4 %100
+		cis a r8 g! g g
+		a4. a8 a4 d
+		h r h e
+		cis r cis fis
+		d r d g %105
+		e r r e
+		d d cis e
+		d4. d8 e4 e
+		\appoggiatura e d2 cis4 r
+		r2 r4 e %110
+		d4. d8 e4 e
+		\appoggiatura e d2 cis4 cis8.([ d16)]
+		d4 a r a8.([ b16)]
+		b4 b r2
+		d2 d4 r %115
+		d2 d4 r
+		d2. d4
+		cis! r d h!8.([ a16)]
+		a4 r d h!8.([ a16)]
+		a4 a d h!8.([ a16)] %120
+		a4 a d h!8.([ a16)] \noBreak
+		\time 3/4 a4 r8\fermata \tempoWirWollenB d d d \noBreak
+		d4 a r \noBreak
+		d a r
+		d4. d8 d d %125
+		d4 a r8 a
+		a8. a16 a4 r8 a
+		a8. a16 a4 r8 a
+		a2 a4
+		a r r8 a %130
+		a2 a4
+		a r r8 a
+		a2 a4
+		a r r
+		R2.*3 %137
+		a4 a a
+		h h r
+		h h r %140
+		h4. h8 h h
+		h4 h r
+		h h h
+		h2 h4
+		h2 h8([ a)] %145
+		a4 r r
+		a a a
+		a a r
+		a8 a a4 a
+		a a r %150
+		d d d
+		h2 h4
+		a2 a4
+		a r r
+		a a4. a8 %155
+		a4 a r
+		a8 a a4 a
+		a a r
+		a e' e
+		d2 a4 %160
+		a2 a4
+		a r r
+		d d d
+		d2 d4
+		d8 d d4 d %165
+		d2 d4
+		b b b
+		h2 h4
+		a2 a4
+		a r r %170
+		a a a
+		a a r
+		a8 a a4 a
+		a a r
+		a a a %175
+		a2 a4
+		a2 a4
+		a2 a4
+		a r r
+		R2.*5 %184
+		R2.\fermataMarkup \bar "|." %185 finis
+	}
+}
+
+WirWollenTenoreLyrics = \lyricmode {
+	Wir wol -- len %34
+	lei -- den, %35
+	lei -- den,
+	wie der Mitt -- ler
+	lei -- den, das
+	wol -- len wir, das
+	wol -- len wir, zu %40
+	Gott ge --
+	kehrt, das
+	wol -- len
+	wir, zu
+	Gott ge -- %45
+	kehrt.
+
+	Wir wol -- len %50
+	ſter -- ben,
+	ſter -- ben,
+	wol -- len es mit
+	Freu -- den,
+	weil Je -- ſus %55
+	Tod und
+	Ster -- ben
+	lehrt.
+	Wir wol -- len
+	lei -- den, %60
+	wie der Mitt -- ler
+	lei -- den,
+	wie der Mitt -- ler,
+	wie der Mitt -- ler,
+	wie der Mitt -- ler %65
+	lei -- den,
+	wir wol -- len
+	lei -- den,
+	wie der Mitt -- ler
+	lei -- den, %70
+	das wol -- len
+	wir __ zu
+	Gott ge --
+	kehrt.
+	Wir wol -- len %75
+	ſter -- ben,
+	wol -- len es mit
+	Freu -- den,
+	weil Je -- ſus
+	Tod __ und %80
+	Ster -- ben
+	lehrt.
+	Wir wol -- len
+	ſter -- ben,
+	wol -- len es mit %85
+	Freu -- den,
+	weil Je -- ſus
+	Tod __ und
+	Ster -- ben,
+	Ster -- ben %90
+	lehrt.
+
+	Wir %97
+	tro -- zen al -- len
+	Qual -- len,
+	al -- len %100
+	Schmer -- zen, dem To -- des --
+	pfei -- le, er iſt
+	ſtumpf, er iſt
+	ſtumpf, er iſt
+	ſtumpf, er iſt %105
+	ſtumpf. Wir
+	ſehn ins Grab mit
+	un -- er -- ſchrock -- nem
+	Her -- zen,
+	mit %110
+	un -- er -- ſchrock -- nem
+	Her -- zen, dies
+	ma -- chet, dies
+	ma -- chet,
+	Je -- ſus, %115
+	Je -- ſus,
+	dein Tri --
+	umph, dein Tri --
+	umph, dein Tri --
+	umph, dies ma -- chet, %120
+	Je -- ſus, dein Tri --
+	umph. Wir wol -- len
+	lei -- den,
+	lei -- den,
+	wie der Mitt -- ler %125
+	lei -- den, das
+	wol -- len wir, das
+	wol -- len wir, zu
+	Gott ge --
+	kehrt, das %130
+	wol -- len
+	wir, zu
+	Gott ge --
+	kehrt.
+
+	Wir wol -- len %138
+	ſter -- ben,
+	ſter -- ben, %140
+	wol -- len es mit
+	Freu -- den,
+	weil Je -- ſus
+	Tod und
+	Ster -- ben %145
+	lehrt.
+	Wir wol -- len
+	lei -- den,
+	wie der Mitt -- ler
+	lei -- den, %150
+	das wol -- len
+	wir, zu
+	Gott ge --
+	kehrt,
+	wir wol -- len %155
+	lei -- den,
+	wie der Mitt -- ler
+	lei -- den,
+	das wol -- len
+	wir zu %160
+	Gott ge --
+	kehrt.
+	Wir wol -- len
+	ſter -- ben,
+	wol -- len es mit %165
+	Freu -- den,
+	weil Je -- ſus
+	Tod und
+	Ster -- ben
+	lehrt. %170
+	Wir wol -- len
+	ſter -- ben,
+	wol -- len es mit
+	Freu -- den,
+	weil Je -- ſus %175
+	Tod und
+	Ster -- ben,
+	Ster -- ben
+	lehrt. %179 finis
+}
 
 % TenoreNotes = {
 % 	\relative c' {

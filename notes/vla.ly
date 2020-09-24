@@ -868,3 +868,740 @@ WennEinstViolaII = {
 		\appoggiatura a8 b4 b' r\fermata \bar "|." %130 finis
 	}
 }
+
+GerneMutterViola = {
+	\relative c' {
+		\clef alto
+		\twofourtime \key g \minor \time 2/4 \tempoGerneMutter
+		\grace s16 g'8\mf r d r
+		es r c r
+		d r d r
+		g, r g r
+		r16 g'\p g g g4\f %5
+		r16 fis\p fis fis f4\f
+		es8 d c cis
+		d8. fis16 g( fis g a)
+		d,8\p r d r
+		d r d r %10
+		g\f c, d d
+		g,-! b'-!\p r b
+		c,\f c d d
+		g,-! b'-!\p r b
+		c,\f c d d %15
+		g a b c
+		g g fis fis
+		g d g, r
+		r g'\p r d
+		r es r c %20
+		r d r d
+		r g g g
+		g g g r
+		g g g g
+		fis fis fis r %25
+		d d d d
+		c r c r
+		c c c r
+		g-! g4( fis8)
+		g r fis r %30
+		g r fis r
+		g g g g
+		g4 r
+		g8 r g r
+		g g g r %35
+		g g g r
+		g g g r
+		r c es! g
+		r es4 d8
+		r es4 h8 %40
+		c d es e
+		f f, f r
+		d'16( c b c) d( b es d)
+		c( b a b) c( a d c)
+		b8 r b r %45
+		f r f r
+		d'16( c b c) d( b es d)
+		c( b a b) c( a d c)
+		b8 r b r
+		f r f r %50
+		b r b r
+		b b b r
+		b r b r
+		b b b r
+		r es f f, %55
+		b4 r
+		R2
+		b'8 es, f f
+		b,4 r
+		R2 %60
+		b'8 es, f es
+		d d es es
+		d es f f,
+		b\f r b16( es) es( d)
+		d( g) g( f) f( es) es( d) %65
+		es( g) g( f) f( es) es( d)
+		d8 es f f
+		b es, f g
+		f b,4 a8
+		b f b r %70
+		b\p r b r
+		f' r f r
+		a, r a r
+		b r b r
+		b' r b r %75
+		a r a r
+		a, r a r
+		a r a r
+		f16 f8 f f f16~
+		f f8 f f f16( %80
+		g) g8 g g g16(
+		a) a8 a a a16~
+		a4 r
+		a8 r a r
+		a4 r %85
+		a8 a a a
+		d4 r
+		r16 g\pE g g g4\fE
+		r16 fis\pE fis fis f4\fE
+		es8 d c cis %90
+		d fis, fis r
+		r g'\p r d
+		r es r c
+		r d r d
+		r g g g %95
+		g g g r
+		g g g g
+		fis fis fis r
+		d d d d
+		c r c r %100
+		c c c r
+		d r d r
+		g, r fis r
+		g r fis r
+		g g g g %105
+		g4 r
+		g8 r g r
+		g g g r
+		g g g r
+		g g g r %115
+		r c es! g
+		r es4 d8
+		r es4 f8
+		es f g g,
+		a a a r %115
+		b16( a g a) b( g c b)
+		a( g fis g) a( fis b a)
+		g8 r g r
+		d' r d r
+		b16( a g a) b( g c b) %120
+		a( g fis g) a( fis b a)
+		g8 r g r
+		d' r d r
+		g r g r
+		g g g r %125
+		g r g r
+		g g g r
+		r c, d d
+		g,4 r
+		R2 %130
+		g'8 c, d d
+		g,4 r
+		R2
+		g'8 c, d c
+		b( c) b( c) %135
+		b\f c d d
+		d\p r d r
+		d r d r
+		b\f c d4
+		g8 a b c %140
+		g g fis fis
+		g d g, r\fermata \bar "|." %142 finis
+	}
+}
+
+WirWollenViola = {
+	\relative c' {
+		\clef alto
+		\key d \major \time 3/4 \tempoWirWollen
+		\partial 4. r8 r4 d8\mf d d d d d
+		d d d d d d
+		d4 d d
+		d8 d d d d d\pE
+		a a a a a a %5
+		a a a a a a
+		a a a a a a
+		a4 r r
+		a8 a a a a a
+		a4 r r %10
+		a8 a a a a a
+		a a a a a a
+		a\f a a a a a
+		a4 r r
+		R2. %15
+		a4\p r r
+		R2.
+		a4 r r
+		R2.*3 %21
+		a4 r r
+		d8\mf d d d d d
+		d d d d d d
+		d\pE a a a a a %25
+		a4 r r
+		d8 d d d d d
+		d d d d d d
+		d a a a a a
+		a4 r r %30
+		a8 a a a a a
+		a4 r r
+		a8 a a a a a
+		a4 r r
+		d8\mf d d d d d %35
+		d d d d d d
+		d4 d d
+		d8 d d d d d
+		a'16\f a a a a a a a a a a a
+		a a a a a a a a a a a a %40
+		a8 a,\p a a a a
+		a a a a a a
+		a a a a a a
+		a a a a a a
+		a\f a a a a a %45
+		a4 r r
+		a\p r r
+		a r r
+		a r r
+		d8\f d d d d d %50
+		e h4~ h h8~
+		h h4 h h8
+		cis cis d d e e
+		gis,4 a r
+		f'8\p f4 f f8~ %55
+		f f4 f \once \slurDashed f8(
+		e) e4 e e8~
+		e4 r r
+		e8\f e e e e e
+		e e e e e e %60
+		e e e e e e
+		a a a a a a
+		a, a a a a a
+		d d d d d d
+		d, d d d dis dis %65
+		e4 r8 e' e e
+		e16 e e e e e e e e e e e
+		e e e e e e e e e e e e
+		e e e e e e e e e e e e
+		e e e e e e e e e e e e %70
+		e8 e e e e e
+		a, a a a a a
+		e' e e e e e
+		a,4 r r
+		e'8\p e4 e e8~ %75
+		e e4 e e8(
+		f) f4 f f8(
+		e) e4 e \once \slurDashed e8(
+		f) f f f fis fis
+		e e e e a a %80
+		d, d e e e, e
+		a4 r r
+		e'16\f e e e e e e e e e e e
+		e e e e e e e e e e e e
+		e e e e e e e e e e e e %85
+		e e e e e e e e e e e e
+		e e e e e e e e e e e e
+		e4 r r
+		e8 e e e e e
+		e e e e e e %90
+		a,4 r r
+		e16\p e e e e e e e e e e e
+		e4 r r
+		e16 e e e e e e e e e e e
+		e e e e e e e e e e e e %95
+		e e e e e e e e e e e e \noBreak
+		e4 r r8\fermata \tempoWirTrozen r \noBreak
+		\time 4/4 a'4\f r a r \noBreak
+		cis16 a cis a cis a cis a cis^\critnote a cis a h gis h gis
+		a4 r a r %100
+		cis16 a cis a cis a cis a cis a cis a cis a cis a
+		d8 fis, fis fis fis fis fis fis
+		g h16 a g8 g gis gis gis gis
+		a cis16 h a8 a ais ais ais ais
+		h d16 cis h8 h h h h h %105
+		cis cis cis cis cis cis cis cis
+		d16 d d d d d d d cis cis cis cis cis cis cis cis
+		d d d d d d d d cis cis cis cis cis cis cis cis
+		d d d d d d d d cis cis cis cis cis cis cis cis
+		d d d d d d d d cis cis cis cis cis cis cis cis %110
+		d d d d d d d d cis cis cis cis cis cis cis cis
+		d d d d d d d d a4 r
+		f8\p f4 f f f8(
+		g) g4 g g g8(
+		a16) f f f f f f f f f f f e e e e %115
+		d d d d d d d d d d d d c c c c
+		b\f b b b b b b b b b b b b b b b
+		a8 a a a a a a a
+		a a a a a a a a
+		a a a a a a a a %120
+		a a a a a a a a \noBreak
+		\time 3/4 a4 r8\fermata \tempoWirWollenB r r4 \noBreak
+		d8\mf d d d d d \noBreak
+		d d d d d d
+		d4 d d %125
+		d8 d d d d d
+		a'16\f a a a a a a a a a a a
+		a a a a a a a a a a a a
+		a8 a,\p a a a a
+		a a a a a a %130
+		a a a a a a
+		a a a a a a
+		a\f a a a a a
+		a4 r r
+		a\p r r %135
+		a r r
+		a r r
+		r8 fis'\f fis fis fis fis
+		fis dis4 dis dis8~
+		dis dis4 e8 fis g %140
+		fis fis4 fis fis8(
+		g) g4 g g8~
+		g g4 g g8~
+		g g4 g g8(
+		gis4) gis gis %145
+		a r r
+		a,8\mf a a a a a
+		a a a a a a
+		a a a a a a
+		a a a a a a %150
+		fis fis fis fis fis fis
+		g g g g g g
+		a a a a a a
+		d,4 r r
+		a''16\f a a a a a a a a a a a %155
+		a a a a a a a a a a a a
+		a a a a a a a a a a a a
+		a a a a a a a a a a a a
+		a a a a a a a a a a a a
+		d,8 d d d d d %160
+		a' a a a a a
+		d,4 r r
+		a'8\p a4 a a8~
+		a a4 a a8(
+		b) b4 b b8( %165
+		f) f4 f \once \slurDashed f8(
+		e) e4 e e8~
+		e e4 e e8
+		a,4 a a
+		a r r %170
+		a16\f a a a a a a a a a a a
+		a a a a a a a a a a a a
+		a a a a a a a a a a a a
+		a a a a a a a a a a a a
+		a a a a a a a a a a a a %175
+		a4 r r
+		a'8 a a a a a
+		a, a a a a a
+		d4 r r
+		a16\p a a a a a a a a a a a %180
+		a4 r r
+		a16 a a a a a a a a a a a
+		a a a a a a a a a a a a
+		a a a a a a a a a a a a
+		a4 r r\fermata \bar "|." %185 finis
+	}
+}
+
+OMutterViolaI = {
+	\relative c' {
+		\clef alto
+		\twofourtime \key f \major \time 2/4 \tempoOMutter
+		\partial 8 r8 f,16-!\f a-! f-! a-! f-! a-! f-! a-!
+		e g e g e g e g
+		f f g g a a b b
+		c8.\sf a16 d8 c'
+		b a g f %5
+		e8.\sf f16 e8 d
+		e16 e e e e e e e
+		f f f f f f f f
+		\pa f8 f c c \pd
+		f4 r16 b-!\mf d-! b-! %10
+		a8 a, r16 b'-! d-! b-!
+		c(\fp b a b) c(\fp b a b)
+		c(\fp b a b) c(\fp b a b)
+		c\f c b b a a g g
+		c(\fp b a b) c(\fp b a b) %15
+		c(\fp b a b) c(\fp b a b)
+		c\f c b b a a g g
+		r c,\p c c c c c c
+		c c c c c c c c
+		c c c c c c c c %20
+		c4~ c8 r
+		f,8\p r f r
+		e r e r
+		f g a b
+		c8.\fp a16 d8-! c-! %25
+		b a g f
+		e8.\fp f16 e8 d
+		c r c' r
+		f g a b
+		c4 c, %30
+		c r16 c c c
+		c4 r16 c c c
+		c8 c4 c8~
+		c\f r c r
+		c r c r %35
+		c c4 c8~
+		c4 r
+		r8 f,\p f r
+		r f' f r
+		r16 as as as as as as8 %40
+		r16 g g g g, g g8
+		r16 ges' ges ges ges ges ges8
+		r16 f f f f, f f8
+		r16 c' c c c8 c,
+		r16 c' c c c8 c, %45
+		c' c c c
+		c c c r
+		r16 g g g g8 r
+		r16 g g g g8 r
+		r16 b! b b b b b b %50
+		a a a a a a a a
+		as as as as as as as as
+		g g g g g g g g
+		g8 g a! h
+		c d e f %55
+		g g g, g
+		c c c r
+		R2
+		r4 r16 e\pocoF e e
+		f f g g a a h h %60
+		c c d d e8 r
+		r g,,\p g r
+		r c c r
+		c16 c8 c c c16~
+		c8 c g g %65
+		as16 as8 as as as16~
+		as8 as as as
+		a16 a8 a a a16~
+		a a8 a a a16~
+		a a8 a a a16 %70
+		g8 h c f,
+		g g g g
+		c4 r
+		r8 f g g,
+		c4 r %75
+		g'8 g g g
+		g, g g g
+		g'16(\fp f e f) g(\fp f e f)
+		g(\fp f e f) g(\fp f e f)
+		g\f g f f e e d d %80
+		g(\fp f e f) g(\fp f e f)
+		g(\fp f e f) g(\fp f e f)
+		g\f g f f e e d d
+		c g\p g g g g g g
+		g g g g g g g g %85
+		g g g g g g g g
+		g4~ g8 r
+		r c\p c r
+		r c c r
+		r b! r h %90
+		r c c r
+		R2
+		r16 cis-. cis-. cis-. r cis-. cis-. cis-.
+		r cis-. cis-. cis-. r cis-. cis-. cis-.
+		r cis-. cis-. cis-. r cis-. cis-. cis-. %95
+		d8 d b! b
+		a4 r8 b!(
+		a4) r8 b!(
+		a) a a r
+		r c! c r %100
+		r g g r
+		R2
+		b8. a16 g8 fis
+		g g a4
+		b8. a16 g8 f! %105
+		r e e r
+		r a a r
+		r h h h
+		a cis d g
+		a a a, a %110
+		d4 r8 d
+		e f g gis
+		a a a, a
+		d r a'16(\fp g f g)
+		a(\fp g f g) a(\fp g f g) %115
+		a\f a g g f f e e
+		\pao d8-\parenthesize-! r d'16(\fp c! b c)
+		d(\fp c b c) d(\fp c b c)
+		d\f d c c b b a a
+		\pao g8-\parenthesize-! r b16(\fp a g a) %120
+		b(\fp a g a) b(\fp a g a)
+		b(\fp a g a) b(\fp a g a)
+		b(\f a g a) b( a g a)
+		b4-\parenthesize-! r
+		f,8\p r f r %125
+		e r e r
+		f g a b
+		c8.\fp a16 d8 c
+		b a g f
+		e8.\fp f16 e8 d %130
+		c8 r c' r
+		f g a b
+		c4 c,
+		c r16 c c c
+		c4 r16 c c c %135
+		c8 c4 c8~
+		c\f r c r
+		c r c r
+		c c4 c8~
+		c4 r %140
+		r8 f,\p f r
+		r f f r
+		r16 c' c c c c c8
+		r16 d d d d d d8
+		r16 a a a a a a8 %145
+		r16 g g g g g g8
+		r16 c c c c8 c,
+		r16 c' c c c8 c,
+		c' c c c
+		c c c r %150
+		r16 b b b b4
+		r16 a a a a8 r
+		b16 b b b b b b b
+		a a a a a a a a
+		e e e e e e e e %155
+		f f f f f f f f
+		b8 b h h
+		c e f b,
+		c c c c
+		c4 r16 c\pocoF c c %160
+		d d e e f f g g
+		a a b b c8 r
+		d,16 d e e f f g g
+		a a b b c8 r
+		r c,\p c r %165
+		r c c r
+		f16 f8 f f f16~
+		f8 f es es
+		des16 des8 des des des16~
+		des8 des c c %170
+		e2~^\critnote
+		e8 r e r
+		e2~
+		e8 r e r
+		d16 d8 d d d16 %175
+		c8 e f b,!
+		c4 c
+		f r
+		r8 b, c c
+		f4 r %180
+		b,8 b b b
+		c c c c
+		c'16(\fp b a b) c(\fp b a b)
+		c(\fp b a b) c(\fp b a b)
+		c\f c b b a a g g %185
+		c(\fp b a b) c(\fp b a b)
+		c(\fp b a b) c(\fp b a b)
+		c\f c b b a a g g
+		r c,\p c c c c c c
+		c c c c c c c c %190
+		c c c c c c c c
+		c4~ c8 r\fermata \bar "|." %192 finis
+	}
+}
+
+OMutterViolaII = {
+	\relative c' {
+		\clef alto
+		\twofourtime \key f \major \time 2/4 \tempoOMutter
+		\partial 8 r8 f,16-!\f a-! f-! a-! f-! a-! f-! a-!
+		e g e g e g e g
+		f f g g a a b b
+		c8.\sf a16 d8 c'
+		b a g f %5
+		e8.\sf f16 e8 d
+		c16 c c c c c c c
+		c c c c c c c c
+		c8 c c c
+		f,4 r16 g'-!\mf b-! g-! %10
+		f8 f, r16 g'-! b-! g-!
+		\once \slurDashed a(\fp g f g) a(\fp g f g)
+		a(\fp g f g) a(\fp g f g)
+		a\f a g g f f e e
+		a(\fp g f g) a(\fp g f g) %15
+		a(\fp g f g) a(\fp g f g)
+		a\f a g g f f e e
+		r c\p c c c c c c
+		c c c c c c c c
+		c c c c c c c c %20
+		c4~ c8 r
+		f,8\p r f r
+		e r e r
+		f g a b
+		c8.\fp a16 d8-! c-! %25
+		b a g f
+		e8.\fp f16 e8 d
+		c r c' r
+		f g a b
+		c4 c, %30
+		c r16 c c c
+		c4 r16 c c c
+		c8 c4 c8~
+		c\f r c r
+		c r c r %35
+		c, c4 c8~
+		c4 r
+		r8 f\p f r
+		r f' f r
+		r16 as as as as as as8 %40
+		r16 g g g g, g g8
+		r16 ges' ges ges ges ges ges8
+		r16 f f f f, f f8
+		r16 c' c c c8 c,
+		r16 c' c c c8 c, %45
+		c' c c c
+		c c c r
+		r16 g g g g8 r
+		r16 c, c c c8 r
+		r16 b'! b b b b b b %50
+		a a a a a a a a
+		as as as as as as as as
+		g g g g g g g g
+		g8 g a! h
+		c d e f %55
+		g g g, g
+		c c c r
+		R2
+		r4 r16 g\pocoF g g
+		a a h h c c d d %60
+		e e f f g8 r
+		r g,\p g r
+		r c c r
+		c16 c8 c c c16~
+		c8 c g g %65
+		as16 as8 as as as16~
+		as8 as as as
+		a16 a8 a a a16~
+		a a8 a a a16~
+		a a8 a a a16 %70
+		g8 h c f,
+		g g g g
+		c4 r
+		r8 f g g,
+		c4 r %75
+		g'8 g g g
+		g, g g g
+		e'16(\fp d c d) e(\fp d c d)
+		e(\fp d c d) e(\fp d c d)
+		e\f e d d c c h h %80
+		e(\fp d c d) e(\fp d c d)
+		e(\fp d c d) e(\fp d c d)
+		e\f e d d c c h h
+		c g\p g g g g g g
+		g g g g g g g g %85
+		g g g g g g g g
+		g4~ g8 r
+		r c\p c r
+		r c c r
+		r b! r h %90
+		r c c r
+		R2
+		r16 cis-. cis-. cis-. r cis-. cis-. cis-.
+		r cis-. cis-. cis-. r cis-. cis-. cis-.
+		r cis-. cis-. cis-. r cis-. cis-. cis-. %95
+		d8 d b! b
+		a4 r8 b!(
+		a4) r8 b!(
+		a) a a r
+		r c! c r %100
+		r g g r
+		R2
+		b8. a16 g8 fis
+		g g a4
+		b8. a16 g8 f! %105
+		r e e r
+		r a a r
+		r h h h
+		a cis d g
+		a a a, a %110
+		d4 r8 d
+		e f g gis
+		a a a, a
+		d r f16(\fp e d e)
+		f(\fp e d e) f(\fp e d e) %115
+		f\f f e e d d cis cis
+		d8-\parenthesize-! r b'16(\fp a g a)
+		b(\fp a g a) b(\fp a g a)
+		b\f b a a g g fis fis
+		g8-\parenthesize-! r g16(\fp f e f) %120
+		g(\fp f e f) g(\fp f e f)
+		g(\fp f e f) g(\fp f e f)
+		g(\f f e f) g( f e f)
+		g4-\parenthesize-! r
+		f,8\p r f r %125
+		e r e r
+		f g a b
+		c8.\fp a16 d8 c
+		b a g f
+		e8.\fp f16 e8 d %130
+		c8 r c' r
+		f g a b
+		c4 c,
+		c r16 c c c
+		c4 r16 c c c %135
+		c8 c4 c8~
+		c\f r c r
+		c r c r
+		c, c4 c8~
+		c4 r %140
+		r8 f\p f r
+		r f f r
+		r16 c' c c c c c8
+		r16 d d d d d d8
+		r16 a a a a a a8 %145
+		r16 g g g g g g8
+		r16 c c c c8 c,
+		r16 c' c c c8 c,
+		c' c c c
+		c c c r %150
+		r16 b b b b4
+		r16 a a a a8 r
+		b16 b b b b b b b
+		a a a a a a a a
+		e e e e e e e e %155
+		f f f f f f f f
+		b8 b h h
+		c e f b,
+		c c c c
+		c4 r16 a\pocoF a a %160
+		b b c c d d e e
+		f f g g a8 r
+		b,16 b c c d d e e
+		f f g g a8 r
+		r c,\p c r %165
+		r c c r
+		f16 f8 f f f16~
+		f8 f es es
+		des16 des8 des des des16~
+		des8 des c c %170
+		c2~
+		c8 r c r
+		c2~
+		c8 r c r
+		d16 d8 d d d16 %175
+		c8 e f b,!
+		c4 c
+		f r
+		r8 b, c c
+		f4 r %180
+		b,8 b b b
+		c c c c
+		a'16(\fp g f g) a(\fp g f g)
+		a(\fp g f g) a(\fp g f g)
+		a\f a g g f f e e %185
+		a(\fp g f g) a(\fp g f g)
+		a(\fp g f g) a(\fp g f g)
+		a\f a g g f f e e
+		r c\p c c c c c c
+		c c c c c c c c %190
+		c c c c c c c c
+		c4~ c8 r\fermata \bar "|." %192 finis
+	}
+}

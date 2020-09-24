@@ -174,3 +174,155 @@ FuerDieCornoI = {
 		g r r2\fermata \bar "|." %188 finis
 	}
 }
+
+WirWollenCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoWirWollen
+		\partial 4. r8 r4 r g''\mf e
+		r g e
+		R2.
+		r4 g e
+		r d8.\p d16 d4 %5
+		r e8. e16 e4
+		c2 d4
+		c r r
+		c2 d4
+		c r r %10
+		c2 d4
+		c2 d4
+		r8 c\f c c d d
+		c4 r r
+		R2. %15
+		d4\p r r
+		R2.
+		e4 r r
+		R2.*4 %22
+		r4 g\mfE e
+		r g e
+		c2\pE d4 %25
+		c r r
+		r g' e
+		r g e
+		c2 d4
+		c r r %30
+		c2 d4
+		c r r
+		c2 d4
+		c r r
+		r g'\mf e %35
+		r g e
+		R2.
+		r4 g e
+		r d8.\f d16 d4
+		r e8. e16 e4 %40
+		c2\p d4
+		c r r
+		c2 d4
+		c r r
+		c2\f d4 %45
+		c r r
+		R2.*3
+		c4\fE c c %50
+		c r r
+		c r r
+		g r g
+		c g r
+		R2.*4 %58
+		g4\fE g g
+		d' d r %60
+		d d d
+		g, g r
+		d'^\critnote r r
+		c r r
+		R2.*2 %66
+		d4 r r
+		g, r r
+		d' r r
+		g, r r %70
+		d' d d
+		g, r r
+		g2 d'4
+		g, r r
+		R2.*7 %81
+		g4\fE r r
+		d' d d
+		g, g r
+		d' d d %85
+		g, g r
+		d' d d
+		g, r r
+		d' d d
+		d d d %90
+		g, r r
+		R2.*5 \noBreak %96
+		r4 r r8\fermata \tempoWirTrozen r \noBreak
+		\time 4/4 d'4\f r d r \noBreak
+		d r r2
+		d4 r d r %100
+		d r r2
+		R1*4 %105
+		r4 d d d
+		c r r d
+		c r r d
+		e2 d4 r
+		c r r d %110
+		c r r d
+		e2 d4 r
+		c\p r r2
+		c4 r r2
+		c4 r r2 %115
+		c4 r r2
+		c4\f r c r
+		g' r r2
+		g4 r r2
+		g4 r g g %120
+		g r g g \noBreak
+		\time 3/4 g4 r8\fermata \tempoWirWollenB r r4 \noBreak
+		r g\mf e \noBreak
+		r g e
+		R2. %125
+		r4 g e
+		r d8.\f d16 d4
+		r e8. e16 e4
+		c2\p d4
+		c r r %130
+		c2 d4
+		c r r
+		c2\f d4
+		c r r
+		R2.*12 %146
+		c4\mfE c c
+		d d r
+		d d d
+		e e r %150
+		c r r
+		c r r
+		d d d
+		c r r
+		d\fE d r %155
+		e e r
+		d d r
+		e e r
+		d d d
+		e e r %160
+		e2 d4
+		c r r
+		R2.*8 %170
+		d4\fE d d
+		e e r
+		d d d
+		e e r
+		d d d %175
+		e r r
+		e e e
+		d d d
+		c r r
+		c2\p d4 %180
+		c r r
+		c2 d4
+		c2 d4
+		c c d
+		c r r\fermata \bar "|." %185 finis
+	}
+}

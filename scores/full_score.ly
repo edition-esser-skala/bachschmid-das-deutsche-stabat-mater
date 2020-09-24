@@ -261,14 +261,14 @@
 	% 	\header {
 	% 		number = "5"
 	% 		genre = "A R I O S O"
-	% 		title = "Verlaßen!"
+	% 		title = "Verlassen!"
 	% 	}
 	% 	\paper {
 	% 		system-system-spacing.basic-distance = #35
 	% 		system-system-spacing.minimum-distance = #35
 	% 		systems-per-page = #2
 	% 	}
-	% 	\tocLabelLong "5" "verlassen" "Arioso" "Verlaßen!"
+	% 	\tocLabelLong "5" "verlassen" "Arioso" "Verlassen!"
 	% 	\score {
 	% 		<<
 	% 			\new StaffGroup <<
@@ -306,66 +306,248 @@
 	% 		\midi { \tempo 4 = 60 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "6"
+	% 		genre = "D U E T T O"
+	% 		title = "Wenn einſt mein lezter Kampf beginnet"
+	% 	}
+	% 	\paper {
+	% 		system-system-spacing.basic-distance = #17
+	% 		system-system-spacing.minimum-distance = #17
+	% 		systems-per-page = #2
+	% 	}
+	% 	\tocLabelLong "6" "wenneinst" "Duetto" "Wenn einst mein lezter Kampf beginnet"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup \with { \smallGroupDistance } <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "fl" "1, 2" }
+	% 					\partcombine \WennEinstFlautoI \WennEinstFlautoII
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup \with { \smallGroupDistance } <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\WennEinstViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\WennEinstViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "vla" "1, 2" }
+	% 					\partcombine \WennEinstViolaI \WennEinstViolaII
+	% 				>>
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \WennEinstSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \WennEinstSopranoLyrics
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \WennEinstAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \WennEinstAltoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\WennEinstOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \WennEinstBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 80 }
+	% 	}
+	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "7"
+	% 		genre = "A R I A"
+	% 		title = "Gerne, Mutter, will ich leiden"
+	% 	}
+	% 	\paper {
+	% 		system-system-spacing.basic-distance = #35
+	% 		system-system-spacing.minimum-distance = #35
+	% 		systems-per-page = #2
+	% 	}
+	% 	\tocLabelLong "7" "gernemutter" "Aria" "Gerne, Mutter, will ich leiden"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\GerneMutterViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\GerneMutterViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\GerneMutterViola
+	% 				}
+	% 			>>
+	% 			\new Staff {
+	% 				\set Staff.instrumentName = "T"
+	% 				\new Voice = "Tenore" { \dynamicUp \GerneMutterTenoreNotes }
+	% 			}
+	% 			\new Lyrics \lyricsto Tenore \GerneMutterTenoreLyrics
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\GerneMutterOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \GerneMutterBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 60 }
+	% 	}
+	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "8"
+	% 		genre = "C H O R U S"
+	% 		title = "Wir wollen leiden wie der Mittler"
+	% 	}
+	% 	\tocLabelLong "8" "wirwollen" "Chorus" "Wir wollen leiden wie der Mittler"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = "fl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\WirWollenFlautoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\WirWollenFlautoII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "cor (D)" "1, 2" }
+	% 					% \transpose c d
+	% 					\partcombine \WirWollenCornoI \WirWollenCornoII
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\WirWollenViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\WirWollenViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\WirWollenViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \WirWollenSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \WirWollenSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \WirWollenAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \WirWollenAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \WirWollenTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \WirWollenTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \WirWollenBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \WirWollenBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\WirWollenOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \WirWollenBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 90 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "6"
-			genre = "D U E T T O"
-			title = "Wenn einſt mein lezter Kampf beginnet"
+			number = "9"
+			genre = "A R I A"
+			title = "O Mutter aller reinen Liebe"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #17
-			system-system-spacing.minimum-distance = #17
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
 			systems-per-page = #2
 		}
-		\tocLabelLong "6" "wenneinst" "Duetto" "Wenn einst mein lezter Kampf beginnet"
+		% \tocLabelLong "9" "omutter" "Aria" "O Mutter aller reinen Liebe"
 		\score {
 			<<
-				\new StaffGroup \with { \smallGroupDistance } <<
-					\new Staff <<
-						\set Staff.instrumentName = \markup \center-column { "fl" "1, 2" }
-						\partcombine \WennEinstFlautoI \WennEinstFlautoII
-					>>
-				>>
-				\new StaffGroup \with { \smallGroupDistance } <<
+				\new StaffGroup <<
 					\new GrandStaff \with { \smallGroupDistance } <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\WennEinstViolinoI
+							\OMutterViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\WennEinstViolinoII
+							\OMutterViolinoII
 						}
 					>>
-					\new Staff <<
+					\new Staff {
 						\set Staff.instrumentName = \markup \center-column { "vla" "1, 2" }
-						\partcombine \WennEinstViolaI \WennEinstViolaII
-					>>
-				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \WennEinstSopranoNotes }
+						\partcombine \OMutterViolaI \OMutterViolaII
 					}
-					\new Lyrics \lyricsto Soprano \WennEinstSopranoLyrics
-					\new Staff {
-						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \WennEinstAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \WennEinstAltoLyrics
 				>>
+				\new Staff {
+					\set Staff.instrumentName = "A"
+					\new Voice = "Alto" { \dynamicUp \OMutterAltoNotes }
+				}
+				\new Lyrics \lyricsto Alto \OMutterAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\WennEinstOrgano
+						\OMutterOrgano
 					}
 				>>
-				\new FiguredBass { \WennEinstBassFigures }
+				\new FiguredBass { \OMutterBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 80 }
+			\midi { \tempo 4 = 75 }
 		}
 	}
 }

@@ -731,3 +731,543 @@ WennEinstViolinoII = {
 		\appoggiatura a8 b4 b, r\fermata \bar "|." %130 finis
 	}
 }
+
+GerneMutterViolinoII = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key g \minor \time 2/4 \tempoGerneMutter
+		\grace s16 r16 b'-!\mf g( d) r a'-! fis( d)
+		r g-! es( b) r g'-! es( c)
+		r b'-! g( d) r a'-! fis( d)
+		r g-! d( b) r g'-! d( b)
+		r b'\p b b b4\f %5
+		r16 a\p a a as4\f
+		g8( f) es( e)
+		a,8. es''16 d( es d c)
+		r g(\p a b) \appoggiatura b a8 g16 fis
+		r b( c d) \appoggiatura d c8 b16 a %10
+		b16.\f d32 c16. a32 g( b16.) a32( fis16.)
+		g8-\parenthesize-! d'-!\p r d
+		\appoggiatura d16 c8.(\f b32 a) g8 fis
+		g-! d'-!\p r d
+		\appoggiatura d16 c8.(\f b32 a) g8 fis %15
+		g16-! b'-! a( fis) g( d) es( c)
+		\appoggiatura c b8.(\trill a32 g) d'8 d,
+		g d g, r
+		r b'\p r a
+		r g r c %20
+		r b r a
+		r g( a b)
+		b b b r
+		b b b b
+		a a a r %25
+		a( g) g-. g-.
+		r es r a
+		es es es r
+		b-! b4 c16( b)
+		b g b d c a c d %30
+		b g b d c a c d
+		b g b d b g b d
+		g8 g, r4
+		g'16 g8 g g g16~
+		g32([ fis g a] h^[ a h c]) d8-\parenthesize-! r %35
+		g,32([ fis g a] h^[ a h c]) d8-! r
+		g,32([ fis g a] h^[ a h c]) d16-! h-! g-! h-!
+		r c-. c-. c-. c( d) h8-!
+		r16 g-. g-. g-. g( as) f8-!
+		r16 c' c c c c d8 %40
+		R2
+		r16 f, f f f f f f
+		f( es d es) f( d g f)
+		es( d c d) es( c f es)
+		d( c b c) d( b es d) %45
+		c( b a b) c( a d c)
+		f( es d es) f( d g f)
+		es( d c d) es( c f es)
+		d( c b c) d( b es d)
+		c( b a b) c8-! es'-! %50
+		d16(\fp f) b,-! c-! d(\fp f) b,-! c-!
+		d-! f-! d-! f-! d8 r
+		f,16( es d es) f( es d es)
+		f-! b-! f-! b-! f8-! r
+		d'16.( es32) c8-! b16.( c32) a8-! %55
+		r16 d,-! d-! d-! es-! f-! g-! a-!
+		b-! c-! d-! es-! f8-! r
+		d16.( es32) c8-! b16.( c32) a8-!
+		r16 d,-! d-! d-! es-! f-! g-! a-!
+		b-! c-! d-! es-! f8-! r %60
+		d16.( es32) c8-! b16.( c32) a8-!
+		b16 b8 b b b16~
+		b8. es16 d32( b16.) c32( a16.)
+		b16(\f es) es( d) d( g) g( f)
+		f( b) b( as) as( g) g( fis) %65
+		g( b) b( a) a( g) g( f)
+		f8 es16. c32 b8 a
+		d16( d') c( a) b( f) g( es)
+		\appoggiatura es d8.(\trill c32 b) f'8 f,
+		b f b, r %70
+		r16 b'-!\p d( b) d( b) d8-!
+		r16 a-! c( a) c( a) c8-!
+		r16 a-! c( a) c( a) c8-!
+		r16 b-! d( b) d( b) d8-!
+		r16 d-! f( d) f( d) f8 %75
+		r16 cis-! e( cis) e( cis) e8-!
+		r16 cis-! e( cis) e( cis) e8-!
+		r16 f,-! d'( f,) d'( f,) d'8-!
+		d,16 d8 d d d16~
+		d d8 d d d16~ %80
+		d d8 d d d16~
+		d8-! d4( cis8)
+		r16 a' a a f f d d
+		r cis cis cis r e' e e
+		r d,-! f( a) g( f) e( d) %85
+		d'8 d cis cis
+		d4 r
+		r16 b\pE b b b4\fE
+		r16 a\pE a a as4\fE
+		g8( f) es( e) %90
+		d a a r
+		r b'\p r a
+		r g r c
+		r b r a
+		r g( a b) %95
+		b b b r
+		b b b b
+		a a a r
+		a( g) g-. g-.
+		r es r a %100
+		es es es r
+		b-! b4 c16( b)
+		b g b d c a c d
+		b g b d c a c d
+		b g b d b g b d %105
+		g8 g, r4
+		g'16 g8 g g g16~
+		g32([ fis g a] h^[ a h c]) d8-! r
+		g,32([ fis g a] h^[ a h c]) d8-! r
+		g,32([ fis g a] h^[ a h c]) d16-! h-! g-! h-! %110
+		r c-. c-. c-. c( d) h8-!
+		r16 g-. g-. g-. g( as) f8-!
+		r16 g g g g g b! b
+		a8( b) c,( cis)
+		r16 d d d d d d d %115
+		d( c b c) d( b es d)
+		c( b a b) c( a d c)
+		b( d g a) b( g c b)
+		a( g fis g) a( fis b a)
+		d,( c b c) d( b es d) %120
+		c( b a b) c( a d c)
+		b( d g a) b( g c b)
+		a( g fis g) a4
+		b16(\fp d) g,-! a-! b(\fp d) g,-! a-!
+		b-! d-! b-! d-! b8 r %125
+		b16( a g a) b( a g a)
+		b-! d-! b-! d-! b8 r
+		b16.( c32) a8-! g16.( a32) fis8-!
+		r16 g-! g-! g-! a-! b-! c-! a-!
+		b-! d-! g-! a-! b8 r %130
+		b,16.( c32) a8-! g16.( a32) fis8-!
+		r16 g-! g-! g-! a-! b-! c-! a-!
+		b-! d-! g-! a-! b8 r
+		b,16.( c32) a8-! g16.( a32) fis8-!
+		d'( es) d( es) %135
+		d16 d c8\f b32( g16.) \once \slurDashed a32( fis16.)
+		r16 g(\p a b) \appoggiatura b a8 g16 fis
+		r b( c d) \appoggiatura d c8 b16 a
+		b16.\f d32 c16. a32 g16. b32 a16. fis32
+		g16-! b'-! a( fis) g( d) es( c) %140
+		\appoggiatura c b8.(\trill a32 g) d'8 d,
+		g d g, r\fermata \bar "|." %142 finis
+	}
+}
+
+WirWollenViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \tempoWirWollen
+		\partial 4. fis8(\mf g fis) fis4( d) r
+		fis( d) r
+		h'8( a h a g fis)
+		fis4( d) r8 fis-!\p
+		d8.( cis16) cis4-! r %5
+		e8.( d16) d4-! r
+		fis4. a8( g e)
+		d4 r r
+		fis4. a8( g e)
+		d4 r r %10
+		fis4. a8( g e)
+		fis4. a8( g e)
+		fis16\f d fis d fis8 a \appoggiatura a16 g8 fis16 e
+		\appoggiatura e8 d4 r8 fis(\p g fis)
+		d'-. cis-. h-. a-. g-. fis-. %15
+		g e16 cis a4 r
+		cis'8-. h-. a-. g-. fis-. e-.
+		fis a16 fis d4 r
+		d'8-. cis-. h-. a-. g-. fis-.
+		h-. a-. g-. fis-. e-. d-. %20
+		g-. fis-. e-. d-. cis-. h-.
+		a4 r16 fis''-!\mf e-! d-! cis-! h-! a-! g-!
+		fis8.( g32 fis) d4-\parenthesize-! r
+		fis8.( g32 fis) d4-\parenthesize-! r
+		\appoggiatura a16 fis'2\p g8( e) %25
+		fis8-! d'-!\pocoF cis-! h-! a-! g-!
+		fis8.(\p g32 fis) d4-! r
+		fis8.( g32 fis) d4-! r
+		\appoggiatura a16 fis'2 g8( e)
+		fis4 r r %30
+		\appoggiatura a,16 fis'2 g8( e)
+		fis4 r r
+		\appoggiatura a,16 fis'4 fis g8( e)
+		d4 r8 fis(\mf g fis)
+		fis4( d) r %35
+		fis( d) r
+		h'8( a h a g fis)
+		fis4( d) r
+		<d d'>\f <e cis'> r
+		<a cis e> <d, d'> r %40
+		fis2\p g8( e)
+		fis4 r r
+		fis2 g8( e)
+		fis4 r r
+		fis2\f g8( e) %45
+		fis4 r8 h(\p a g)
+		fis4-! r8 g( fis e)
+		d4-\parenthesize-! r8 e( d cis)
+		d e16\f fis g a h cis d cis d cis
+		d8-! a-! a([ ais)] h h %50
+		h gis4 gis gis8~
+		gis gis4 gis gis8
+		a a h h cis cis
+		<e, h' e>4 <a cis e> r
+		a8\p a4 a a8~ %55
+		a a4 a a8~
+		a a a a gis gis
+		a4 r8 e(\f fis gis)
+		a-! gis-! fis-! e-! d-! cis-!
+		h4-! h'-! r %60
+		gis8-! fis-! e-! d-! cis-! h-!
+		a4-! a'-! r
+		\parOn a8-\parenthesize-! gis-! fis-! e-! d-! cis-!
+		fis-! e-! d-! cis-! h-! a-!
+		d-! cis-! h-! a-! gis-! \parOff a-\parenthesize-! %65
+		e'16 e dis dis e e fis fis gis gis a a
+		<h e,>8 q4 q q8~
+		<a e> q4 q q8~
+		<h e,>8 q4 q q8~
+		<a e> q4 q q8~ %70
+		<h e,>8 q4 q q8
+		a16 a gis gis a a h h cis cis d d
+		a8 a a a gis gis
+		a4 r r
+		a8\p a4 a a8~ %75
+		a a4 a a8~
+		a a4 a a8~
+		a a4 a a8~
+		a a4 a \once \slurDashed a8(
+		gis) gis4 h8 a cis! %80
+		h d a cis gis h
+		a4 r8 e16\f fis e8 e
+		gis-. fis-. e-. d-. cis-. h-.
+		a4 r8 e'16 fis e8 e
+		gis-. fis-. e-. d-. cis-. h-. %85
+		a4 r8 e'16 fis e8 e
+		gis-. fis-. e-. d-. cis-. h-.
+		a16 a gis gis a a h h cis cis d d
+		cis a' cis a cis a cis a cis a cis a
+		h gis h gis h gis h gis h gis h gis %90
+		a4 r r
+		cis,2\p d8( h)
+		cis4 r r
+		cis2 d8( h)
+		\appoggiatura h4 cis2 d8( h) %95
+		\appoggiatura h cis4 cis d8( h) \noBreak
+		\appoggiatura h cis4 r r8\fermata \tempoWirTrozen r \noBreak
+		\time 4/4 <a' cis e>4\f r q r \noBreak
+		e'16 cis e cis e cis e cis e^\critnote cis e cis d h d h
+		<a cis e>4 r q r %100
+		e'16 cis e cis e cis e cis e cis e cis e cis e cis
+		d8 a a a a a a a
+		h g16 a h8 h h h h h
+		cis a16 h cis8 cis cis cis cis cis
+		d h16 cis d8 d d d d d %105
+		e e e e e e e e
+		fis16 a, fis' a, fis' a, fis' a, g' a, g' a, g' a, g' a,
+		fis' a, fis' a, fis' a, fis' a, g' a, g' a, g' a, g' a,
+		fis' a, fis' a, fis' a, fis' a, e' a, e' a, e' a, e' a,
+		fis' a, fis' a, fis' a, fis' a, g' a, g' a, g' a, g' a, %110
+		fis' a, fis' a, fis' a, fis' a, g' a, g' a, g' a, g' a,
+		fis' a, fis' a, fis' a, fis' a, e'4^\critnote r
+		a,8\p a4 a a a8(
+		b) b4 b b \once \slurDashed b8(
+		f) f4 f f f8~ %115
+		f f4 f f f8~
+		f\f f4 \once \slurDashed f8( gis) gis4 gis8
+		a16 a a a cis cis cis cis d d d d h! h h h
+		cis cis cis cis cis cis cis cis d d d d h! h h h
+		cis cis cis cis cis cis cis cis d d d d h! h h h %120
+		cis cis cis cis cis cis cis cis d d d d h! h h h \noBreak
+		\time 3/4 a4 r8\fermata \tempoWirWollenB fis8(\mf g fis) \noBreak
+		fis4( d) r \noBreak
+		fis( d) r
+		h'8( a h a g fis) %125
+		fis4 d r
+		<d d'>4\f <e cis'> r
+		<a cis e> <d, d'> r
+		fis2\p g8( e)
+		fis4 r r %130
+		fis2 g8( e)
+		fis4 r r
+		fis2\f g8( e)
+		fis4 r8 h(\p a g)
+		fis4 r8 g( fis e) %135
+		d4 r8 e( d cis)
+		d e16\f fis g a h cis d cis d cis
+		d8 d, d' e d c
+		c h4 h \once \slurDashed h8(
+		c) h4 h h8~ %140
+		h h4 h h8~
+		h h4 h h8~
+		h e4 g \once \slurDashed e8(
+		h) e4 g e8
+		h4 h h %145
+		e, r8 e(\mf fis g)
+		a-. g-. fis-. a-. g-. fis-.
+		e4 e' r
+		cis8-. h-. a-. g-. fis-. e-.
+		d4 d' r %150
+		d8-. cis-. h-. a-. g-. fis-.
+		h-. a-. g-. fis-. e-. d-.
+		e-. g-. fis-. e-. d-. cis-.
+		fis16 fis g g a a h h cis cis d d
+		<e a,>8\f q4 q q8 %155
+		<d d,> q4 q q8
+		<e a,> q4 q q8
+		<d d,> q4 q q8
+		<e a,> q4 q q8
+		d16 d cis cis d d e e fis fis g g %160
+		d8 d d d cis cis
+		d4 r r
+		d8\p d4 d d8~
+		d d4 d d8~
+		d d4 d d8~ %165
+		d d4 d d8~
+		d d4 d d8~
+		d d4 d d8~
+		d4 d e8( cis)
+		d4 r8 a,16\f h a8 fis' %170
+		a-. g-. fis-. e-. d-. cis-.
+		d4 r8 a16 h a8 fis'
+		a-. g-. fis-. e-. d-. cis-.
+		d4 r8 a16 h a8 fis'
+		a-. g-. fis-. e-. d-. cis-. %175
+		d16 d a a d d fis fis a a d d
+		fis-! d d d d d d d fis-! d d d
+		e-! cis cis cis cis cis cis cis e-! cis cis cis
+		<d d,>4 r r
+		fis,2\p g8( e) %180
+		fis4 r r
+		fis2 g8( e)
+		\appoggiatura e4 fis2 g8( e)
+		\appoggiatura e fis4 fis g8( e)
+		fis4-! r r\fermata \bar "|." %185 finis
+	}
+}
+
+OMutterViolinoII = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key f \major \time 2/4 \tempoOMutter
+		\partial 8 r8 a16-!\f c-! a-! c-! a-! c-! a-! c-!
+		g c g c g c g c
+		a a b b c c d d
+		es8.(\sf c16) a8.( b32 c)
+		d16 d c' c b b a a %5
+		<g g,>8\sf c4 f,8
+		g16 g g g g g g g
+		a a a a a a a a
+		a4. c16( b)
+		r a-.\p a-. a-. <g g,>4 %10
+		r16 a-. a-. a-. <g g,>4
+		a'16(\fp g f g) a(\fp g f g)
+		a(\fp g f g) a(\fp g f g)
+		a\f a g g f f e e
+		a(\fp g f g) a(\fp g f g) %15
+		a(\fp g f g) a(\fp g f g)
+		a\f a g g f f e e
+		r a,\p a a a a b8
+		r16 a a a a a b8
+		a-! b16( g) a8-! b16( g) %20
+		g4( a8) r
+		r16 a-!\p c( a) f'4
+		r16 b,-! g'( b,) g'( b,) g'( b,)
+		a a b b c c d d
+		es8.(\fp c16) a8.( b32 c) %25
+		d8 c b a
+		<g g,>\fp c4 f,8
+		r16 c' c c e e g g
+		f f f f f f f f
+		f8-! f4( e8) %30
+		r16 a,-! c( a) b4
+		r16 a-! c( a) b4
+		r16 a-! c( a) b8 b
+		<a f>8\f c16. b32 a8 c16. b32
+		a8 c16. b32 a8 c16. b32 %35
+		a8 <f a> q q
+		q4 r
+		a8.(\p g16) f8-! r
+		c'8.( b16) a8-! r
+		r16 h h h h h h8 %40
+		r16 g g g g g g8
+		r16 a! a a a a a8
+		r16 f f f f f f8
+		r16 g g g g g g'8
+		r16 g, g g g g g'8 %45
+		g,-! g'~ g16( f e f)
+		\appoggiatura f e8 e, e r
+		r16 d d d d8 d'
+		r16 c, c c c8 c'
+		r16 g g g g g g g %50
+		a f f f f f f f
+		fis fis fis fis fis fis fis fis
+		g d d d d d d d
+		d8 g4 f8
+		e16 c' c c c c c c %55
+		c8-! c4( h8)
+		r16 g\pocoF g g g g g g
+		a a h h c c d d
+		e e f f g8 r
+		f,16 f g g a a h h %60
+		c c d d e8 r
+		r16 d-!\p h( f) d4
+		r16 c'-! g( e) c8 c'
+		es,16 es8 es es es16~
+		es8.( f16) es( g es g) %65
+		es es8 es es \once \tieDashed es16~
+		es8.( f16) es( c' es, c')
+		es, es8 es es es16~
+		es es8 es es \once \slurDashed es16(
+		fis) fis fis fis fis fis fis fis %70
+		g g f'! f e! e d d
+		c8-! c4 d16( h)
+		c a'8 g f e16~
+		e8 d c h
+		c16 a'8 g f e16~ %75
+		e8 e~ e16( f) d( h)
+		c8-! c4( h8)
+		e16(\fp d c d) e(\fp d c d)
+		e(\fp d c d) e(\fp d c d)
+		e\f e d d c c h h %80
+		e(\fp d c d) e(\fp d c d)
+		e(\fp d c d) e(\fp d c d)
+		e\f e d d c c h h
+		r e,\p e e e e f8
+		r16 e e e e e f8 %85
+		e-! f16( d) e8-! f16( d)
+		d4( e8) r
+		r \once \slurDashed e16.(\p f32) e8-! r
+		r f16.( g32) f8-! r
+		r des r d %90
+		r e e r
+		r16 c-. c-. c-. r e-. e-. e-.
+		r g-. g-. g-. r e-. e-. e-.
+		r cis-. cis-. cis-. r e-. e-. e-.
+		r g-. g-. g-. r e-. e-. e-. %95
+		f d' d d d d d d
+		cis cis cis cis d d d d
+		cis cis cis cis d d d d
+		cis8 cis, cis r
+		r16 \once \slurDashed d'32( cis) d16-! e-! fis-! d-! fis8-! %100
+		r16 \once \slurDashed b,32( a) b16-! c-! d-! b-! d8-!
+		r16 b b b c c c c
+		g g g g a a a a
+		b b b b c c c c
+		g g g g a a a a %105
+		r h h h h8 h
+		r16 g g g g g f!8
+		r16 e e e e e e e
+		e e g'! g f f e e
+		d8 d cis cis %110
+		r16 f f f g g f f
+		e8 a, b! h
+		d d cis cis
+		<d d,> r f16(\fp e d e)
+		f(\fp e d e) f(\fp e d e) %115
+		f\f f e e d d cis cis
+		d8-! r b'16(\fp a g a)
+		b(\fp a g a) b(\fp a g a)
+		b\f b a a g g fis fis
+		g8-! r g16(\fp f e f) %120
+		g(\fp f e f) g(\fp f e f)
+		g(\fp f e f) g(\fp f e f)
+		g(\f f e f) g( f e f)
+		g4-! r
+		r16 a,-!\p c( a) f'4 %125
+		r16 b,-! g'( b,) g'( b,) g'( b,)
+		a a b b c c d d
+		es8.(\fp c16) a8.( b32 c)
+		d8 c b a
+		<g g,>\fp c4 f,8 %130
+		r16 c' c c e e g g
+		f f f f f f f f
+		f8-! f4( e8)
+		r16 a,-! c( a) b4
+		r16 a-! c( a) b4 %135
+		r16 a-! c( a) b8 b
+		<a f>\f c16. b32 a8 c16. b32
+		a8 c16. b32 a8 c16. b32
+		a8 <a f> q q
+		q4 r %140
+		a8.(\p g16) f8-! r
+		c'8.( b16) a8-! r
+		r16 a a a a a a8
+		r16 b b b b b b8
+		r16 c c c c c c8 %145
+		r16 b b b b b b8
+		r16 g g g g g g'8
+		r16 g, g g g g g'8
+		g,-! g'~ g16( f e f)
+		\appoggiatura f e8 e, e r %150
+		r16 c' c c c4
+		r16 c c c c8 r
+		r16 g g g g g g g
+		f f f f f f f f
+		g g g g g g g g %155
+		a a a a a a a a
+		g g g g g g g g
+		g g g' g f f d d
+		a8-! a4( b8)
+		a f f r %160
+		R2
+		r4 r16 a\pocoF a a
+		b b c c d d e e
+		f f g g a8 r
+		r16 g-!\p e( b) g4 %165
+		r16 f'-! c( a) f8 f'
+		as,16 as8 as as as16~
+		as8.( b16) as( b as b)
+		as as8 as as as16~
+		\once \slurDashed as8.( b16) as8 as %170
+		g2~
+		g8 r g r
+		g2~
+		g8 r g r
+		f'16 f8 f f f16 %175
+		e e d d c c b b
+		a8 a4 b8
+		a16 f8 g a b16~
+		b8 d16 b a8 g
+		r f16( g) g( a) a( b) %180
+		b8-! b~ b16 d c b
+		a8-! a4( g8)
+		a'16(\fp g f g) a(\fp g f g)
+		a(\fp g f g) a(\fp g f g)
+		a\f a g g f f e e %185
+		a(\fp g f g) a(\fp g f g)
+		a(\fp g f g) a(\fp g f g)
+		a\f a g g f f e e
+		r a,\p a a a a b8
+		r16 a a a a a b8 %190
+		a-! b16( g) a8-! b16( g)
+		g4( a8) r\fermata \bar "|." %192 finis
+	}
+}

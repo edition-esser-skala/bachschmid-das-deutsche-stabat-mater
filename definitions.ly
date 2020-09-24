@@ -687,6 +687,12 @@ tempoFuerDie = \tempoMarkup "Allegro"
 	tempoFuerDieB = \tempoMarkup "Allegro"
 tempoVerlassen = \tempoMarkup "Adagio"
 tempoWennEinst = \tempoMarkup "Larghetto"
+tempoGerneMutter = \tempoMarkup "Amoroso"
+tempoWirWollen = \tempoMarkup "Poco andante"
+	tempoWirTrozen = \tempoMarkup "Allegro"
+	tempoWirWollenB = \tempoMarkup "Tempo primo"
+tempoOMutter = \tempoMarkup "Andante moderato"
+
 
 
 \include "notes/fl1.ly"
