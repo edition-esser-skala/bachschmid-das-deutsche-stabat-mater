@@ -501,53 +501,111 @@
 	% 		\midi { \tempo 4 = 90 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "9"
+	% 		genre = "A R I A"
+	% 		title = "O Mutter aller reinen Liebe"
+	% 	}
+	% 	\paper {
+	% 		system-system-spacing.basic-distance = #35
+	% 		system-system-spacing.minimum-distance = #35
+	% 		systems-per-page = #2
+	% 	}
+	% 	\tocLabelLong "9" "omutter" "Aria" "O Mutter aller reinen Liebe"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\OMutterViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\OMutterViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "vla" "1, 2" }
+	% 					\partcombine \OMutterViolaI \OMutterViolaII
+	% 				}
+	% 			>>
+	% 			\new Staff {
+	% 				\set Staff.instrumentName = "A"
+	% 				\new Voice = "Alto" { \dynamicUp \OMutterAltoNotes }
+	% 			}
+	% 			\new Lyrics \lyricsto Alto \OMutterAltoLyrics
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\OMutterOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \OMutterBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 75 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "9"
+			number = "10"
 			genre = "A R I A"
-			title = "O Mutter aller reinen Liebe"
+			title = "Und wenn einſt am großen Tage"
 		}
-		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
-		}
-		% \tocLabelLong "9" "omutter" "Aria" "O Mutter aller reinen Liebe"
+		\paper { systems-per-page = #2 }
+		\tocLabelLong "10" "undwenn" "Aria" "Und wenn einst am großen Tage"
 		\score {
 			<<
-				\new StaffGroup <<
+				\new StaffGroup \with { \smallGroupDistance } <<
+					\new Staff <<
+						\set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+						\partcombine \UndWannOboeI \UndWannOboeII
+					>>
+				>>
+				\new StaffGroup \with { \smallGroupDistance } <<
+					\new Staff <<
+						\set Staff.instrumentName = \markup \center-column { "clno (D)" "1, 2" }
+						% \transpose c d
+						\partcombine \UndWannClarinoI \UndWannClarinoII
+					>>
+				>>
+				\new StaffGroup \with { \smallGroupDistance } <<
 					\new GrandStaff \with { \smallGroupDistance } <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\OMutterViolinoI
+							\UndWannViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\OMutterViolinoII
+							\UndWannViolinoII
 						}
 					>>
 					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "vla" "1, 2" }
-						\partcombine \OMutterViolaI \OMutterViolaII
+						\set Staff.instrumentName = "vla"
+						\UndWannViola
 					}
 				>>
 				\new Staff {
-					\set Staff.instrumentName = "A"
-					\new Voice = "Alto" { \dynamicUp \OMutterAltoNotes }
+					\set Staff.instrumentName = "B"
+					\new Voice = "Basso" { \dynamicUp \UndWannBassoNotes }
 				}
-				\new Lyrics \lyricsto Alto \OMutterAltoLyrics
+				\new Lyrics \lyricsto Basso \UndWannBassoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\OMutterOrgano
+						\UndWannOrgano
 					}
 				>>
-				\new FiguredBass { \OMutterBassFigures }
+				\new FiguredBass { \UndWannBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 75 }
+			\midi { \tempo 4 = 140 }
 		}
 	}
 }

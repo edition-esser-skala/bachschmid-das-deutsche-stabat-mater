@@ -800,6 +800,287 @@ WirWollenBassoLyrics = \lyricmode {
 	lehrt. %179 finis
 }
 
+UndWannBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \autoBeamOff \tempoUndWann
+		\partial 4 r4 R1*28 %28
+		r2 r4 d8 d
+		fis4 d fis a %30
+		d2 a4 r
+		r2 r4 fis8 fis
+		g4 fis g a
+		\appoggiatura cis8 h4 r d4. cis8
+		h4 a gis a %35
+		\appoggiatura e8 d4 r r2
+		R1*4 %40
+		b'4. f8 f4 r
+		d'4. b8 b4 r
+		r b b b
+		b4.( c8) b4 r
+		r b b b %45
+		b4.( c8) b4 r
+		b4. c8 b4 r
+		b4. c8 b4 b
+		b2. a4
+		gis8.([ fis!16)] e4 r8 a c a %50
+		gis8.([ fis16)] e4 r8 a c a
+		e'2\fermata e,4 r
+		a4. a8 a4 c
+		\appoggiatura h8 a4. a8 a4 r
+		c4. c8 c4 e %55
+		\appoggiatura d8 c4. c8 c4 r
+		\appoggiatura c8 h4 h r2
+		\appoggiatura d8 c4 c r2
+		h4. f'8 e([ d)] c([ h)]
+		\appoggiatura h a4 r r e8 e %60
+		\appoggiatura g!8 fis!4 fis \appoggiatura a8 gis4 gis
+		a8([ e)] e4 r e8 e
+		\appoggiatura g!8 fis4 fis \appoggiatura a8 gis4 gis
+		\appoggiatura h8 a4 r4 r2
+		e'4. a,8 a4 r %65
+		fis'4. a,8 a4 r
+		R1
+		r4 e' cis! a
+		e' e,8 d' cis4 a
+		e' e,8 d' cis4 a %70
+		e' e, r2
+		\appoggiatura h'8 a4 a r2
+		\appoggiatura d8 c4 c r2
+		h4. d8 c([ h)] a([ h)]
+		\appoggiatura h a4 r r2 %75
+		h4. d8 c([ h)] a([ h)]
+		\appoggiatura h a4 r r2
+		e'2 a,4 r
+		fis'!2 a,4 r
+		cis!4. cis8 d4 e %80
+		a, cis8 cis d4 e
+		a, cis8 cis d4 e
+		a, r r2
+		R1*10 %93
+		r2 r4 e8 e
+		\appoggiatura h' a4 a r e8 e %95
+		\appoggiatura c'8 h4 h r e,8 e
+		c'2. h4
+		a g! f e
+		dis2. dis4
+		\appoggiatura fis!8 e4 r r2 %100
+		r r4 e8 e
+		c'2. h4
+		a g! f e
+		dis2. dis4
+		\appoggiatura fis!8 e4 r r2 %105
+		R1*4
+		r2 r4 e8 e %110
+		a4. a8 a4 e
+		\appoggiatura g!8 f4 f r2
+		g4. g8 g4 d
+		\appoggiatura f8 e4. e8 e4 r8 e
+		e4 g fis e %115
+		dis4. dis8 e4 e
+		c'2 h4( a)
+		g r h h
+		c2 dis,
+		\appoggiatura fis8 e4 r h' h %120
+		c2 dis,
+		\appoggiatura fis8 e4 r r2
+		R1*10 %132
+		r2 r4 d8 d
+		fis4 d fis a
+		d2 a4 r %135
+		r2 r4 fis8 fis
+		g4 fis g a
+		\appoggiatura cis8 h4 r d4. cis8
+		h4 a gis a
+		\appoggiatura e8 d4 r r2 %140
+		R1*4
+		b'4. f8 f4 r %145
+		d'4. b8 b4 r
+		r b b b
+		b4.( c8) b4 r
+		r b b b
+		b4.( c8) b4 r %150
+		h4. c8 h4 r
+		c4. d8 c4 r
+		cis4. d8 cis4 r
+		d4. e8 d4 d
+		d2. d4 %155
+		cis8.([ h16)] a4 r8 d d d
+		cis8.([ h16)] a4 r8 d d d
+		d4\fermata( cis16[ h a h)] a4 r
+		d,4. d8 d4 f
+		\appoggiatura f8 e4. d8 d4 r %160
+		f4. f8 f4 a
+		\appoggiatura a8 g4. f8 f4 r
+		\appoggiatura f8 e4 e r2
+		\appoggiatura g8 f4 f r2
+		g4. b8 a([ g)] f([ e)] %165
+		\appoggiatura e d4 r r a'8 a
+		\appoggiatura c h!4 h \appoggiatura d8 cis4 cis
+		d8([ a)] a4 r a8 a
+		\appoggiatura c h4 h \appoggiatura d8 cis4 cis
+		\appoggiatura e8 d4 r r2 %170
+		a4. d,8 d4 r
+		h'4. d,8 d4 r
+		R1
+		r4 a' fis! d
+		a' a,8 a' fis4 d %175
+		a' a,8 a' fis4 d
+		a' a, r2
+		\appoggiatura e'8 d4 d r2
+		\appoggiatura g8 f4 f r2
+		e4. g8 f([ e)] d([ e)] %180
+		\appoggiatura e d4 r r2
+		e4. g8 f([ e)] d([ e)]
+		\appoggiatura e d4 r r2
+		a'2 d,4 r
+		h'!2 d,4 r %185
+		fis!4. fis8 g4 a
+		d fis,8 fis g4 a
+		d fis,8 fis g4 a
+		\appoggiatura e8 d4 r r2
+		R1*4 %193
+		R1\fermataMarkup \bar "|." %194 finis
+	}
+}
+
+UndWannBassoLyrics = \lyricmode {
+	Und wenn %29
+	einſt am gro -- ßen %30
+	Ta -- ge
+	al -- ler
+	Wel -- ten Rich -- ter
+	kommt, al -- ler
+	Wel -- ten Rich -- ter %35
+	kommt,
+
+	fürch -- ter -- lich, %41
+	fürch -- ter -- lich
+	mit Schwerdt und
+	Waa -- ge,
+	mit Schwerdt und %45
+	Waa -- ge,
+	fürch -- ter -- lich,
+	fürch -- ter -- lich mit
+	Schwerdt und
+	Waa -- ge, mit Schwerdt und %50
+	Waa -- ge, mit Schwerdt und
+	Waa -- ge,
+	Mut -- ter, nihm dich
+	mei -- ner an,
+	Mut -- ter, nihm dich %55
+	mei -- ner an,
+	Mut -- ter,
+	Mut -- ter,
+	nihm dich mei -- ner
+	an. Und wenn %60
+	einſt am gro -- ßen
+	Ta -- ge al -- ler
+	Wel -- ten Rich -- ter
+	kommt,
+	fürch -- ter -- lich, %65
+	fürch -- ter -- lich
+
+	mit Schwerdt und
+	Waa -- ge, mit Schwerdt und
+	Waa -- ge, mit Schwerdt und %70
+	Waa -- ge,
+	Mut -- ter,
+	Mut -- ter,
+	nihm dich mei -- ner
+	an, %75
+	nihm dich mei -- ner
+	an,
+	Mut -- ter,
+	Mut -- ter,
+	nihm dich mei -- ner %80
+	an, nihm dich mei -- ner
+	an, nihm dich mei -- ner
+	an.
+
+	Wenn er %94
+	zür -- net, wenn er %95
+	zür -- net, und die
+	Er -- de
+	un -- ter ſei -- nem
+	Fuß -- tritt
+	bebt, %100
+	und die
+	Er -- de
+	un -- ter ſei -- nem
+	Fuß -- tritt
+	bebt, %105
+
+	dann, o %110
+	Gna -- den -- mut -- ter,
+	wer -- de,
+	wer -- de mei -- ne
+	Mitt -- le -- rin, o
+	Gna -- den -- mut -- ter, %115
+	wer -- de mei -- ne
+	Mitt -- le --
+	rin, mei -- ne
+	Mitt -- le --
+	rin, mei -- ne %120
+	Mitt -- le --
+	rin.
+
+	Und wenn %133
+	einſt am gro -- ßen
+	Ta -- ge %135
+	al -- ler
+	Wel -- ten Rich -- ter
+	kommt, al -- ler
+	Wel -- ten Rich -- ter
+	kommt, %140
+
+	fürch -- ter -- lich, %145
+	fürch -- ter -- lich
+	mit Schwerdt und
+	Waa -- ge,
+	mit Schwerdt und
+	Waa -- ge, %150
+	fürch -- ter -- lich,
+	fürch -- ter -- lich,
+	fürch -- ter -- lich,
+	fürch -- ter -- lich mit
+	Schwerdt und %155
+	Waa -- ge, mit Schwerdt und
+	Waa -- ge, mit Schwerdt und
+	Waa -- ge,
+	Mut -- ter, nihm dich
+	mei -- ner an, %160
+	Mut -- ter, nihm dich
+	mei -- ner an,
+	Mut -- ter,
+	Mut -- ter,
+	nihm dich mei -- ner %165
+	an. Und wenn
+	einſt am gro -- ßen
+	Ta -- ge al -- ler
+	Wel -- ten Rich -- ter
+	kommt, %170
+	fürch -- ter -- lich,
+	fürch -- ter -- lich
+
+	mit Schwerdt und
+	Waa -- ge, mit Schwerdt und %175
+	Waa -- ge, mit Schwerdt und
+	Waa -- ge,
+	Mut -- ter,
+	Mut -- ter,
+	nihm dich mei -- ner %180
+	an,
+	nihm dich mei -- ner
+	an,
+	Mut -- ter,
+	Mut -- ter, %185
+	nihm dich mei -- ner
+	an, nihm dich mei -- ner
+	an, nihm dich mei -- ner
+	an. %189 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

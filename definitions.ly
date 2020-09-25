@@ -78,9 +78,9 @@
 		\fill-line {
 			\line {
 				\fontsize #3 {
-	 				\with-color #(rgb-color .8313 0 0) { \fontsize #-4 \fromproperty #'header:genre }
+	 				\fontsize #-4 \fromproperty #'header:genre
 	 			 	\hspace #3
-	 			 	\fromproperty #'header:number
+	 			 	\with-color #(rgb-color .8313 0 0) { \fromproperty #'header:number }
 					\hspace #1
 					\fromproperty #'header:title
 				}
@@ -692,6 +692,7 @@ tempoWirWollen = \tempoMarkup "Poco andante"
 	tempoWirTrozen = \tempoMarkup "Allegro"
 	tempoWirWollenB = \tempoMarkup "Tempo primo"
 tempoOMutter = \tempoMarkup "Andante moderato"
+tempoUndWann = \tempoMarkup "Allegro moderato"
 
 
 

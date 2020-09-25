@@ -224,3 +224,150 @@ FuerDieOboeII = {
 		d r r2\fermata \bar "|." %188 finis
 	}
 }
+
+UndWannOboeII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoUndWann
+		\partial 4 r4 d'\f r fis r
+		g2( fis4) r
+		g2( fis4) r
+		R1*3 %6
+		d4 d d r
+		cis cis cis r
+		d d d r
+		R1*3 %12
+		a4 r d r
+		a r d r
+		a a d d %15
+		cis r r2
+		r f4(\p d)
+		r2 e4( cis)
+		r2 f4( d)
+		r2 e4( cis) %20
+		R1*4
+		d2\f e4 cis %25
+		d4. a8 d fis a fis
+		d4. a8 d fis a fis
+		d4 r fis, r
+		fis fis fis r
+		R1*6 %35
+		d'4(\f cis) d( cis)
+		d( cis) d( cis)
+		d( c) d( c)
+		d( c) d( c)
+		d( c) d( c) %40
+		b r b\p b
+		d r d d
+		b r b r
+		b b b b
+		b r b r %45
+		b b b b
+		b r b b
+		b r b b
+		b r r2
+		gis'2 a %50
+		gis a
+		gis\fermata r
+		R1*7 %59
+		a,4\f r r cis\p %60
+		r d r h
+		r cis r cis
+		r d r h
+		r a\f a a
+		a r a\pE r %65
+		d r d r
+		R1*2
+		gis2 a
+		gis4\f gis a a %70
+		gis gis gis r
+		R1*5 %76
+		r4 a,\f a a
+		a r a\pE r
+		d r d r
+		R1*3 %82
+		e4\f r e r
+		gis r gis r
+		e r e r %85
+		gis r gis r
+		e8 fis4 e d cis8~
+		cis d4 cis h a8~
+		a4 a d h
+		a a d h %90
+		cis4. e8 cis a cis e
+		cis4. e8 cis a cis e
+		cis4 r cis r
+		cis cis cis r
+		R1*2 %96
+		c2.\p h4
+		a g! f e
+		a1\f
+		gis4 r r2 %100
+		R1
+		c2.\p h4
+		a g! f e
+		a1\f
+		gis4 r a'\p r %105
+		gis r a r
+		gis( a) gis( a)
+		gis( a) gis( a)
+		gis(\f a) gis( a)
+		gis r r2 %110
+		R1*11 %121
+		e,4\f r h' h
+		a r d e
+		d r g a
+		d, r g d %125
+		cis8 g'4 fis! e d8~
+		d d4 cis h a8~
+		a4 d2 cis4
+		d d2 cis4
+		d4. a8 d fis a fis %130
+		d4. a8 d fis a fis
+		d4 r d r
+		d d d r
+		R1*6 %139
+		d4(\f cis) d( cis) %140
+		d( cis) d( cis)
+		d( c) d( c)
+		d( c) d( c)
+		d( c) d( c)
+		b r b\p b %145
+		d r d d
+		b r b r
+		b b b b
+		b r b r
+		b b b b %150
+		g r g g
+		c r c c
+		e r e e
+		d r r2
+		R1 %155
+		cis2 d
+		cis d
+		a\fermata r
+		R1*7 %165
+		d4\f r r fis\p
+		r g r e
+		r fis r fis
+		r g r e
+		r d\f d d %170
+		d r d\pE r
+		g r g r
+		R1*2
+		cis,2 d %175
+		cis4\f cis d d
+		cis cis cis r
+		R1*5 %182
+		r4 d,\f d d
+		d r d'\pE r
+		g r g r %185
+		R1*3
+		d4\f d d
+		r a a a r %190
+		d4. a8 d fis a fis
+		d4. a8 d fis a fis
+		d4 r fis, r
+		fis fis fis r\fermata \bar "|." %194 finis
+	}
+}
