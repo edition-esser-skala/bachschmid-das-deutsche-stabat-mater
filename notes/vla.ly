@@ -1806,3 +1806,51 @@ UndWannViola = {
 		d d d r\fermata \bar "|." %194 finis
 	}
 }
+
+WennErnteViola = {
+	\relative c' {
+		\clef alto
+		\key a \major \time 3/4 \tempoWennErnte
+		\partial 8 r8 r a\f a a e e
+		a4 r r
+		r8 a a a e e
+		a4 r r
+		e'\p r8 e e e %5
+		e4 r8 e e e
+		e4 r8 e e e
+		a4 r8 a e cis
+		a4 r8 a a a
+		e'4 r8 e\f e e %10
+		a a, a cis16 a e'8 e
+		a\p a, a cis16 a e'8 e
+		a\f a, a cis16 a e'8 e,
+		a2 r4
+		r8 a\p a a e4 %15
+		r8 a a a a4
+		r8 a cis a e'4
+		r8 a, a a a4
+		R2.*3 %21
+		r8 e' e e e e
+		e r e r e r
+		e e e e e r
+		e r e r e r %25
+		e4 e r
+		r8 a, cis a e' e
+		a,4 r8 a a a
+		gis4 r8 gis gis gis
+		a4 e' r %30
+		a, e' r
+		r8 a, a a e' e
+		a,4 r8 a a a
+		e'4 r8 e e e
+		a,4 e' r %35
+		a, e' r
+		r8 a, a a e' d
+		cis4.\fermata a8 h h
+		cis\f a cis a e' e,
+		a\p cis4 h a8~ %40
+		a cis4 h a8~
+		a a4 a a8~
+		a2 r4\fermata \bar "|." %43 finis
+	}
+}

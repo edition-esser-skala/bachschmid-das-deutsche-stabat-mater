@@ -663,6 +663,73 @@ WirWollenSopranoLyrics = \lyricmode {
 	lehrt. %179 finis
 }
 
+WennErnteSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/4 \autoBeamOff \tempoWennErnte
+		\partial 8 r8 R2.*13 %13
+		r4 r r16 e([ h' a)]
+		a4. cis8 cis16([ d)] h8 %15
+		\appoggiatura h a4 a r8 e'
+		e4. fis8 e16([ cis)] d([ h)]
+		\appoggiatura h a8 cis \appoggiatura h a4 r8 e'
+		a,4. a8 h cis
+		\appoggiatura e d4 r r8 fis %20
+		h,4. h8 cis dis
+		\appoggiatura fis e4 r r
+		R2.
+		r4 r r8 e
+		e e16([ fis)] \appoggiatura e d8 d16([ e)] \appoggiatura d cis8 cis16([ d)] %25
+		\appoggiatura cis h8 h16([ cis)] \appoggiatura cis8 h4 h8 d16([ cis)]
+		cis4. e8 e16([ cis)] d([ h)]
+		\appoggiatura h8 a4 r r
+		r r r16 h([ e d)]
+		\appoggiatura d cis8 cis cis cis d16([ e)] h([ d)] %30
+		\appoggiatura d cis8 cis cis4 d8 h
+		cis16([ d cis d] e8) e e16([ cis)] d([ h)]
+		\appoggiatura h8 a4 r r
+		r r r16 h([ e d)]
+		\appoggiatura d cis8 cis cis cis d16([ e)] h([ d)] %35
+		\appoggiatura d cis8 cis cis4 d8 h
+		cis16([ d cis d] e8) e e16([ cis)] d([ h)]
+		e4.\fermata cis8 d d
+		e16([ d cis d] e[ fis)] e([ fis)] e([ cis)] d([ h)]
+		\appoggiatura h8 a4 r r %40
+		R2.*2
+		R2.\fermataMarkup \bar "|." %43 finis
+	}
+}
+
+WennErnteSopranoLyrics = \lyricmode {
+	Wenn %14
+	einſt am Ernd -- te -- %15
+	ta -- ge die
+	Gar -- ben aus -- ge --
+	rei -- fet ſind, dann
+	wer -- de ich er --
+	stehn, dann %20
+	wer -- de ich er --
+	stehn,
+
+	dann
+	laſ -- ſe un -- ter Mil -- li -- %25
+	on -- en Hal -- men auch
+	mei -- nen Hal -- me
+	wähn,
+	dann
+	laſ -- ſe un -- ter Mil -- li -- %30
+	on -- en Hal -- men auch
+	mei -- nen Hal -- me
+	wähn,
+	dann
+	laſ -- ſe un -- ter Mil -- li -- %35
+	on -- en Hal -- men auch
+	mei -- nen Hal -- me
+	wähn, dann laſ -- ſe
+	mei -- nen Hal -- me
+	wähn. %40 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -1472,3 +1472,53 @@ UndWannViolinoII = {
 		fis4 e'8( fis) fis,4 r\fermata \bar "|." %194 finis
 	}
 }
+
+WennErnteViolinoII = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/4 \tempoWennErnte
+		\partial 8 r8 cis4.(\f e8) h([ gis)]
+		a( gis) a( h) cis( d)
+		cis-! cis4( e8) h16( gis) h( gis)
+		\appoggiatura gis8 a4 r8 e'(\p a cis)
+		h-! r h16( a gis a h gis h gis) %5
+		a8-! r cis16( d cis d cis d cis a)
+		h8-! r h16( a gis a h a h gis)
+		a4 r8 a16( h a h a h)
+		a4 r cis16( d cis a)
+		\appoggiatura a8 h4 r r16 gis(\f a h) %10
+		cis( d cis h) a( cis a cis) gis8-! r
+		cis16(\p d cis h) a( cis a cis) gis8-! r
+		cis16(\f d cis h) a( cis a cis) h( gis h gis)
+		\appoggiatura gis8 a4 a, r
+		r8 e'\p e e e([ d)] %15
+		r a'16 gis a8 cis a cis
+		r16 cis cis cis cis8 d cis16 a h gis
+		\appoggiatura gis a8 cis \appoggiatura h a4 r
+		r16 g g g g8 g g4
+		r16 fis fis fis fis8 a fis4 %20
+		r16 a a a a8 a a4
+		r16 gis! gis gis gis8[ h] e, r
+		cis' a' h, gis' a, cis
+		gis4 r8 gis( a h)
+		r cis r h r a %25
+		r gis16( a) a8 gis gis h
+		r16 a a a a8 cis cis16( a) h( gis)
+		\appoggiatura gis8 a4 r cis16( d cis a)
+		\appoggiatura a8 h4 r h16( gis cis h)
+		r a a a a8 a h([ gis)] %30
+		r16 a a a a8 a h[( gis)]
+		a16 h a h cis8 cis cis16( a) h( gis)
+		\appoggiatura gis8 a4 r cis16( d cis a)
+		\appoggiatura a8 h4 r h16( gis cis h)
+		r a a a a8 a h([ gis)] %35
+		r16 a a a a8 a h([ gis)]
+		\once \slurDashed a16( h a h) cis8 cis cis16( a) h( gis)
+		a4~\fermata a16 a a a a a a a
+		a(\f gis a h) a8 a cis16( a h gis)
+		a8\p e4 d cis8~ %40
+		cis e4 d cis8~
+		cis cis4 cis cis8~
+		cis2 r4\fermata \bar "|."
+	}
+}

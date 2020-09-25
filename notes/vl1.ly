@@ -1473,6 +1473,56 @@ UndWannViolinoI = {
 	}
 }
 
+WennErnteViolinoI = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/4 \tempoWennErnte
+		\partial 8 a'8-!\f e'4. \appoggiatura d32 cis16( h32 cis) d8( h)
+		a16( gis) h( a) cis( h) d( cis) e( d) fis( e)
+		e8-! e4 \appoggiatura d32 cis16( h32 cis) d16( h) d( h)
+		\appoggiatura h8 a4 r8 a(\p cis e)
+		d8-! r d16( cis h cis d h d h) %5
+		cis8-! r e16( fis e fis e fis e cis)
+		d8-! r d16( cis h cis d cis d h)
+		cis4 r8 cis16( d cis d cis d)
+		cis4 r e16( fis e cis)
+		\appoggiatura cis8 d4 r r16 h(\f cis d) %10
+		e( fis e d) cis( e cis e) h8-! r
+		e16(\p fis e d) cis( e cis e) h8-! r
+		e16(\f fis e d) cis( e cis e) d( h d h)
+		\appoggiatura h8 a4 a, r
+		r8 a''\p cis, cis cis16( d) h8-! %15
+		r cis16 h cis8 e cis e
+		r16 e e e e8 fis e16 cis d h
+		\appoggiatura h cis8 e \appoggiatura d cis4 r
+		r16 a a a a8 a h( cis)
+		r16 d d d d8 fis d4 %20
+		r16 h h h h8 h cis( dis)
+		r16 e e e e8[ gis] e r
+		e cis' d, h' cis, a'
+		h,4 r8 h( cis d)
+		r e r d r cis %25
+		r h16( cis) cis8 h h d
+		r16 cis cis cis cis8 e e16( cis) d( h)
+		\appoggiatura h8 a4 r e'16( fis e cis)
+		\appoggiatura cis8 d4 r d16( h e d)
+		r cis cis cis cis8 cis d([ h)] %30
+		r16 cis cis cis cis8 cis d([ h)]
+		cis16( d cis d) e8 e e16( cis) d( h)
+		\appoggiatura h8 a4 r e'16( fis e cis)
+		\appoggiatura cis8 d4 r d16( h e d)
+		r cis cis cis cis8 cis d([ h)] %35
+		r16 cis cis cis cis8 cis d([ h)]
+		cis16( d cis d) e8 e e16( cis) d( h)
+		e4~\fermata e16 cis cis cis d8 d
+		e16(\f d cis d) e( fis e fis) e( cis d h)
+		\appoggiatura h a8\p a4 a a8~ %40
+		a a4 a a8~
+		a a4 a a8~
+		a2 r4\fermata \bar "|." %43 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

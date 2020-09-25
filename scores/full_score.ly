@@ -550,62 +550,113 @@
 	% 		\midi { \tempo 4 = 75 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "10"
+	% 		genre = "A R I A"
+	% 		title = "Und wenn einſt am großen Tage"
+	% 	}
+	% 	\paper { systems-per-page = #2 }
+	% 	\tocLabelLong "10" "undwenn" "Aria" "Und wenn einst am großen Tage"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup \with { \smallGroupDistance } <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+	% 					\partcombine \UndWannOboeI \UndWannOboeII
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup \with { \smallGroupDistance } <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "clno (D)" "1, 2" }
+	% 					% \transpose c d
+	% 					\partcombine \UndWannClarinoI \UndWannClarinoII
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup \with { \smallGroupDistance } <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\UndWannViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\UndWannViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\UndWannViola
+	% 				}
+	% 			>>
+	% 			\new Staff {
+	% 				\set Staff.instrumentName = "B"
+	% 				\new Voice = "Basso" { \dynamicUp \UndWannBassoNotes }
+	% 			}
+	% 			\new Lyrics \lyricsto Basso \UndWannBassoLyrics
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\UndWannOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \UndWannBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 140 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "10"
-			genre = "A R I A"
-			title = "Und wenn einſt am großen Tage"
+			number = "11"
+			genre = "C A V A T I N A"
+			title = "Wenn einſt am Erndtetage"
 		}
 		\paper { systems-per-page = #2 }
-		\tocLabelLong "10" "undwenn" "Aria" "Und wenn einst am großen Tage"
+		\tocLabelLong "wennernte" "11" "Cavatina" "Wenn einst am Erndtetage"
 		\score {
 			<<
-				\new StaffGroup \with { \smallGroupDistance } <<
+				\new StaffGroup <<
 					\new Staff <<
-						\set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
-						\partcombine \UndWannOboeI \UndWannOboeII
+						\set Staff.instrumentName = \markup \center-column { "fl" "1, 2" }
+						\partcombine \WennErnteFlautoI \WennErnteFlautoII
 					>>
 				>>
-				\new StaffGroup \with { \smallGroupDistance } <<
-					\new Staff <<
-						\set Staff.instrumentName = \markup \center-column { "clno (D)" "1, 2" }
-						% \transpose c d
-						\partcombine \UndWannClarinoI \UndWannClarinoII
-					>>
-				>>
-				\new StaffGroup \with { \smallGroupDistance } <<
+				\new StaffGroup <<
 					\new GrandStaff \with { \smallGroupDistance } <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\UndWannViolinoI
+							\WennErnteViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\UndWannViolinoII
+							\WennErnteViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "vla"
-						\UndWannViola
+						\WennErnteViola
 					}
 				>>
 				\new Staff {
-					\set Staff.instrumentName = "B"
-					\new Voice = "Basso" { \dynamicUp \UndWannBassoNotes }
+					\set Staff.instrumentName = "S"
+					\new Voice = "Soprano" { \dynamicUp \WennErnteSopranoNotes }
 				}
-				\new Lyrics \lyricsto Basso \UndWannBassoLyrics
+				\new Lyrics \lyricsto Soprano \WennErnteSopranoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\UndWannOrgano
+						\WennErnteOrgano
 					}
 				>>
-				\new FiguredBass { \UndWannBassFigures }
+				\new FiguredBass { \WennErnteBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 140 }
+			\midi { \tempo 4 = 70 }
 		}
 	}
 }

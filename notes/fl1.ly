@@ -385,3 +385,43 @@ WirWollenFlautoI = {
 		d4-\parenthesize-! r r\fermata \bar "|." %185 finis
 	}
 }
+
+WennErnteFlautoI = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/4 \tempoWennErnte
+		\partial 8 r8 R2.*3 %3
+		r8 e''-.^\solo e-. e-. e-. e-.
+		d16( cis h cis) h8-. h-. h-. r %5
+		e16( d cis d) cis8-. cis-. cis-. r
+		d16( cis h cis) h8-. h-. h-. r
+		e16( d cis d) cis8-. cis-. cis-. r
+		r16 e,-. fis-. gis-. a-. h-. cis-. d-. e8-! r
+		r16 d,-. e-. fis-. gis-. a-. h-. cis-. d8-! r %10
+		r4 r8 cis(\f h) h-!
+		r4 r8 cis(\p h) h-!
+		r cis\f cis cis h h
+		\appoggiatura h a4 a, r
+		R2.*7 %21
+		r4 r8 h'(\p cis d)
+		e4( d cis)
+		r8 h-. h-. h-. cis( d)
+		e4( d cis) %25
+		\appoggiatura cis16 h4 r r
+		R2.
+		r16 e,-.^\solo fis-. gis-. a-. h-. cis-. d-. e8-! r
+		r16 d,-. e-. fis-. gis-. a-. h-. cis-. d8-! r
+		R2.*3 %32
+		r16 e,-.^\solo fis-. gis-. a-. h-. cis-. d-. e8-! r
+		r16 d,-. e-. fis-. gis-. a-. h-. cis-. d8-! r
+		r8 cis-.\p cis-.cis-. d([ h)] %35
+		r8 cis-. cis-.cis-. d([ h)]
+		R2.
+		R\fermataMarkup
+		R
+		r8 e4\p d cis8~ %40
+		cis e4 d cis8~
+		cis r cis r cis r
+		cis2 r4\fermata \bar "|." %43 finis
+	}
+}

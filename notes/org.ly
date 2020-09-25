@@ -2878,6 +2878,98 @@ UndWannBassFigures = \figuremode {
 	r %194 finis
 }
 
+WennErnteOrgano = {
+	\relative c {
+		\clef bass
+		\key a \major \time 3/4 \tempoWennErnte
+		\partial 8 r8 r a\f cis a e' e
+		a,4 r r
+		r8 a cis a e' e
+		a,4 r r
+		e'\p r8 e e e %5
+		a4 r8 a a a
+		e4 r8 e e e
+		a4 r8 a e cis
+		a4 r8 a a a
+		e'4 r8 e\f e e %10
+		a a, a cis16 a e'8 e
+		a\p a, a cis16 a e'8 e
+		a\f a, a cis16 a e'8 e
+		a,2 r4
+		r8 a\p a a e'4 %15
+		r8 a, a a a4
+		r8 a cis a e'4
+		r8 a, a a a4
+		R2.*3 %21
+		r8 e' e e e e
+		e r e r e r
+		e e e e e r
+		e r e r e r %25
+		e4 e r
+		r8 a, cis a e' e
+		a,4 r8 a a a
+		e'4 r8 e e e
+		a,4 e' r %30
+		a, e' r
+		r8 a, a a e' e
+		a,4 r8 a a a
+		e'4 r8 e e e
+		a,4 e' r %35
+		a, e' r
+		r8 a, a a e' d
+		cis4.\fermata a8 h h
+		cis\f a cis a e' e
+		a,2.~\p %40
+		a~
+		a4 a a
+		a2 r4\fermata \bar "|." %43 finis
+	}
+}
+
+WennErnteBassFigures = \figuremode {
+	r8 r2.
+	r
+	r
+	r
+	<[7]> %5
+	r
+	q
+	r4. <8 3> \bassFigureExtendersOn
+	q4 \bassFigureExtendersOff r2
+	<[7]>2. %10
+	r
+	r
+	r
+	r
+	r2 \bo <[6 4]>8 \bc <[5 3]> %15
+	r2.
+	r4. \bo <[6 4]>8 <6 4> \bc <[5 3]>
+	r2.
+	r2.*3 %21
+	r2.
+	<8 6>4 <7 5> <6 4>
+	<5 3>2.
+	<8 6>4 <7 5> <6 4> %25
+	<5 3> \bo <[6 4]>8 <5 3> <\t \t> \bc <[7 5]>
+	r2 \bo <[6 4]>8 \bc <[5 3]>
+	r2.
+	<[7]>
+	r4 <6 4> <5 3> %30
+	r <6 4> <5 3>
+	r2 \bo <[6 4]>8 \bc <[5 3]>
+	r2.
+	<[7]>
+	r4 <6 4> <5 3> %35
+	r <6 4> <5 3>
+	r2 \bo <[6 4]>8 \bc q
+	<6>4. <\t>8 <7>4
+	<6>2 \bo <[6 4]>8 \bc <[5 3]>
+	r2. %40
+	r
+	r
+	r %43 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
