@@ -608,20 +608,84 @@
 	% 		\midi { \tempo 4 = 140 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "11"
+	% 		genre = "C A V A T I N A"
+	% 		title = "Wenn einſt am Erndtetage"
+	% 	}
+	% 	\paper { systems-per-page = #2 }
+	% 	\tocLabelLong "wennernte" "11" "Cavatina" "Wenn einst am Erndtetage"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "fl" "1, 2" }
+	% 					\partcombine \WennErnteFlautoI \WennErnteFlautoII
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\WennErnteViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\WennErnteViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\WennErnteViola
+	% 				}
+	% 			>>
+	% 			\new Staff {
+	% 				\set Staff.instrumentName = "S"
+	% 				\new Voice = "Soprano" { \dynamicUp \WennErnteSopranoNotes }
+	% 			}
+	% 			\new Lyrics \lyricsto Soprano \WennErnteSopranoLyrics
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\WennErnteOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \WennErnteBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 70 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "11"
-			genre = "C A V A T I N A"
-			title = "Wenn einſt am Erndtetage"
+			number = "12"
+			genre = "C H O R U S"
+			title = "Vater, in des Sohnes Nahmen bitten wir"
 		}
-		\paper { systems-per-page = #2 }
-		\tocLabelLong "wennernte" "11" "Cavatina" "Wenn einst am Erndtetage"
+		\tocLabelLong "12" "vater" "Chorus" "Vater, in des Sohnes Nahmen bitten wir"
 		\score {
 			<<
 				\new StaffGroup <<
+					\new GrandStaff <<
+						\set GrandStaff.instrumentName = "ob"
+						\new Staff {
+							\set Staff.instrumentName = "1"
+							\VaterOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "2"
+							\VaterOboeII
+						}
+					>>
+				>>
+				\new StaffGroup <<
 					\new Staff <<
-						\set Staff.instrumentName = \markup \center-column { "fl" "1, 2" }
-						\partcombine \WennErnteFlautoI \WennErnteFlautoII
+						\set Staff.instrumentName = \markup \center-column { "cor (F)" "1, 2" }
+						% \transpose c f,
+						\partcombine \VaterCornoI \VaterCornoII
 					>>
 				>>
 				\new StaffGroup <<
@@ -629,34 +693,54 @@
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\WennErnteViolinoI
+							\VaterViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\WennErnteViolinoII
+							\VaterViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "vla"
-						\WennErnteViola
+						\VaterViola
 					}
 				>>
-				\new Staff {
-					\set Staff.instrumentName = "S"
-					\new Voice = "Soprano" { \dynamicUp \WennErnteSopranoNotes }
-				}
-				\new Lyrics \lyricsto Soprano \WennErnteSopranoLyrics
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "S"
+						\new Voice = "Soprano" { \dynamicUp \VaterSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \VaterSopranoLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "A"
+						\new Voice = "Alto" { \dynamicUp \VaterAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \VaterAltoLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "T"
+						\new Voice = "Tenore" { \dynamicUp \VaterTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \VaterTenoreLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "B"
+						\new Voice = "Basso" { \dynamicUp \VaterBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \VaterBassoLyrics
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\WennErnteOrgano
+						\VaterOrgano
 					}
 				>>
-				\new FiguredBass { \WennErnteBassFigures }
+				\new FiguredBass { \VaterBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 70 }
+			\midi { \tempo 2 = 60 }
 		}
 	}
 }

@@ -959,13 +959,255 @@ OMutterAltoLyrics = \lyricmode {
 	ſicht. %183 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% AltoLyrics = \lyricmode {
-%
-% }
+VaterAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 2/2 \autoBeamOff \tempoVater
+		\partial 16 r16 R1*15 %15
+		c2 c4 r
+		f4.( g8) f4 r
+		f4. f8 f8([ g)] g([ a)]
+		b([ g)] g4\fermata r2
+		c,4. c8 c4 r %20
+		f4. g8 f4 r
+		a4. g8 f4 r
+		f4. f8 f4 r
+		f4. f8 f4 f
+		f4. f8 f4 f %25
+		R1*2
+		c2 c4 r
+		f2 e4 r
+		c2 c4 r %30
+		f2 e4 r
+		c2 c4 r
+		f2 g4 r
+		g1
+		g4 r r2 %35
+		g2 g4 r
+		a2 a4 r
+		g4. g8 g4 g
+		g g r2
+		g4. g8 g4 g %40
+		g g r2
+		g4. g8 g4 r
+		g4. g8 g4 r
+		e2. f8([ d)]
+		\appoggiatura d e4 r r2 %45
+		g2. g4
+		g r r2
+		g4. g8 g4 g
+		g4. g8 g([ d)] d4
+		R1*2 %51
+		g2 g4 r
+		g2 g4 r
+		g2 g4 r
+		g2 g4 r %55
+		g2 g4 r
+		f2 g4 r
+		g( f e d)
+		e r r2
+		g4( f e d) %60
+		e r r2
+		g4( f e) d
+		g8[ f e f] g[ f e f]
+		g[ f e f] g[ f e f]
+		g4 f e d %65
+		g( f e) d
+		g8( f4 e d e8)
+		e4 r r2
+		R1*6 %74
+		r2 r4 g8 g %75
+		g4 g g g
+		g g\fermata r g8 as
+		b4 b b b8([ c)]
+		b([ as)] as4\fermata r2
+		as4. g8 g4 r %80
+		g4. f8 f4 r
+		as b8([ as)] as4 b8([ as)]
+		as4 b8([ as)] as4 b8([ as)]
+		R1*2 %85
+		as2 as4 r
+		b2 f4 r
+		e4. e8 f4 f
+		e2 f4 r
+		e2 e4 r %90
+		e2 e4 r
+		R1*4 %95
+		c2 c4 r
+		f4.( g8) f4 r
+		f4. f8 f([ g)] g([ a)]
+		b([ g)] g4\fermata r2
+		f4. f8 f4 r %100
+		f4. f8 f4 r
+		f4. f8 f4 r
+		f4. f8 f4 r
+		a8([ b)] a([ g)] f([ b)] a([ g)]
+		f([ b)] a([ g)] \appoggiatura g f4 f %105
+		R1*2
+		e2 f4 r
+		e2 f4 r
+		e2 f4 r %110
+		e2 f4 r
+		e2 e4 r
+		f2 f4 r
+		as2( g4 f)
+		e r r2 %115
+		f2 f4 r
+		f2 f4 r
+		g4. g8 g4 c,
+		c c r2
+		g'4. g8 g4 c, %120
+		c c r2
+		f4. f8 f4 r
+		f4. f8 f4 r
+		f2. g8([ e)]
+		\appoggiatura e f4 r r2 %125
+		a2. b8([ g)]
+		\appoggiatura g a4 r r2
+		g8([ f)] e([ f)] g([ f)] e([ f)]
+		g([ f)] e([ f)] g([ e)] e4
+		R1*2 %131
+		f2 e4 r
+		f2 g4 r
+		f2 e4 r
+		f2 g4 r %135
+		a2 f4 r
+		b2 f4 r
+		a( g f e)
+		f r r2
+		a4( g f e) %140
+		f r r2
+		a4( g f) e
+		a8[ g f g] a[ g f g]
+		a[ g f g] a[ g f g]
+		a4 g f e %145
+		a( g f) e
+		a g f( e)
+		f r r2
+		R1*6 %154
+		R1\fermataMarkup \bar "|." %155 FINIS
+	}
+}
+
+VaterAltoLyrics = \lyricmode {
+	Va -- ter, %16
+	Va -- ter,
+	in des Soh -- nes
+	Nah -- men
+	bit -- ten wir, %20
+	bit -- ten wir:
+	Schen -- ke uns,
+	ſchen -- ke uns
+	je -- ne ſchö -- ne
+	Frie -- dens -- hüt -- ten %25
+
+	die er %28
+	ſter -- bend
+	uns er -- %30
+	ſtrit -- ten,
+	a -- men,
+	a -- men,
+	a --
+	men. %35
+	Va -- ter,
+	Va -- ter,
+	in des Soh -- nes
+	Nah -- men,
+	in des Soh -- nes %40
+	Nah -- men
+	bit -- ten wir,
+	bit -- ten wir:
+	Schen -- ke
+	uns, %45
+	ſchen -- ke
+	uns
+	je -- ne ſchö -- ne
+	Frie -- dens -- hüt -- ten
+
+	die er %52
+	ſter -- bend
+	uns er --
+	ſtrit -- ten, %55
+	a -- men,
+	a -- men,
+	a --
+	men,
+	a -- %60
+	men,
+	a -- men,
+	a -- _
+	_ _
+	_ _ _ men, %65
+	a -- men,
+	a --
+	men.
+
+	Ach, wir %75
+	wol -- len ger -- ne
+	ley -- den, ach, wir
+	wol -- len ger -- ne
+	ley -- den,
+	ſchenk uns nur, %80
+	ſchenk uns nur
+	je -- ne un -- nenn --
+	ba -- re Freu -- den.
+
+	Va -- ter, %86
+	Va -- ter,
+	in des Soh -- nes
+	Nah -- men,
+	a -- men, %90
+	a -- men.
+
+	Va -- ter, %96
+	Va -- ter,
+	in des Soh -- nes
+	Nah -- men
+	bit -- ten wir, %100
+	bit -- ten wir:
+	Schen -- ke uns,
+	ſchen -- ke uns
+	je -- ne ſchö -- ne
+	Frie -- dens -- hüt -- ten %105
+
+	die er %108
+	ſter -- bend
+	uns er -- %110
+	ſtrit -- ten,
+	a -- men,
+	a -- men,
+	a --
+	men. %115
+	Va -- ter,
+	Va -- ter,
+	in des Soh -- nes
+	Nah -- men,
+	in des Soh -- nes %120
+	Nah -- men
+	bit -- ten wir,
+	bit -- ten wir:
+	Schen -- ke
+	uns, %125
+	ſchen -- ke
+	uns
+	je -- ne ſchö -- ne
+	Frie -- dens -- hüt -- ten
+
+	die er %132
+	ſter -- bend
+	uns er --
+	ſtrit -- ten, %135
+	a -- men,
+	a -- men,
+	a --
+	men,
+	a -- %140
+	men,
+	a -- men,
+	a -- _
+	_ _
+	_ _ _ men, %145
+	a -- men,
+	a -- men, a --
+	men. %148 FINIS
+}

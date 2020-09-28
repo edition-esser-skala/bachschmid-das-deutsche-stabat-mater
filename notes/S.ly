@@ -730,13 +730,255 @@ WennErnteSopranoLyrics = \lyricmode {
 	wähn. %40 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% SopranoLyrics = \lyricmode {
-%
-% }
+VaterSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 2/2 \autoBeamOff \tempoVater
+		\partial 16 r16 R1*15 %15
+		f4.( g8) f4 r
+		a4.( b8) a4 r
+		a4. a8 a([ b)] b([ c)]
+		d([ e,)] e4\fermata r2
+		f4. g8 f4 r %20
+		a4. b8 a4 r
+		c4. b8 a4 r
+		d4. c8 b4 r
+		c8([ f)] e([ d)] c([ f)] e([ d)]
+		c([ f)] e([ d)] \appoggiatura d c4 c %25
+		R1*2
+		f,2 g4 r
+		as2 g4 r
+		f2 g4 r %30
+		as2 g4 r
+		f2 g4 r
+		h2 c4 r
+		f1
+		f4 r r2 %35
+		c4.( d8) c4 r
+		f4.( g8) f4 r
+		f4. f8 g([ f)] e([ d)]
+		\appoggiatura d c4 c r2
+		f4. f8 g([ f)] e([ d)] %40
+		\appoggiatura d c4 c r2
+		h4. c8 h4 r
+		d4. e8 d4 r
+		c2. d8([ h)]
+		\appoggiatura h c4 r r2 %45
+		e2. f8([ d)]
+		\appoggiatura d e4 r r2
+		f8([ e)] d([ e)] f([ e)] d([ e)]
+		f([ e]) d([ e]) f([ g,)] g4
+		R1*2 %51
+		c2 d4 r
+		es2 d4 r
+		c2 d4 r
+		es2 d4 r %55
+		c2 b!4 r
+		a2 f'4 r
+		e!( d c h)
+		c r r2
+		e4( d c h) %60
+		c r r2
+		e4( d c) h
+		e8[ d c d] e[ d c d]
+		e[ d c d] e[ d c d]
+		e4 d c h %65
+		e( d c) h
+		e8( d4 c h c8)
+		c4 r r2
+		R1*6 %74
+		r2 r4 c8 c %75
+		c4 c c c
+		c8([ des)] des4\fermata r b!8 c
+		des4 des des des8([ es)]
+		des([ c)] c4\fermata r2
+		c4. b8 b4 r %80
+		b4. as8 as4 r
+		c des8([ c)] c4 des8([ c)]
+		c4 des8([ c)] c4 des8([ c)]
+		R1*2 %85
+		f2 c4 r
+		des2 as4 r
+		g4. g8 g4 g
+		g2 g4 r
+		g2 g4 r %90
+		g2 g4 r
+		R1*4 %95
+		f4.( g8) f4 r
+		a4.( b8) a4 r
+		a4. a8 a([ b)] b([ c)]
+		d([ e,)] e4\fermata r2
+		a4. b8 a4 r %100
+		b4. c8 b4 r
+		es4. d8 c4 r
+		f4. es8 d4 r
+		c8([ d)] c([ b)] a([ d)] c([ b)]
+		a([ d)] c([ b)] \appoggiatura b a4 a %105
+		R1*2
+		g2 as4 r
+		b2 as4 r
+		g2 as4 r %110
+		b2 as4 r
+		g2 g4 r
+		as2 as4 r
+		h1
+		c4 r r2 %115
+		c4.( d8) c4 r
+		d4.( es8) d4 r
+		b4. b8 c([ b)] a([ g)]
+		\appoggiatura g f4 f r2
+		b4. b8 c([ b)] a([ g)] %120
+		\appoggiatura g f4 f r2
+		d'4. es8 d4 r
+		c4. d8 c4 r
+		a2. b8([ g)]
+		\appoggiatura g a4 r r2 %125
+		f'2. g8([ e)]
+		\appoggiatura e f4 r r2
+		b,8([ a)] g([ a)] b([ a)] g([ a)]
+		b([ a)] g([ a)] b([ c,)] c4
+		R1*2 %131
+		a'2 b4 r
+		c2 b4 r
+		a2 b4 r
+		c2 b4 r %135
+		f'2 c4 r
+		d2 b4 r
+		c( b a g)
+		a r r2
+		c4( b a g) %140
+		a r r2
+		c4( b a) g
+		c8[ b a b] c[ b a b]
+		c[ b a b] c[ b a b]
+		c4 b a g %145
+		c( b a) g
+		c b a( g)
+		f r r2
+		R1*6 %154
+		R1\fermataMarkup \bar "|." %155 FINIS
+	}
+}
+
+VaterSopranoLyrics = \lyricmode {
+	Va -- ter, %16
+	Va -- ter,
+	in des Soh -- nes
+	Nah -- men
+	bit -- ten wir, %20
+	bit -- ten wir:
+	Schen -- ke uns,
+	ſchen -- ke uns
+	je -- ne ſchö -- ne
+	Frie -- dens -- hüt -- ten %25
+
+	die er %28
+	ſter -- bend
+	uns er -- %30
+	ſtrit -- ten,
+	a -- men,
+	a -- men,
+	a --
+	men. %35
+	Va -- ter,
+	Va -- ter,
+	in des Soh -- nes
+	Nah -- men,
+	in des Soh -- nes %40
+	Nah -- men
+	bit -- ten wir,
+	bit -- ten wir:
+	Schen -- ke
+	uns, %45
+	ſchen -- ke
+	uns
+	je -- ne ſchö -- ne
+	Frie -- dens -- hüt -- ten
+
+	die er %52
+	ſter -- bend
+	uns er --
+	ſtrit -- ten, %55
+	a -- men,
+	a -- men,
+	a --
+	men,
+	a -- %60
+	men,
+	a -- men,
+	a -- _
+	_ _
+	_ _ _ men, %65
+	a -- men,
+	a --
+	men.
+
+	Ach, wir %75
+	wol -- len ger -- ne
+	ley -- den, ach, wir
+	wol -- len ger -- ne
+	ley -- den,
+	ſchenk uns nur, %80
+	ſchenk uns nur
+	je -- ne un -- nenn --
+	ba -- re Freu -- den.
+
+	Va -- ter, %86
+	Va -- ter,
+	in des Soh -- nes
+	Nah -- men,
+	a -- men, %90
+	a -- men.
+
+	Va -- ter, %96
+	Va -- ter,
+	in des Soh -- nes
+	Nah -- men
+	bit -- ten wir, %100
+	bit -- ten wir:
+	Schen -- ke uns,
+	ſchen -- ke uns
+	je -- ne ſchö -- ne
+	Frie -- dens -- hüt -- ten %105
+
+	die er %108
+	ſter -- bend
+	uns er -- %110
+	ſtrit -- ten,
+	a -- men,
+	a -- men,
+	a --
+	men. %115
+	Va -- ter,
+	Va -- ter,
+	in des Soh -- nes
+	Nah -- men,
+	in des Soh -- nes %120
+	Nah -- men
+	bit -- ten wir,
+	bit -- ten wir:
+	Schen -- ke
+	uns, %125
+	ſchen -- ke
+	uns
+	je -- ne ſchö -- ne
+	Frie -- dens -- hüt -- ten
+
+	die er %132
+	ſter -- bend
+	uns er --
+	ſtrit -- ten, %135
+	a -- men,
+	a -- men,
+	a --
+	men,
+	a -- %140
+	men,
+	a -- men,
+	a -- _
+	_ _
+	_ _ _ men, %145
+	a -- men,
+	a -- men, a --
+	men. %148 FINIS
+}

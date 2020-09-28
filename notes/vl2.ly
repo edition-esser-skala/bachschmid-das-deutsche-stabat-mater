@@ -1522,3 +1522,165 @@ WennErnteViolinoII = {
 		cis2 r4\fermata \bar "|."
 	}
 }
+
+VaterViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 2/2 \tempoVater
+		\partial 16 <a' c>16\f q4 r r8. q16 q8. q16
+		<a f'>4 r r8. <c f>16 q8. q16
+		<a a'>4. f'8 f( g) g( a)
+		b( b,) b4\fermata r2
+		r8 f-.\p f-. f-. g( f g a) %5
+		r g-. g-. g-. a( g a b)
+		a8-! a-! g4 f8-! f-! e4
+		r8 a( g f) e-! e'( f g)
+		f-! a,( g f) e-! e'( f g)
+		a,( g f g) a( g f g) %10
+		a16\f a g g f[ f g g] a a g g f[ f g g]
+		a8-!\p a-! g4 f8-! f-! e4
+		c'8( b a b) c( b a b)
+		c16\f c b b a[ a b b] c c b b a[ a b b]
+		c8 c b b a a g g %15
+		<f a>4 r r8. <a c>16 q8. q16
+		<a f'>4 r r8. <c f>16 q8. q16
+		<a a'>4. f'8 f( g) g( a)
+		b( b,) b4\fermata r2
+		a,4.(\p b8) a4-! r %20
+		f'4.( g8) f4-! r
+		a4.( g8) f4-! r
+		b4.( f8) d4-! r
+		a'8(\f d) c-! b-! a( d) c-! b-!
+		a( d) c-! b-! \appoggiatura b a4 r %25
+		a8( d) c-! b-! a( d) c-! b-!
+		a( d) c-! b-! a4 r
+		r8 as\p as as r g g g
+		r f f f r e e e
+		r as as as r g g g %30
+		r f f f r e e e
+		r a!-!\f f'( a,)
+		r g-! e'( g,) r f-! h( f) r e-! e'( e,)
+		d8.\ff d'16 d8. d16 d8. d16 d8. d16
+		d8 h,4 c d e8~ %35
+		<c' e, g,>4 r r8. e16 e8. e16
+		f4 r r8. f16 f8. f16
+		cis8( d) r4 <g, g,> r
+		r8. c16 e8. c16 e8. c16 e8. c16
+		cis8( d) r4 <g, g,> r %40
+		r8 e'-! f( e) f( e) d( c)
+		h4 r g8( a g a)
+		h4-! r g8( a g f)
+		e4-! e2 f8( d)
+		r c-! d-! e-! f-! g-! a-! h-! %45
+		c4-! c2 d8( h)
+		r e-! f( e) f-! e-! d-! c-!
+		d( c) h-! c-! d( c) h-! c-!
+		d( c) h-! c-! d4 e8( f)
+		d,( c) h-! c-! d( c) h-! c-! %50
+		d( c) h-! c-! d4 cis'8( d)
+		r g,-.\p g-. g-. r \parOn g-\parenthesize-. g-. g-.
+		r g-. g-. g-. r g-. g-. g-.
+		r g-. g-. g-. r g-. g-. g-.
+		r g-. g-. g-. r g-. g-. \parOff g-\parenthesize-. %55
+		r e!-!\f c'( e,) r c'-! e( c)
+		r a-! f'( a,) r g-! d'( h)
+		c c d d c c h h
+		c4 r c\p r
+		e8\f e d d c c h h %60
+		c4 r c\p r
+		e8\f e d d c c h h
+		e(\p d) c-! d-! e( d) c-! d-!
+		e( d) c-! d-! e( d) c-! d-!
+		e\f e d d c c h h %65
+		e e d d c c h h
+		e d4 c h c8~
+		c d,4 e d e8~
+		e d4 e d e8~
+		e d4 e d e8~ %70
+		e4-! r e8\p e f f
+		e4 r e8 e f f
+		e4 r e8 e f f
+		e e f f e e f f
+		e4-\parenthesize-! r8 g\f g g g g %75
+		g g4 g g g8~
+		g4 g\fermata r8 as( g as)
+		b b4 b b c8
+		b( as) as4\fermata r8 as\p as as
+		as as as as g-! g'-! g,-! g'-! %80
+		g, g g g as-! f'-! as,-! f'-!
+		as,4( b) as( b)
+		as( b) as( b)
+		as8-! as( b as) as-! as( b as)
+		as-! as( b as) as-! as( b as) %85
+		as8.\f c16 as8. as16 as4 r
+		b8. des16 b8. b16 as4 r
+		e8 e4 e8( f) f4 f8(
+		e) e4 e8( f) f4 f8(
+		e) e4 e e e8~ %90
+		e4. f8 g(\p f e f)
+		g4-! r g8( f e f)
+		g4-! r g8( f e f)
+		g( f e f) g( f e f)
+		g d'4\f c b a8~ %95
+		<a f>4 r r8. <a c>16 q8. q16
+		<a f'>4 r r8. <c f>16 q8. q16
+		<a a'>4. f'8 f( g) g( a)
+		b( b,) b4\fermata r2
+		c,4.(\p d8) c4-\parenthesize-! r %100
+		d4.( es8) d4-! r
+		c'4.( b8) a4-! r
+		d4.( c8) b4-! r
+		c8(\f d) c-! b-! a( d) c-! b-!
+		a( d) c-! b-! \appoggiatura b a4 r %105
+		a8( b) a-! g-! f( b) a-! g-!
+		f( b) a-! g-! f4 r
+		r8 g\p g g r as as as
+		r b b b r as as as
+		r g g g r as as as %110
+		r b b b r as as as
+		r g-!\f e'( g,) r g-! e'( g,)
+		r as-! c( as) r as-! c( as)
+		f8.\ff f'16 f8. f16 f8. f16 f8. f16
+		e8 c4 h b a!8~ %115
+		<a f>4 r r8. a16 a8. a16
+		b4 r r8. d16 d8. d16
+		fis8( g) r4 c, r
+		r8. f16 a8. f16 a8. f16 a8. f16
+		fis8( g) r4 c, r %120
+		r8 a-! g( f) e-! f-! g-! a-!
+		b4-! r b8( c) b( c)
+		a4-! r a8( b) a( g)
+		f4-! f2 g8( e)
+		r a,-! b-! c-! d-! e-! f-! g-! %125
+		a4-! a2 b8( g)
+		r a-! b-! a-! b-! a-! g-! f-!
+		g( f) e-! f-! g( f) e-! f-!
+		g( f) e-! f-! g4-! fis'8( g)
+		g,( f) e-! f-! g( f) e-! f-! %130
+		g( f) e-! f-! g4-! fis'8( g)
+		r a,-.\p a-. a-. r b-. b-. b-.
+		r a-. a-. a-. r g-. g-. g-.
+		r a-. a-. a-. r b-. b-. b-.
+		r a-. a-. a-. r g-. g-. g-. %135
+		r f-!\f c'( a) r f-! c'( f,)
+		r b-! d( b) r b-! d( b)
+		a a g g f f e e
+		f4 r b8( c d b)
+		a a g g f f e e %140
+		f4 r b8( c d b)
+		a a g g f f e e
+		a(\p g) f-! g-! a( g) f-! g-!
+		a( g) f-! g-! a( g) f-! g-!
+		a\f a g g f f e e %145
+		a a g g f f e e
+		a g4 f e f8~
+		f-! a(\p g f) e-! e'( f g)
+		f-! a,( g f) e-! e'( f g)
+		\kneeBeam f8.\f a,,16 a8. a16 a8. f'16 f8. f16 %150
+		f8. a16 a8. a16 a8. c16 c8. c16
+		c8 f4 c a f8~
+		f c'4 a f c8~
+		c4 <f a,>8. q16 q4 q
+		q2 r\fermata \bar "|." %155 FINIS
+	}
+}

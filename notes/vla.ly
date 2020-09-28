@@ -1854,3 +1854,165 @@ WennErnteViola = {
 		a2 r4\fermata \bar "|." %43 finis
 	}
 }
+
+VaterViola = {
+	\relative c' {
+		\clef alto
+		\key f \major \time 2/2 \tempoVater
+		\partial 16 f16-!\f f4 r r8. f16 f8. f16
+		f4 r r8. f16 f8. f16
+		f8. f16 f8. f16 f8. f16 f8. f16
+		e8( g) g4\fermata r2
+		f4\p r r2 %5
+		b,4 r r2
+		f'4 b, c c
+		c r c r
+		c r c r
+		f r f r %10
+		f\f f8. f16 f4 f
+		f\p b, c c
+		f r f r
+		f\f f8. f16 f4 f
+		f b, c c %15
+		f r r8. f16 f8. f16
+		f4 r r8. f16 f8. f16
+		f8. f16 f8. f16 f8. f16 f8. f16
+		e8( g) g4\fermata r2
+		f8.\p c16 a8. c16 f,4 r %20
+		f'8. c16 a8. c16 f,4 r
+		f'8. c16 a8. c16 f,4 r
+		b'8. f16 d8. f16 b,4 r
+		f'\f r f r
+		f r f8. g16 f8. g16 %25
+		f4 r f r
+		f r f8. g16 f8. g16
+		f8-!\p f f f r e e e
+		r as as as r g g g
+		r f f f r e e e %30
+		r as as as r g g g
+		r f\f f f r e e e
+		r d d d r c c c
+		g8.\ff g'16 g8. g16 g8. g16 g8. g16
+		g4 r r2 %35
+		<c, c,>4 r r8. c16 c8. c16
+		c4 r r8. c'16 c8. c16
+		h8. h,16 h8. h16 h8. h16 h8. h16
+		c4 r c r
+		h8. h16 h8. h16 h8. h16 h8. h16 %40
+		c4 r c r
+		r8. g16 g8. g16 g4 r
+		r8. g'16 g8. g16 g4 r
+		r c,8. c16 c8. c16 g8. g16
+		c4 r c r %45
+		r c8. c16 c8. c16 g8. g16
+		c4 r r2
+		g'4 r g r
+		g g g2
+		g,4 r g r %50
+		g g g2
+		r8 es'-.\p es-. es-. r \parOn h-\parenthesize-. h-. h-.
+		r c-. c-. c-. r g-. g-. g-.
+		r es'-. es-. es-. r h-. h-. h-.
+		r c-. c-. c-. r g-. g-. \parOff g-\parenthesize-. %55
+		c8.\f c16 c8. c16 e!8. e16 c8. c16
+		f8. f16 d8. d16 h8. h16 g8. g16
+		c4 f g g,
+		c r c\p r
+		c\f f g g, %60
+		c r c\p r
+		c\f f g g,
+		c\p r c r
+		c r c r
+		c\f f g g, %65
+		c f g g,
+		c8 c f f g g g, g
+		c4 g c g
+		c g c g
+		c g c g %70
+		c8\mf c c c c c c c
+		c c c c c c c c
+		c c c c c c c c
+		c c c c c c c c
+		c4-! r8 e\f e e e e %75
+		e e4 e e e8~
+		e4 e\fermata r8 e e e
+		es es4 es es es8~
+		es4 es\fermata r2
+		e8-!\p e, e e e e e e %80
+		f f f f f f f f
+		f f' f f f f f f
+		f f f f f f f f
+		f4 r f r
+		f r f r %85
+		r8. f16\f f8. f16 f4 r
+		r8. f16 f8. f16 f4 r
+		c8 c4 c8( d!) d4 d8(
+		c) c4 c8( d) d4 d8(
+		c) c4 c c c8~ %90
+		c4 r c8.\mf c16 c8. c16
+		c8 c c c c c c c
+		c c c c c c c c
+		c c c c c c c c
+		c4 r r2 %95
+		f4\f r r8. f16 f8. f16
+		f4 r r8. f16 f8. f16
+		f8. f16 f8. f16 f8. f16 f8. f16
+		e8( g) g4\fermata r2
+		r8. f16\p f8. f16 f4 r %100
+		r8. f,16 f8. f16 f4 r
+		r8. f'16 f8. f16 f4 r
+		r8. b,16 b8. b16 b4 r
+		f'\f r f r
+		f r f8. g16 f8. g16 %105
+		f4 r f r
+		f r f8. f16 d8. d16
+		c8 e\p e e r f f f
+		r g g g r f f f
+		r e e e r f f f %110
+		r g g g r f f f
+		c8.\f c16 c8. c16 c2
+		c8. c16 c8. c16 c2
+		c8.\ff c16 c8. c16 c8. c16 c8. c16
+		c4 r r2 %115
+		f,4 r r8. f'16 f8. f16
+		f4 r r8. f16 f8. f16
+		e8. c16 c8. c16 c8. c16 c8. c16
+		c4 r c r
+		c8. c16 c8. c16 c8. c16 c8. c16 %120
+		f4 r f, r
+		r8. b16 b8. b16 b4 r
+		r8. f'16 f8. f16 f4 r
+		r f,8. f16 a8. a16 c8. c16
+		f4 r f r %125
+		r f,8. f16 a8. a16 c8. c16
+		f4 r r2
+		c4 r c r
+		c c c2
+		c4 r c r %130
+		c c c2
+		r8 f-.\p f-. f-. r g-. g-. g-.
+		r f-. f-. f-. r e-. e-. e-.
+		r f-. f-. f-. r g-. g-. g-.
+		r f-. f-. f-. r e-. e-. e-. %135
+		f8.\f f16 f8. f16 a8. a16 a8. a16
+		b8. b16 b8. b16 b,8. b16 b8. b16
+		f'4 b c c,
+		f r f r
+		f b c c, %140
+		f r f r
+		f b c c,
+		f\p r f r
+		f r f r
+		f\f b c c, %145
+		f b c c,
+		f8 f b b c c c, c
+		f4 r c\p r
+		c r c r
+		<c c,>\f r q8. q16 q8. q16 %150
+		q4 r f8. a16 a8. a16
+		a8 c4 a f c8~
+		c a'4 f c a8~
+		a4 <c c,>8. q16 q4 q
+		q2 r\fermata \bar "|." %155 FINIS
+	}
+}

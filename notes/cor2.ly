@@ -326,3 +326,143 @@ WirWollenCornoII = {
 		e r r\fermata \bar "|." %185 finis
 	}
 }
+
+VaterCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoVater
+		\partial 16 r16 r8. c16\f c8. c16 c4 r
+		r8. c'16 c8. c16 c4 r
+		r8. c,16 c8. c16 c4 c'
+		d2\fermata r
+		R1*2 %6
+		e4\pE d c g
+		e r r8 g-\solo c d
+		c4 r r8 g c d
+		c4 r r2 %10
+		e8\fE d c d e d c d
+		e4\pE d c g
+		c, r r2
+		e'8\fE d c d e d c d
+		e4 d c g %15
+		r8. c,16 c8. c16 c4 r
+		r8. c'16 c8. c16 c4 r
+		r8. c,16 c8. c16 c4 c'
+		d2\fermata r
+		r2 r8. c,16\mf c8. c16 %20
+		c4 r r8. c16 c8. c16
+		c4 r r8. c16 c8. c16
+		c4 r r8. c16 c8. c16
+		c4\f r c r
+		c r r2 %25
+		c4 r c r
+		c r r2
+		R1*4 %31
+		e2\f g4 r
+		c,2 g'4 r
+		d'\ff d8. d16 d4 d
+		d r r2 %35
+		r8. g,16 g8. g16 g4 r
+		r8. c16 c8. c16 c4 r
+		d r d r
+		g, r g r
+		d' r d r %40
+		g, r r2
+		R1*2
+		g2. d'4
+		g, r r2 %45
+		g4-! g2 d'4
+		g, r r2
+		R1*8 %55
+		g2\f g4 g
+		c, r r d'
+		g, c d d
+		g, r r2
+		g4 c d d %60
+		g, r r2
+		g4 c d d
+		g,\p r g r
+		g r g r
+		g\f c d2 %65
+		g,4 c d2
+		g,4 c d d
+		g, d' g, d'
+		g, d' g, d'
+		g, d' g, d' %70
+		g, r r2
+		g,1~\p
+		g~
+		g4 g g g
+		g r r2 %75
+		R1
+		r2\fermata r
+		R1
+		r2\fermata r
+		R1*4 %83
+		c4\p r c r
+		c r c r %85
+		c\f r r8. c16 c8. c16
+		c4 r r8. c16 c8. c16
+		g'4 r d' r
+		g, r d' r
+		g, r g g %90
+		g r g\p g
+		g r g r
+		g r g r
+		g g g g
+		g r r2 %95
+		r8. c,16\f c8. c16 c4 r
+		r8. c'16 c8. c16 c4 r
+		r8. c,16 c8. c16 c4 c'
+		d2\fermata r
+		r r8. c,16\mf c8. c16 %100
+		c4 r r8. c16 c8. c16
+		c4 r r8. c16 c8. c16
+		c4 r r8. c16 c8. c16
+		c4 r r2
+		R1 %105
+		c4\fE r c r
+		c r c r
+		R1*4 %111
+		g'2~\f g4 r
+		g2~ g4 r
+		g\ff g8. g16 g4 g
+		g r r2 %115
+		r8. c,16 c8. c16 c4 r
+		r8. c16 c8. c16 c4 r
+		g' r g r
+		c r c r
+		g r g r %120
+		e r r2
+		R1*2
+		e2. g4
+		e r r2 %125
+		c'4 c2 g4
+		e r r2
+		g4 r g r
+		g g g2
+		g4 r g r %130
+		g g g2
+		R1*4 %135
+		c,2\f c4 c
+		c r r2
+		e'4 d c g
+		c, r r2
+		e'4 d c g %140
+		c, r r2
+		e'4 d c g
+		c,\p r c r
+		c r c r
+		e'\f d c g %145
+		e' d c g
+		e'8 e d d c c g g
+		e4 r r8 g-\solo c d
+		c4 r r8 g c d
+		c4\f r c, c %150
+		c r c c
+		c r c r
+		c r c r
+		c c8. c16 c4 c
+		c2 r\fermata \bar "|." %155 FINIS
+	}
+}

@@ -371,3 +371,140 @@ UndWannOboeII = {
 		fis fis fis r\fermata \bar "|." %194 finis
 	}
 }
+
+VaterOboeII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 2/2 \tempoVater
+		\partial 16 r16 r8. a'16\f a8. a16 a4 r
+		r8. f'16 f8. f16 f4 r
+		r8. f16 f8. f16 f8( g) g( a)
+		b2\fermata r
+		r8 f-.^\solo f-. f-. g( f g a) %5
+		r g-. g-. g-. a( g a b)
+		a4 g f e
+		r8 a( g f) e4-! r
+		r8 a( g f) e4-! r
+		a8( g f g) a( g f g) %10
+		a(\fE g f g) a( g f g)
+		a4\pE g f e
+		a8( g f g) a( g f g)
+		a(\fE g f g) a( g f g)
+		a4 g f e %15
+		r8. a,16 a8. a16 a4 r
+		r8. f'16 f8. f16 f4 r
+		r8. f16 f8. f16 f8( g) g( a)
+		b2\fermata r
+		r r8. a,16\mf a8. a16 %20
+		c4 r r8. f16 f8. f16
+		a4 r r8. a16 a8. a16
+		b4 r r8. b16 b8. b16
+		a4 r r2
+		R1*3 %27
+		f2(\p c4) r
+		f2( e4) r
+		f2( c4) r %30
+		f2( e4) r
+		f2(\f e4) r
+		h2( c4) r
+		d \ff d8. d16 d4 d
+		d r r2 %35
+		r8. c16 c8. c16 c4 r
+		r8. d16 d8. d16 d4 r
+		r d r g,
+		r c c c
+		r d r g, %40
+		c r r2
+		R1*6 %47
+		d8( c) h-! c-! d( c) h-! c-!
+		d( c) h-! c-! d4-! r
+		d8( c) h-! c-! d( c) h-! c-! %50
+		d( c) h-! c-! d4-! r
+		R1*7 %58
+		r8 e-.^\solo e-. e-. f( g a f)
+		e4 r r2 %60
+		r8 e-. e-. e-. f( g a f)
+		e4 r r2
+		e8( d) c-! d-! e( d) c-! d-!
+		e( d) c-! d-! e( d) c-! d-!
+		e4\f d c h %65
+		e d c h
+		e d c h
+		e( d) e( d)
+		e( d) e( d)
+		e( d) e( d) %70
+		e-! r e(^\solo f)
+		e-! r e( f)
+		e-! r e( f)
+		e( f) e( f)
+		e r r2 %75
+		R1
+		r2\fermata r
+		R1
+		r2\fermata r
+		r g\p %80
+		r f
+		R1*2
+		as4(\p b) as( b)
+		as( b) as( b) %85
+		as\f r r8. c,16 c8. c16
+		des4 r r8. f16 f8. f16
+		e4 r f r
+		e r f r
+		e r e e %90
+		e r g8(^\solo f e f)
+		g4 r g8( f e f)
+		g4 r g8( f e f)
+		g( f e f) g( f e f)
+		g4 r r2 %95
+		r8. a,16\f a8. a16 a4 r
+		r8. f'16 f8. f16 f4 r
+		r8. f16 f8. f16 f8( g) g( a)
+		b2\fermata r
+		r r8. c,16\mf c8. c16 %100
+		d4 r r8. d16 d8. d16
+		es4 r r8. es16 es8. es16
+		d4 r r8. d16 d8. d16
+		c4 r r2
+		R1 %105
+		c8(^\solo d) c-! b-! a( d) c-! b-!
+		a( d) c-! b-! a4 r
+		e'2(\p f4) r
+		c2( f4) r
+		e2( f4) r %110
+		c2( f4) r
+		e\f e e r
+		f f f r
+		d\ff d8. d16 d4 d
+		c r r2 %115
+		r8. c16 c8. c16 c4 r
+		r8. d16 d8. d16 d4 r
+		r g r c,
+		r f f f
+		r g r c, %120
+		f r r2
+		R1*6 %127
+		g8( f) e-! f-! g( f) e-! f-!
+		g( f) e-! f-! g4 r
+		g8( f) e-! f-! g( f) e-! f-! %130
+		g( f) e-! f-! g4 r
+		R1*7 %138
+		r8 a,-.^\solo b-. c-. d( e f d)
+		c4 r r2 %140
+		r8 a-. b-. c-. d( e f d)
+		c4 r r2
+		a'8( g) f-! g-! a( g) f-! g-!
+		a( g) f-! g-! a( g) f-! g-!
+		a4\f g f e %145
+		a g f e
+		a g f e
+		r8 a(^\solo g f) e4 r
+		r8 a( g f) e4 r
+		f\f r f f %150
+		f r a a
+		f r f r
+		a r f r
+		c a8. a16 a4 a
+		a2 r\fermata \bar "|." %155 FINIS
+	}
+}

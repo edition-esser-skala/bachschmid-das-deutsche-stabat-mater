@@ -2970,13 +2970,322 @@ WennErnteBassFigures = \figuremode {
 	r %43 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassFigures = \figuremode {
-%
-% }
+VaterOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 2/2 \tempoVater
+		\partial 16 f16-!\f f4 r r8. f16 f8. f16
+		f4 r r8. f16 f8. f16
+		f8. f16 f8. f16 f8. f16 f8. f16
+		e2\fermata r
+		f4\p r r2 %5
+		b,4 r r2
+		f'4 b, c c
+		f r c r
+		f r c r
+		f r f r %10
+		f\f f8. f16 f4 f
+		f\p b, c c
+		f r f r
+		f\f f8. f16 f4 f
+		f b, c c %15
+		f r r8. f16 f8. f16
+		f4 r r8. f16 f8. f16
+		f8. f16 f8. f16 f8. f16 f8. f16
+		e2\fermata r
+		f8.\p c16 a8. c16 f4 r %20
+		f8. c16 a8. c16 f4 r
+		f8. c16 a8. c16 f4 r
+		b8. f16 d8. f16 b4 r
+		f\f r f r
+		f r f8. g16 f8. g16 %25
+		f4 r f r
+		f r f8. g16 f8. g16
+		f2(\p e4) r
+		f2( c4) r
+		f2( e4) r %30
+		f2( c4) r
+		f8.\f f16 f8. f16 e2
+		d8. d16 d8. d16 c2
+		h8.\ff h16 d8. d16 h8. h16 d8. d16
+		g,4 r r2 %35
+		c4 r r8. c16 c8. c16
+		c4 r r8. c16 c8. c16
+		h8. h16 h8. h16 h8. h16 h8. h16
+		c4 r c r
+		h8. h16 h8. h16 h8. h16 h8. h16 %40
+		c4 r c r
+		r8. g'16 g8. g16 g4 r
+		r8. g,16 g8. g16 g4 r
+		r c8. c16 e8. e16 g8. g16
+		c,4 r c r %45
+		r c8. c16 e8. e16 g8. g16
+		c,4 r r2
+		g'4 r g r
+		g g g2
+		g,4 r g r %50
+		g g g2
+		c\p g'4 r
+		c2 g4 r
+		c,2 g'4 r
+		c2 g4 r %55
+		c,8.\f c16 c8. c16 e!8. e16 c8. c16
+		f8. f16 d8. d16 h8. h16 g8. g16
+		c4 f g g,
+		c r c\p r
+		c\f f g g, %60
+		c r c\p r
+		c\f f g g,
+		c\p r c r
+		c r c r
+		c\f f g g, %65
+		c f g g,
+		c8 c f f g g g, g
+		c4 g c g
+		c g c g
+		c g c g %70
+		c r c\p c
+		c r c c
+		c r c c
+		c c c c
+		c2 r %75
+		c4\f r c r
+		c8( b!) b4\fermata r2
+		g4 r g r
+		g8( as) as4\fermata r2
+		r8. e'!16\p e8. e16 e4 r %80
+		r8. f16 f8. f16 f4 r
+		f r f r
+		f r f r
+		f r f r
+		f r f r %85
+		r8. f16\f f8. f16 f4 r
+		r8. f16 f8. f16 f4 r
+		c8. c16 c8. c16 h2
+		c8. c16 c8. c16 h2
+		c4 r c8. c16 c8. c16 %90
+		c4 r c8.\p c16 c8. c16
+		c4 r c r
+		c r c r
+		c c c c
+		c r r2 %95
+		f4\f r r8. f16 f8. f16
+		f4 r r8. f16 f8. f16
+		f8. f16 f8. f16 f8. f16 f8. f16
+		e2\fermata r
+		r8. f16\p f8. f16 f4 r %100
+		r8. d16 d8. d16 d4 r
+		r8. a16 a8. a16 a4 r
+		r8. b16 b8. b16 b4 r
+		f'\f r f r
+		f r f8. g16 f8. g16 %105
+		f4 r f r
+		f r f8. f16 h,8. h16
+		c2\p f4 r
+		g2 f4 r
+		c2 f4 r %110
+		g2 f4 r
+		c8.\f c16 c8. c16 c2
+		c8. c16 c8. c16 c2
+		c8.\ff c16 c8. c16 c8. c16 c8. c16
+		c4 r r2 %115
+		r8. f16 f8. f16 f4 r
+		r8. f16 f8. f16 f4 r
+		e8. e16 e8. e16 e8. e16 e8. e16
+		f4 r f r
+		e8. e16 e8. e16 e8. e16 e8. e16 %120
+		f4 r f r
+		r8. b16 b8. b16 b4 r
+		r8. f16 f8. f16 f4 r
+		r f8. f16 a8. a16 c8. c16
+		f,4 r f r %125
+		r f8. f16 a8. a16 c8. c16
+		f,4 r r2
+		c4 r c r
+		c c c2
+		c4 r c r %130
+		c c c r
+		f2\p g4 r
+		a2 e4 r
+		f2 g4 r
+		a2 e4 r %135
+		f8.\f f16 f8. f16 a8. a16 a8. a16
+		b8. b16 b8. b16 b,8. b16 b8. b16
+		f'4 b c c,
+		f r f r
+		f b c c, %140
+		f r f r
+		f b c c,
+		f\p r f r
+		f r f r
+		f\f b c c, %145
+		f b c c,
+		f8 f b b c c c, c
+		f4 r c\p r
+		f r c r
+		f\f r f8. f16 f8. f16 %150
+		f4 r f8. f16 f8. f16
+		f4 r f r
+		f r f r
+		f f8. f16 f4 f
+		f2 r\fermata \bar "|." %155 FINIS
+	}
+}
+
+VaterBassFigures = \figuremode {
+	r16 r1
+	r
+	r
+	<7 5>
+	r %5
+	<[6]>
+	r4 <8 6> <6 4> <5 3>
+	r1
+	r
+	r %10
+	r
+	r4 <8 6> <6 4> <5 3>
+	r1
+	r
+	r4 <8 6> <6 4> <5 3> %15
+	r1
+	r
+	r
+	<7 5>
+	r %20
+	r
+	r
+	r
+	r
+	r %25
+	r
+	r
+	<_->2 <[6]>
+	<_->1
+	<_->2 <[6]> %30
+	<_->1
+	<_!>2 <[6]>
+	<6!>1
+	<6 5>
+	<[7 _!]> %35
+	r1
+	<4 2>
+	<6 5>
+	r
+	<6 5> %40
+	r
+	r8. <_!>16 r2.
+	r8. q16 r2.
+	r2 <[6]>4 <_!>
+	r1 %45
+	r2 <[6]>4 <_!>
+	r1
+	<7 _!>
+	r
+	r %50
+	r
+	<_->2 <[_!]>
+	<_-> <[_!]>
+	<_-> <[_!]>
+	<_-> <[_!]> %55
+	<_!> <5->4 <\t>
+	r2 <6 5>4 <[7 _!]>
+	r4 <8 6> <6 4> <5 _!>
+	r2 <6 4>
+	<5 3>4 <8 6> <6 4> <5 _!> %60
+	r2 <6 4>
+	<5 3>4 <8 6> <6 4> <5 _!>
+	r1
+	r
+	r4 <8 6> <6 4> <5 _!> %65
+	r <8 6> <6 4> <5 _!>
+	r <8 6> <6 4> <5 _!>
+	r4 \bo <[_!]>2 <_!>4
+	r q2 q4
+	r q2 \bc <[_!]>4 %70
+	r2 <5 3>4 <6- 4>
+	<5 3>2. <6- 4>4
+	<5 3>2. <6- 4>4
+	<5 3> <6- 4> <5 3> <6- 4>
+	<5 3>1 %75
+	r
+	r8 <6 [4] _-> r2.
+	<6- 5->1
+	r8 <[5-]> r2.
+	<6 4->4.. \bassFigureExtendersOn q16 \bassFigureExtendersOff <5 3>2 %80
+	<9 4>4.. \bassFigureExtendersOn q16 \bassFigureExtendersOff <8 _->2
+	\bo <[5 _-]>4 <6- 4> <5 _-> <6- 4>
+	<5 _-> <6- 4> <5 _-> <6- 4>
+	<5 _-> <6- 4> <5 _-> <6- 4>
+	<5 _-> <6- 4> <5 _-> \bc <[6- 4]> %85
+	r8. <5 _->16 r2.
+	r8. <6- 4>16 r4 <5 _->2
+	r <6 5>
+	r <6 5>
+	r1 %90
+	r
+	<[7]>
+	r
+	r
+	r %95
+	<_!>
+	r
+	r
+	<7 5>
+	r %100
+	r8. <6>16 r2.
+	r8. <6 [5-]>16 r2.
+	r1
+	r
+	r %105
+	r
+	r2 <8 3>4 <\t \t>
+	<5 3>2 <_->
+	<6> <_->
+	r <_-> %110
+	<6> <_->
+	<5 3>1
+	<6- 4>
+	\bo <7! [6- 4]>2 \bassFigureExtendersOn <7! 5 3>4 \bc <7! [4 2]> \bassFigureExtendersOff
+	<8 5 3>1 %115
+	r8. <[_!]>16 r2.
+	r8. <6 4>16 r2.
+	<6 5>1
+	r
+	<[6 5]> %120
+	r
+	r
+	r
+	r2 <[6]>
+	r1 %125
+	r2 <[6]>
+	r1
+	<7>
+	r
+	r %130
+	r
+	r2 <6>
+	q <6 [5]>
+	r <6>
+	q <6 [5]> %135
+	r <[6]>
+	r1
+	r4 <8 6> <6 4> <5 3>
+	r2 <6 4>
+	<5 3>4 <8 6> <6 4> <5 3> %140
+	r2 <6 4>
+	<5 3>4 <8 6> <6 4> <5 3>
+	r1
+	r
+	r4 <8 6> <6 4> <5 3> %145
+	r <8 6> <6 4> <5 3>
+	r <8 6> <6 4> <5 3>
+	r1
+	r
+	r %150
+	r
+	r
+	r
+	r
+	r %155 FINIS
+}

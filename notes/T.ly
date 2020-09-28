@@ -1154,13 +1154,255 @@ WirWollenTenoreLyrics = \lyricmode {
 	lehrt. %179 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-%
-% 	}
-% }
-%
-% TenoreLyrics = \lyricmode {
-%
-% }
+VaterTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key f \major \time 2/2 \autoBeamOff \tempoVater
+		\partial 16 r16 R1*15 %15
+		a4.( b8) a4 r
+		c2 c4 r
+		c4. c8 c4 c
+		b b\fermata r2
+		a4. b8 a4 r %20
+		c4. c8 c4 r
+		f4. e8 f4 r
+		b,4. c8 d4 r
+		a8([ d)] c([ b)] a([ d)] c([ b)]
+		a([ d)] c([ b)] \appoggiatura b a4 a %25
+		R1*2
+		as2 c4 r
+		c2 c4 r
+		as2 c4 r %30
+		c2 c4 r
+		a!2 c4 r
+		d2 e4 r
+		d1
+		d4 r r2 %35
+		e4.( f8) e4 r
+		d4.( e8) d4 r
+		d4. d8 d4 d
+		\appoggiatura d8 e4 e r2
+		d4. d8 d4 d %40
+		\appoggiatura d8 e4 e r2
+		d4. e8 d4 r
+		h4. c8 h4 r
+		g2. g4
+		g r r2 %45
+		c2. d8([ h)]
+		\appoggiatura h c4 r r2
+		d8([ c)] h([ c)] d([ c)] h([ c)]
+		d([ c)] h([ c)] d([ h)] h4
+		R1*2 %51
+		es2 d4 r
+		c2 h4 r
+		es2 d4 r
+		c2 h4 r %55
+		e!2 c4 r
+		c2 d4 r
+		c( a g2)
+		g4 r r2
+		g4( a g2) %60
+		g4 r r2
+		g4( a g) g
+		c2 c4 r
+		c2 c4 r
+		c( a g) g %65
+		g( a g) g
+		g a g2
+		g4 r r2
+		R1*6 %74
+		r2 r4 e'8 e %75
+		e4 e e e
+		e e\fermata r e8 e
+		es4 es es es
+		es es\fermata r2
+		c4. c8 c4 r %80
+		c4. c8 c4 r
+		f4. f8 f4 f
+		f4. f8 f4 f
+		R1*2 %85
+		c2 c4 r
+		b2 c4 r
+		c4. c8 d!4 d
+		c2 d4 r
+		c2 c4 r %90
+		c2 c4 r
+		R1*4 %95
+		a!4.( b8) a4 r
+		c2 c4 r
+		c4. c8 c4 c
+		b b\fermata r2
+		c4. d8 c4 r %100
+		d4. es8 d4 r
+		c4. b8 a4 r
+		d4. c8 b4 r
+		f'4. f8 f4 f
+		f4. f8 f4 f %105
+		R1*2
+		c2 c4 r
+		c2 c4 r
+		c2 c4 r %110
+		c2 c4 r
+		c2 c4 r
+		c2 c4 r
+		f2( e4 d)
+		c r r2 %115
+		a!4.( b8) a4 r
+		b4.( c8) b4 r
+		c4. c8 c4 c
+		a a r2
+		c4. c8 c4 c %120
+		a a r2
+		b4. c8 b4 r
+		a4. b8 a4 r
+		c2. c4
+		c r r2 %125
+		c2. c4
+		c r r2
+		c4. c8 c4 c
+		c4. c8 c8([ g)] g4
+		R1*2 %131
+		c2 b4 r
+		a2 g4 r
+		c2 b4 r
+		a2 g4 r %135
+		c2 a4 r
+		b2 d4 r
+		c( d c2)
+		c4 r r2
+		c4( d c2) %140
+		c4 r r2
+		c4( d c) c
+		f2 f4 r
+		f2 f4 r
+		f( d c) c %145
+		c( d c) c
+		c d c2
+		c4 r r2
+		R1*6 %154
+		R1\fermataMarkup \bar "|." %155 FINIS
+	}
+}
+
+VaterTenoreLyrics = \lyricmode {
+	Va -- ter, %16
+	Va -- ter,
+	in des Soh -- nes
+	Nah -- men
+	bit -- ten wir, %20
+	bit -- ten wir:
+	Schen -- ke uns,
+	ſchen -- ke uns
+	je -- ne ſchö -- ne
+	Frie -- dens -- hüt -- ten %25
+
+	die er %28
+	ſter -- bend
+	uns er -- %30
+	ſtrit -- ten,
+	a -- men,
+	a -- men,
+	a --
+	men. %35
+	Va -- ter,
+	Va -- ter,
+	in des Soh -- nes
+	Nah -- men,
+	in des Soh -- nes %40
+	Nah -- men
+	bit -- ten wir,
+	bit -- ten wir:
+	Schen -- ke
+	uns, %45
+	ſchen -- ke
+	uns
+	je -- ne ſchö -- ne
+	Frie -- dens -- hüt -- ten
+
+	die er %52
+	ſter -- bend
+	uns er --
+	ſtrit -- ten, %55
+	a -- men,
+	a -- men,
+	a --
+	men,
+	a -- %60
+	men,
+	a -- men,
+	a -- men,
+	a -- men,
+	a -- men, %65
+	a -- men,
+	a -- men, a --
+	men.
+
+	Ach, wir %75
+	wol -- len ger -- ne
+	ley -- den, ach, wir
+	wol -- len ger -- ne
+	ley -- den,
+	ſchenk uns nur, %80
+	ſchenk uns nur
+	je -- ne un -- nenn --
+	ba -- re Freu -- den.
+
+	Va -- ter, %86
+	Va -- ter,
+	in des Soh -- nes
+	Nah -- men,
+	a -- men, %90
+	a -- men.
+
+	Va -- ter, %96
+	Va -- ter,
+	in des Soh -- nes
+	Nah -- men
+	bit -- ten wir, %100
+	bit -- ten wir:
+	Schen -- ke uns,
+	ſchen -- ke uns
+	je -- ne ſchö -- ne
+	Frie -- dens -- hüt -- ten %105
+
+	die er %108
+	ſter -- bend
+	uns er -- %110
+	ſtrit -- ten,
+	a -- men,
+	a -- men,
+	a --
+	men. %115
+	Va -- ter,
+	Va -- ter,
+	in des Soh -- nes
+	Nah -- men,
+	in des Soh -- nes %120
+	Nah -- men
+	bit -- ten wir,
+	bit -- ten wir:
+	Schen -- ke
+	uns, %125
+	ſchen -- ke
+	uns
+	je -- ne ſchö -- ne
+	Frie -- dens -- hüt -- ten
+
+	die er %132
+	ſter -- bend
+	uns er --
+	ſtrit -- ten, %135
+	a -- men,
+	a -- men,
+	a --
+	men,
+	a -- %140
+	men,
+	a -- men,
+	a -- men,
+	a -- men,
+	a -- men, %145
+	a -- men,
+	a -- men, a --
+	men. %148 FINIS
+}

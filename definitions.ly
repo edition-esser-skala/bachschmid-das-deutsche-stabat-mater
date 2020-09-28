@@ -694,6 +694,7 @@ tempoWirWollen = \tempoMarkup "Poco andante"
 tempoOMutter = \tempoMarkup "Andante moderato"
 tempoUndWann = \tempoMarkup "Allegro moderato"
 tempoWennErnte = \tempoMarkup "Larghetto"
+tempoVater = \tempoMarkup "Largo"
 
 
 

@@ -1081,13 +1081,255 @@ UndWannBassoLyrics = \lyricmode {
 	an. %189 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassoLyrics = \lyricmode {
-%
-% }
+VaterBassoNotes = {
+	\relative c {
+		\clef bass
+		\key f \major \time 2/2 \autoBeamOff \tempoVater
+		\partial 16 r16 R1*15 %15
+		f2 f4 r
+		f2 f4 r
+		f4. f8 f4 f
+		e e\fermata r2
+		f4. c8 f4 r %20
+		f4. c8 f4 r
+		f4. c'8 f,4 r
+		b4. f8 b4 r
+		f4. f8 f4 f
+		f4. f8 f4 f %25
+		R1*2
+		f2 e4 r
+		f2 c4 r
+		f2 e4 r %30
+		f2 c4 r
+		f2 e4 r
+		d2 c4 r
+		h'1
+		h4 r r2 %35
+		c2 c,4 r
+		c'2 c,4 r
+		h'4. h8 h4 h
+		c c, r2
+		h'4. h8 h4 h %40
+		c c, r2
+		g'4. g8 g4 r
+		g4. g8 g4 r
+		c2. g4
+		c, r r2 %45
+		c'2. g4
+		c, r r2
+		g'4. g8 g4 g
+		g4. g8 g4 g,
+		R1*2 %51
+		c'2 g4 r
+		c2 g4 r
+		c2 g4 r
+		c2 g4 r %55
+		c,2 e!4 r
+		f2 h,4 r
+		c( f g g,)
+		c r r2
+		c'4( f, g g,) %60
+		c r r2
+		c4( f g) g,
+		c2 c4 r
+		c2 c4 r
+		c( f g) g, %65
+		c( f g) g,
+		c f g( g,)
+		c r r2
+		R1*6 %74
+		r2 r4 c'8 c %75
+		c4 c c c
+		c8([ b!)] b4\fermata r b8 as
+		g4 g g g
+		g8([ as)] as4\fermata r2
+		e!4. e8 e4 r %80
+		f4. f8 f4 r
+		f4. f8 f4 f
+		f4. f8 f4 f
+		R1*2 %85
+		f2 f4 r
+		f2 f4 r
+		c'4. c8 h4 h
+		c2 h4 r
+		c2 c,4 r %90
+		c'2 c,4 r
+		R1*4 %95
+		f2 f4 r
+		f2 f4 r
+		f4. f8 f4 f
+		e e\fermata r2
+		f4. f8 f4 r %100
+		d4. d8 d4 r
+		a'4. a8 a4 r
+		b4. b8 b4 r
+		f4. f8 f4 f
+		f4. f8 f4 f %105
+		R1*2
+		c2 f4 r
+		g2 f4 r
+		c2 f4 r %110
+		g2 f4 r
+		c2 c4 r
+		c2 c4 r
+		c1
+		c4 r r2 %115
+		f2 f4 r
+		f2 f4 r
+		e4. e8 e4 e
+		f f r2
+		e4. e8 e4 e %120
+		f f r2
+		b4. b,8 b4 r
+		f'4. f8 f4 r
+		f2. c4
+		f r r2 %125
+		f2. c4
+		f r r2
+		c4. c8 c4 c
+		c4. c8 c4 c
+		R1*2 %131
+		f2 g4 r
+		a2 e4 r
+		f2 g4 r
+		a2 e4 r %135
+		f2 a4 r
+		b2 b,4 r
+		f'( b c c,)
+		f r r2
+		f4( b c c,) %140
+		f r r2
+		f4( b c) c,
+		f2 f4 r
+		f2 f4 r
+		f( b c) c, %145
+		f( b c) c,
+		f b c( c,)
+		f r r2
+		R1*6 %154
+		R1\fermataMarkup \bar "|." %155 FINIS
+	}
+}
+
+VaterBassoLyrics = \lyricmode {
+	Va -- ter, %16
+	Va -- ter,
+	in des Soh -- nes
+	Nah -- men
+	bit -- ten wir, %20
+	bit -- ten wir:
+	Schen -- ke uns,
+	ſchen -- ke uns
+	je -- ne ſchö -- ne
+	Frie -- dens -- hüt -- ten %25
+
+	die er %28
+	ſter -- bend
+	uns er -- %30
+	ſtrit -- ten,
+	a -- men,
+	a -- men,
+	a --
+	men. %35
+	Va -- ter,
+	Va -- ter,
+	in des Soh -- nes
+	Nah -- men,
+	in des Soh -- nes %40
+	Nah -- men
+	bit -- ten wir,
+	bit -- ten wir:
+	Schen -- ke
+	uns, %45
+	ſchen -- ke
+	uns
+	je -- ne ſchö -- ne
+	Frie -- dens -- hüt -- ten
+
+	die er %52
+	ſter -- bend
+	uns er --
+	ſtrit -- ten, %55
+	a -- men,
+	a -- men,
+	a --
+	men,
+	a -- %60
+	men,
+	a -- men,
+	a -- men,
+	a -- men,
+	a -- men, %65
+	a -- men,
+	a -- men, a --
+	men.
+
+	Ach, wir %75
+	wol -- len ger -- ne
+	ley -- den, ach, wir
+	wol -- len ger -- ne
+	ley -- den,
+	ſchenk uns nur, %80
+	ſchenk uns nur
+	je -- ne un -- nenn --
+	ba -- re Freu -- den.
+
+	Va -- ter, %86
+	Va -- ter,
+	in des Soh -- nes
+	Nah -- men,
+	a -- men, %90
+	a -- men.
+
+	Va -- ter, %96
+	Va -- ter,
+	in des Soh -- nes
+	Nah -- men
+	bit -- ten wir, %100
+	bit -- ten wir:
+	Schen -- ke uns,
+	ſchen -- ke uns
+	je -- ne ſchö -- ne
+	Frie -- dens -- hüt -- ten %105
+
+	die er %108
+	ſter -- bend
+	uns er -- %110
+	ſtrit -- ten,
+	a -- men,
+	a -- men,
+	a --
+	men. %115
+	Va -- ter,
+	Va -- ter,
+	in des Soh -- nes
+	Nah -- men,
+	in des Soh -- nes %120
+	Nah -- men
+	bit -- ten wir,
+	bit -- ten wir:
+	Schen -- ke
+	uns, %125
+	ſchen -- ke
+	uns
+	je -- ne ſchö -- ne
+	Frie -- dens -- hüt -- ten
+
+	die er %132
+	ſter -- bend
+	uns er --
+	ſtrit -- ten, %135
+	a -- men,
+	a -- men,
+	a --
+	men,
+	a -- %140
+	men,
+	a -- men,
+	a -- men,
+	a -- men,
+	a -- men, %145
+	a -- men,
+	a -- men, a --
+	men. %148 FINIS
+}
