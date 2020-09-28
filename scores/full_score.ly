@@ -121,7 +121,7 @@
 			genre = "C H O R U S"
 			title = "Ja, Herzens Thränen laß uns weinen"
 		}
-		\tocLabelLong "3" "jaherzens" "Chorus" "Ja, Herzens Thränen laß uns weinen"
+		\tocLabelLong "jaherzens" "3" "Chorus" "Ja, Herzens Thränen laß uns weinen"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -206,7 +206,7 @@
 			title = "Für die Laſter ſeiner Kinder"
 		}
 		\paper { systems-per-page = #2 }
-		\tocLabelLong "4" "fuerdie" "Aria" "Für die Laster seiner Kinder"
+		\tocLabelLong "fuerdie" "4" "Aria" "Für die Laster seiner Kinder"
 		\score {
 			<<
 				\new StaffGroup \with { \smallGroupDistance } <<
@@ -268,7 +268,7 @@
 			system-system-spacing.minimum-distance = #35
 			systems-per-page = #2
 		}
-		\tocLabelLong "5" "verlassen" "Arioso" "Verlassen!"
+		\tocLabelLong "verlassen" "5" "Arioso" "Verlassen!"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -317,7 +317,7 @@
 			system-system-spacing.minimum-distance = #17
 			systems-per-page = #2
 		}
-		\tocLabelLong "6" "wenneinst" "Duetto" "Wenn einst mein lezter Kampf beginnet"
+		\tocLabelLong "wenneinst" "6" "Duetto" "Wenn einst mein lezter Kampf beginnet"
 		\score {
 			<<
 				\new StaffGroup \with { \smallGroupDistance } <<
@@ -379,7 +379,7 @@
 			system-system-spacing.minimum-distance = #35
 			systems-per-page = #2
 		}
-		\tocLabelLong "7" "gernemutter" "Aria" "Gerne, Mutter, will ich leiden"
+		\tocLabelLong "gernemutter" "7" "Aria" "Gerne, Mutter, will ich leiden"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -423,7 +423,7 @@
 			genre = "C H O R U S"
 			title = "Wir wollen leiden wie der Mittler"
 		}
-		\tocLabelLong "8" "wirwollen" "Chorus" "Wir wollen leiden wie der Mittler"
+		\tocLabelLong "wirwollen" "8" "Chorus" "Wir wollen leiden wie der Mittler"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -512,7 +512,7 @@
 			system-system-spacing.minimum-distance = #35
 			systems-per-page = #2
 		}
-		\tocLabelLong "9" "omutter" "Aria" "O Mutter aller reinen Liebe"
+		\tocLabelLong "omutter" "9" "Aria" "O Mutter aller reinen Liebe"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -557,7 +557,7 @@
 			title = "Und wenn einſt am großen Tage"
 		}
 		\paper { systems-per-page = #2 }
-		\tocLabelLong "10" "undwenn" "Aria" "Und wenn einst am großen Tage"
+		\tocLabelLong "undwenn" "10" "Aria" "Und wenn einst am großen Tage"
 		\score {
 			<<
 				\new StaffGroup \with { \smallGroupDistance } <<
@@ -665,7 +665,7 @@
 			genre = "C H O R U S"
 			title = "Vater, in des Sohnes Nahmen bitten wir"
 		}
-		\tocLabelLong "12" "vater" "Chorus" "Vater, in des Sohnes Nahmen bitten wir"
+		\tocLabelLong "vater" "12" "Chorus" "Vater, in des Sohnes Nahmen bitten wir"
 		\score {
 			<<
 				\new StaffGroup <<

@@ -72,7 +72,6 @@
 					\set Staff.instrumentName = "Bassi"
 					\WelchEinOrgano
 				}
-				\new FiguredBass { \WelchEinBassFigures }
 			>>
 		}
 	}
@@ -85,7 +84,6 @@
 		\score {
 			<<
 				\new Staff { \DichErblickenOrgano }
-				\new FiguredBass { \DichErblickenBassFigures }
 			>>
 		}
 	}
@@ -98,7 +96,6 @@
 		\score {
 			<<
 				\new Staff { \JaHerzensOrgano }
-				\new FiguredBass { \JaHerzensBassFigures }
 			>>
 		}
 	}
@@ -111,7 +108,6 @@
 		\score {
 			<<
 				\new Staff { \FuerDieOrgano }
-				\new FiguredBass { \FuerDieBassFigures }
 			>>
 		}
 	}
@@ -125,7 +121,6 @@
 		\score {
 			<<
 				\new Staff { \VerlassenOrgano }
-				\new FiguredBass { \VerlassenBassFigures }
 			>>
 		}
 	}
@@ -138,7 +133,6 @@
 		\score {
 			<<
 				\new Staff { \WennEinstOrgano }
-				\new FiguredBass { \WennEinstBassFigures }
 			>>
 		}
 	}
@@ -151,7 +145,6 @@
 		\score {
 			<<
 				\new Staff { \GerneMutterOrgano }
-				\new FiguredBass { \GerneMutterBassFigures }
 			>>
 		}
 	}
@@ -164,7 +157,6 @@
 		\score {
 			<<
 				\new Staff { \WirWollenOrgano }
-				\new FiguredBass { \WirWollenBassFigures }
 			>>
 		}
 	}
@@ -177,7 +169,6 @@
 		\score {
 			<<
 				\new Staff { \OMutterOrgano }
-				\new FiguredBass { \OMutterBassFigures }
 			>>
 		}
 	}
@@ -190,7 +181,6 @@
 		\score {
 			<<
 				\new Staff { \UndWannOrgano }
-				\new FiguredBass { \UndWannBassFigures }
 			>>
 		}
 	}
@@ -204,7 +194,6 @@
 		\score {
 			<<
 				\new Staff { \WennErnteOrgano }
-				\new FiguredBass { \WennErnteBassFigures }
 			>>
 		}
 	}
@@ -217,7 +206,6 @@
 		\score {
 			<<
 				\new Staff { \VaterOrgano }
-				\new FiguredBass { \VaterBassFigures }
 			>>
 		}
 	}
