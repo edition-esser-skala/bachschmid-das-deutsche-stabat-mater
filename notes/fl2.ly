@@ -84,7 +84,7 @@ DichErblickenFlautoII = {
 		r cis-. cis-. cis-. f([ d)]
 		cis( d cis d cis d) \noBreak
 		d4( cis) r\fermata \bar "||"
-		\time 2/3 \tempoDichErblickenB \partialFourth r4 \noBreak R1 \noBreak %110
+		\time 2/2 \tempoDichErblickenB \partialFourth r4 \noBreak R1 \noBreak %110
 		r4 f\f r f
 		r e\p r e
 		R1

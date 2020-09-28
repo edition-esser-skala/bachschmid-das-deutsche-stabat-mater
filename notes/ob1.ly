@@ -100,7 +100,7 @@ JaHerzensOboeI = {
 		es4 r8 g as f
 		g4 r8 g as f
 		g as g as g as %110
-		\once \slurDashed as4( g) r\fermata \bar "||" %111 finis
+		\once \slurDashed as4( g) r\fermata \bar "|." %111 finis
 	}
 }
 

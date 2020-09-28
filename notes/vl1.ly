@@ -160,7 +160,7 @@ DichErblickenViolinoI = {
 		a) r a(
 		a) a a \noBreak
 		a2 r4\fermata \bar "||"
-		\time 2/2 \tempoDichErblickenB r4 \noBreak r8 d-.\p d-. d-. d( e) e( f) \noBreak %110
+		\time 2/2 \tempoDichErblickenB \partialFourth r4 \noBreak r8 d-.\p d-. d-. d( e) e( f) \noBreak %110
 		f(\f gis,) r f'~ f gis,-\parenthesize-! r f'-!\p
 		e( g,) r e'~ e g,-! r g
 		f4 d'~ d8 e( d cis)
@@ -1005,9 +1005,9 @@ WirWollenViolinoI = {
 		cis!16 cis cis cis e e e e f f f f gis gis gis gis
 		a a a a e e e e f f f f gis gis gis gis
 		a a a a e e e e f f f f gis gis gis gis %120
-		a a a a e e e e f f f f gis gis gis gis
-		\time 3/4 a4 r8\fermata \tempoWirWollenB \once \slurDashed a,8(\mf h a)
-		a4( fis) r
+		a a a a e e e e f f f f gis gis gis gis \noBreak
+		\time 3/4 a4 r8\fermata \tempoWirWollenB \once \slurDashed a,8(\mf h a) \noBreak
+		a4( fis) r \noBreak
 		a( fis) r
 		d'8( cis d cis h a) %125
 		a4( fis) r
