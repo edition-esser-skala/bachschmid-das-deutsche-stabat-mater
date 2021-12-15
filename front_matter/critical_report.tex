@@ -1,465 +1,186 @@
-\documentclass[parskip=full]{scrreprt}
+\documentclass[tocstyle=ref-genre]{ees}
 
-\RedeclareSectionCommand[pagestyle=plain,afterskip=10pt plus 1pt]{chapter}
-\setkomafont{chapter}{\mdseries\headingfont\fontsize{40}{40}\selectfont\color{black!80}}
-\setkomafont{pageheadfoot}{\normalsize}
-
-\def\pnumbox#1{#1\hspace*{8cm}}
-\def\gobble#1{}
-
-\DeclareTOCStyleEntry[
-  indent=0pt,
-  beforeskip=0pt,
-  entrynumberformat=\textcolor{oldred},
-  numwidth=2em,
-  linefill=\hfill,
-  pagenumberbox=\pnumbox
-]{tocline}{section}
-
-\DeclareTOCStyleEntry[
-  indent=0pt,
-  beforeskip=-\parskip,
-  entrynumberformat=\gobble,
-  entryformat=\ltseries,
-  numwidth=2em,
-  linefill=\hfill,
-  pagenumberbox=\pnumbox,
-  pagenumberformat=\ltseries
-]{tocline}{subsection}
-
-\usepackage{polyglossia}
-\setdefaultlanguage{english}
-
-\usepackage{fontspec}
-
-\setmainfont{Source Sans Pro}[
-  ItalicFont = Source Sans Pro Italic,
-  BoldFont = Source Sans Pro Bold,
-  BoldItalicFont = Source Sans Pro Bold Italic,
-  FontFace = {lt}{n}{Source Sans Pro Light},
-  FontFace = {lt}{it}{Source Sans Pro Light Italic},
-  FontFace = {sb}{n}{Source Sans Pro Semibold},
-  FontFace = {sb}{it}{Source Sans Pro Semibold Italic},
-  Numbers = Proportional,
-  Ligatures = Common
-]
-\DeclareRobustCommand{\ltseries}{\fontseries{lt}\selectfont}
-\DeclareRobustCommand{\sbseries}{\fontseries{sb}\selectfont}
-\DeclareTextFontCommand{\textlt}{\ltseries}
-\DeclareTextFontCommand{\textsb}{\sbseries}
-
-\newfontfamily\headingfont{Fredericka the Great}
-
-\usepackage[pass]{geometry}
-\newgeometry{twoside,inner=20mm,outer=40mm,top=20mm,bottom=40mm}
-
-\usepackage{url}
-\urlstyle{same}
-
-\usepackage{microtype}
-\microtypesetup{verbose=silent}
-
-\usepackage{booktabs,array,longtable}
-\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
-
-\usepackage{graphicx}
-
-\usepackage{xcolor}
-\definecolor{oldred}{rgb}{.8313,0,0}
-
-\usepackage{pdfpages}
-
-\usepackage{scrlayer-scrpage}
-\pagestyle{scrheadings}
-\clearscrheadfoot
-\cfoot[\thepage]{\thepage}
-\pagenumbering{roman}
-
-\usepackage{enumitem}
-\setlist[description]{%
-  labelindent=2em,%
-  labelwidth=6em,%
-  leftmargin=8em,%
-  labelsep=0pt,
-  first=\ltseries,%
-  font=\normalfont\itshape\ltseries%
-}
-\def\lyrefitem#1{\item[\lyref{#1}]}
-
-
-\makeatletter
-
-\def\@firstofthree#1#2#3{#1}
-\def\@secondofthree#1#2#3{#2}
-\def\@thirdofthree#1#2#3{#3}
-\def\@firstoffour#1#2#3#4{#1}
-\def\@secondoffour#1#2#3#4{#2}
-\def\@thirdoffour#1#2#3#4{#3}
-\def\@fourthoffour#1#2#3#4{#4}
-\def\Dotfill{\leavevmode\cleaders\hb@xt@ .75em{\hss .\hss }\hfill \kern \z@}
-
-\def\lyrefnumber#1{\expandafter\@setref\csname r@#1\endcsname\@firstofthree{#1}}
-\def\lyreftitle#1{\expandafter\@setref\csname r@#1\endcsname\@secondofthree{#1}}
-\def\lyrefpage#1{\expandafter\@setref\csname r@#1\endcsname\@thirdofthree{#1}}
-
-\def\lyrefgenrenumber#1{\expandafter\@setref\csname r@#1\endcsname\@firstoffour{#1}}
-\def\lyrefgenregenre#1{\expandafter\@setref\csname r@#1\endcsname\@secondoffour{#1}}
-\def\lyrefgenretitle#1{\expandafter\@setref\csname r@#1\endcsname\@thirdoffour{#1}}
-\def\lyrefgenrepage#1{\expandafter\@setref\csname r@#1\endcsname\@fourthoffour{#1}}
-
-\def\lyref#1{%
-  \begingroup%
-  \makebox[0pt][l]{\color{oldred}\lyrefnumber{#1}}\hspace*{2em}%
-  \lyreftitle{#1}\Dotfill\lyrefpage{#1}%
-  \endgroup%
-}
-\def\lyrefgenre#1{%
-  \begingroup%
-  \makebox[0pt][l]{\color{oldred}\lyrefgenrenumber{#1}}\hspace*{2em}%
-  \makebox[0pt][l]{\ltseries\lyrefgenregenre{#1}}\hspace*{6em}%
-  \lyrefgenretitle{#1}\Dotfill\lyrefgenrepage{#1}%
-  \endgroup%
-}
-\InputIfFileExists{../out/lilypond.ref}{}{\InputIfFileExists{../lilypond.ref}{}{}}
-
-
-\newcommand\fancytitlehead{
-	\headingfont%
-	\fontsize{80}{80}\selectfont\textcolor{black!80}{\@ifundefined{@shortname}{\@lastname}{\@shortname}.}\\[15pt]%
-	\fontsize{60}{60}\selectfont\@ifundefined{@shorttitle}{\@title}{\@shorttitle}.%
-}
-
-
-\def\firstname#1{\def\@firstname{#1}}
-\def\lastname#1{\def\@lastname{#1}}
-\def\shortname#1{\def\@shortname{#1}}
-\def\shorttitle#1{\def\@shorttitle{#1}}
-\def\namesuffix#1{\def\@namesuffix{#1}}
-\def\instrumentation#1{\def\@instrumentation{#1}}
-\def\parts#1{\def\@parts{#1}}
-
-\firstname{\relax}
-\lastname{\relax}
-\namesuffix{\relax}
-\instrumentation{\relax}
-\parts{\relax}
-
-
-\def\maketitle{%
-\begin{titlepage}%
-	\Large%
-	{\@titlehead}%
-	\vfill%
-	{\strut\@firstname}\\%
-	{\sbseries\color{oldred}\strut\@lastname}\\%
-	{\strut\@namesuffix}%
-	\vfill%
-	{\sbseries\@title}\\%
-	{\@subtitle}\\[\baselineskip]%
-	{\itshape\@instrumentation}%
-	\vfill%
-	{\itshape\@parts}\hspace*{\fill}\raisebox{0pt}[0pt][0pt]{\includegraphics{ees_logo}}%
-\end{titlepage}%
-}
-
-
-\newif\iftemplate\templatetrue
-\newif\ifprintreport\printreportfalse
-\directlua{
-scores = {
-  fl1 = "Flauto I",
-  fl2 = "Flauto II",
-  ob1 = "Oboe I",
-  ob2 = "Oboe II",
-  cor12 = "Corno I, II in D/Es/F",
-  clno12 = "Clarino I, II in D",
-  vl1 = "Violino I",
-  vl2 = "Violino II",
-  vla = "Viola I, II",
-  coro = "Coro",
-  org = "Organo",
-  b = "Bassi",
-  full_score = "Full Score"
-}
-
-last_arg = arg[\string#arg]
-texio.write("Last argument: " .. last_arg)
-if not (scores[last_arg] == nil) then
-  tex.print("\string\\def\string\\lypdfname{" .. last_arg .. "}")
-  tex.print("\string\\parts{" .. scores[last_arg] .. "}")
-  if (last_arg == "full_score") then
-    tex.print("\string\\printreporttrue")
-  end
-end
-}
-
-\@ifundefined{lypdfname}{%
-  \templatefalse
-  \printreporttrue
-  \parts{Draft}
-}{\templatetrue}
-
-\makeatother
-
-
-
-
-
+\shorttitle{Stabat Mater}
 
 \begin{document}
-\frenchspacing
 
-\titlehead{\fancytitlehead}
-\firstname{Anton Adam}
-\lastname{Bachschmid}
-\title{Das deutsche Stabat Mater}
-\shorttitle{Stabat Mater}
-\subtitle{Welch ein Anblikk?\\(D-Eu Esl II 59)}
-\instrumentation{S, A, T, B (solo), S, A, T, B (coro),\\2 fl, 2 ob, 2 cor, 2 clno, 2 vl, 2 vla, b, org}
-\maketitle
+\eesTitlePage
 
+\eesCriticalReport{
+  2  & 73   & vl 2   & grace note missing in \A1 \\
+     & 109  & org    & bar in \A1: A2. \\
+  3  & 101f & ob, vl & bars adjusted to bar 45f \\
+  4  & 15   & vla    & 2nd \halfNote\ in \A1: f2 \\
+     & 150  & vl 2   & 7th \eighthNote\ in \A1: c″8 \\
+  5  & 120  & vl 1   & grace note missing in \A1 \\
+  8  & 63   & cor 1  & 1st \quarterNote\ in \A1 c″4 \\
+     & 63   & cor 2  & 1st \quarterNote\ in \A1 c′4 \\
+     & 99   & vl 1   & 3rd \quarterNote\ in \A1: \sharp g″16–e″16–\sharp g″16–e″16 \\
+     & 99   & vl 2   & 3rd \quarterNote\ in \A1: d″16–b′16–d″16–b′16 \\
+     & 99   & vla    & 3rd \quarterNote\ in \A1: b′16–\sharp g′16–b′16–\sharp g′16 \\
+     & 112  & vl 2   & 3rd \quarterNote\ in \A1: \sharp f″4 \\
+     & 120  & A      & last \quarterNote\ in \A1: d′4 \\
+     & 141  & S      & bar in \A1: b′4.–b′8–b′8–b′8 \\
+  9  & 56   & A      & 1st \quarterNoteDotted\ in \A1: g′4. \\
+     & 172–175 & vla 1 & in \A1 unison with vla 2 \\
+  10 & 105  & vl 2   & 1st \eighthNote\ in \A1: b8 \\
+}
 
-\thispagestyle{empty}
+\eesToc{
+\begin{movement}{welchein}
+  \voice[Tenore]
+  Welch ein Anblikk?\\
+  Seht die Mutter der Schmerzen,\\
+  ohnmachtsvoll am Baum der Welten Erlöſung!\\
+  Ach! Es blutet ihr Sohn!\\
+  O! Mutterleiden!\\
+  Ach! Ihr Eingebohrner!\\
+  Ach! es blutet der Gottmenſch,\\
+  blutet, und ſtirbt, ſo quallenvoll und ſchmächlich!\\
+  Und dies muß die betrübte Mutter ſehen!\\
+  O! es durchwühlet mitten ihre gebeugte Seel der Stahl der Leiden.\\
+  Wie Sie ſeufzet? und mit den Schmerzen ringet?\\
+  Wie Sie verlaßen daſteht?\\
+  Ihrem Sohne zur Seite, Gottes Mutter, Gottes Gebenedeyte.
+\end{movement}
 
-\vspace*{\fill}
+\begin{movement}{dicherblicken}
+  \voice[Tenore]
+  Dich erblicken ohne Thräne,\\
+  Gottes Mutter, kann ich nicht.\\
+  O, ſie fließet! Aber jene\\
+  kalterpreßte Augenthräne,\\
+  Gottes Mutter, fließet nicht.\\
+  Seh ich dich in deinem Leide,\\
+  ſeh ich dich in deinem Schmerz,\\
+  dich an deines Sohnes Seite,\\
+  Mutter, dann weint mein Herz.
+\end{movement}
 
-\raisebox{-4mm}{\includegraphics{byncsaeu}}\hspace*{1em}Wolfgang Esser-Skala, 2020
-
-© 2020 by Wolfgang Esser-Skala. This edition is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit \url{http://creativecommons.org/licenses/by-nc-sa/4.0/}. 
-
-Music engraving by LilyPond 2.18.0 (\url{http://www.lilypond.org}).\\
-Front matter typeset with Source Sans Pro and Fredericka the Great.
-
-\textit{First version, September 2020}
-
-\vspace*{2cm}
-
-\ifprintreport
-\chapter*{Critical Report.}
-
-This edition bases upon the autograph manuscript (movements 1 to 7) and contemporary parts (movements 8 to 12, since the autograph manuscript is incomplete) in the Universitätsbibliothek Eichstätt-Ingolstadt. The digital version of the manuscript is available at \url{https://nbn-resolving.org/urn:nbn:de:bvb:824-esl-ii-59-3} (siglum Esl II 59).
-
-In general, this edition closely follows the manuscript. Any changes that were introduced by the editor are indicated by italic type (lyrics, dynamics and directions), parentheses (expressive marks and bass figures) or dashes (slurs and ties). Accidentals are used according to modern conventions. Asterisks denote changes that are clarified in the detailed remarks below.\footnote{Abbreviations: A, alto; B, bass; b, basses; clno, clarion; cor, horn; fl, flute; Ms, manuscript; ob, oboe; org, organ; r,~rest; S, soprano; T, tenor; vl, violin; vla, viola.}
-
-\bigskip
-
-\begin{longtable}{lll L{10cm}}
-	\toprule
-	\itshape Mov. & \itshape Bar & \itshape Staff & \itshape Note \\
-	\midrule \endhead
-	2  & 73   & vl 2   & grace note missing in Ms \\
-	   & 109  & org    & bar in Ms: A2. \\
-	3  & 101f & ob, vl & bars adjusted to bar 45f \\
-	4  & 15   & vla    & 2nd half note in Ms: f2 \\
-	   & 150  & vl 2   & 7th eighth in Ms: c″8 \\
-	5  & 120  & vl 1   & grace note missing in Ms \\
-	8  & 63   & cor 1  & 1st quarter in Ms c″4 \\
-	   & 63   & cor 2  & 1st quarter in Ms c′4 \\
-	   & 99   & vl 1   & 3rd quarter in Ms: gis″16–e″16–gis″16–e″16 \\
-	   & 99   & vl 2   & 3rd quarter in Ms: d″16–b′16–d″16–b′16 \\
-	   & 99   & vla    & 3rd quarter in Ms: b′16–gis′16–b′16–gis′16 \\
-	   & 112  & vl 2   & 3rd quarter in Ms: fis″4 \\
-	   & 120  & A      & last quarter in Ms: d′4 \\
-	   & 141  & S      & bar in Ms: b′4.–b′8–b′8–b′8 \\
-	9  & 56   & A      & 1st note in Ms: g′4. \\
-	   & 172–175 & vla 1 & in Ms unison with vla 2 \\
-	10 & 105  & vl 2   & 1st eighth in Ms: b8 \\
-	\bottomrule
-\end{longtable}
-
-\clearpage
-This edition has been compiled and checked with utmost diligence. Nevertheless, errors and mistakes cannot be totally excluded. Please report any errors and mistakes to \url{wolfgang@esser-skala.at} or create an issue or pull request on the edition’s GitHub page \url{https://github.com/skafdasschaf/bachschmid-das-deutsche-stabat-mater}. Your help will be greatly appreciated.
-
-\textit{Salzburg, September 2020\\
-Wolfgang Esser-Skala}
-
-\cleardoublepage
-\chapter*{Contents.}
-
-\lyrefgenre{welchein}
-
-\begin{description}
-	\item[Tenore]
-		Welch ein Anblikk?\\
-		Seht die Mutter der Schmerzen,\\
-		ohnmachtsvoll am Baum der Welten Erlösung!\\
-		Ach! Es blutet ihr Sohn!\\
-		O! Mutterleiden!\\
-		Ach! Ihr Eingebohrner!\\
-		Ach! es blutet der Gottmensch,\\
-		blutet, und stirbt, so quallenvoll und schmächlich!\\
-		Und dies muß die betrübte Mutter sehen!\\
-		O! es durchwühlet mitten ihre gebeugte Seel der Stahl der Leiden.\\
-		Wie Sie seufzet? und mit den Schmerzen ringet?\\
-		Wie Sie verlaßen dasteht?\\
-		Ihrem Sohne zur Seite, Gottes Mutter, Gottes Gebenedeyte.
-\end{description}
-
-\lyrefgenre{dicherblicken}
-
-\begin{description}
-	\item[Tenore]
-		Dich erblicken ohne Thräne,\\
-		Gottes Mutter, kann ich nicht.\\
-		O, sie fließet! Aber jene\\
-		kalterpreßte Augenthräne,\\
-		Gottes Mutter, fließet nicht.\\
-		Seh ich dich in deinem Leide,\\
-		seh ich dich in deinem Schmerz,\\
-		dich an deines Sohnes Seite,\\
-		Mutter, dann weint mein Herz.
-\end{description}
-
-\lyrefgenre{jaherzens}
-
-\begin{description}
-	\item[Coro]
-		Ja, Herzens Thränen laß uns weinen,\\
-		laß sie uns weinen nur genug\\
-		am Kreuz bey jenen heiligen Gebeinen,\\
-		die dorthin unsre Sinde schlug.\\
-		Laß uns, o Mittler, klagen,\\
-		ach, wir haben Wunden dir\\
-		und deiner Mutter auch gegraben,\\
-		wir Sindenknechte wir.
-\end{description}
-
-\lyrefgenre{fuerdie}
-
-\begin{description}
-	\item[Basso]
-		Für die Laster seiner Kinder,\\
-		für die Müßethat der Kinder\\
-		leidet Jesus Schmach und Hohn,\\
-		laßet sich in Purpur kleiden,\\
-		trägt zur Fülle seiner Leiden\\
-		eine dorngeflochtne Kron.\\
-		Seine müde Würger keichen,\\
-		Streiche folgen Geißelstreichen\\
-		unter Spott und Höllenton.\\
-		Duldend, gleich dem Opferlamme,\\
-		naht er sich dem Kreuzes Stamme\\
-		zu des hohen Wohlthuns Lohn.\\
-		Diese Leiden alle dulden\\
-		nur zur Tilgung unsrer Schulden\\
-		siehst du, Mutter, deinen Sohn.
-\end{description}
-
-\lyrefgenre{verlassen}
-
-\begin{description}
-	\item[Tenore]
-	Verlassen!\\
-	Im letzten Kampfe ganz verlasen,\\
-	o Mutter, siehst du deinen Sohn,\\
-	Er stirbt, dein Sohn, er stirbt.
-\end{description}
-
-\lyrefgenre{wenneinst}
-
-\begin{description}
-	\item[Soprano, Alto]
-	Wenn einst mein lezter Kampf beginnet,\\
-	laß mich, Gott, jene Städte sehen,\\
-	wo du gehängt auf Golgatha.\\
-	Wenn einst mein Tropfen Zeit verrinnet,\\
-	laß meinen Geist vorüber gehen,\\
-	was heute deine Mutter sah.\\
-	Dein Blut ist auch für mich geflossen,\\
-	für mich hast du es auch vergossen,\\
-	es wird im Kampfe Kraft mir geben,\\
-	der matten Seele neues Leben:\\
-	Dann, Bundesmittler, siegen wir,\\
-	und danken ewig dir.
-\end{description}
+\begin{movement}{jaherzens}
+  \voice[Coro]
+  Ja, Herzens Thränen laß uns weinen,\\
+  laß ſie uns weinen nur genug\\
+  am Kreuz bey jenen heiligen Gebeinen,\\
+  die dorthin unſre Sinde ſchlug.\\
+  Laß uns, o Mittler, klagen,\\
+  ach, wir haben Wunden dir\\
+  und deiner Mutter auch gegraben,\\
+  wir Sindenknechte wir.
+\end{movement}
 
 \clearpage
-\lyrefgenre{gernemutter}
+\begin{movement}{fuerdie}
+  \voice[Basso]
+  Für die Laſter ſeiner Kinder,\\
+  für die Müßethat der Kinder\\
+  leidet Jeſus Schmach und Hohn,\\
+  laßet ſich in Purpur kleiden,\\
+  trägt zur Fülle ſeiner Leiden\\
+  eine dorngeflochtne Kron.\\
+  Seine müde Würger keichen,\\
+  Streiche folgen Geißelſtreichen\\
+  unter Spott und Höllenton.\\
+  Duldend, gleich dem Opferlamme,\\
+  naht er ſich dem Kreuzes Stamme\\
+  zu des hohen Wohlthuns Lohn.\\
+  Dieſe Leiden alle dulden\\
+  nur zur Tilgung unſrer Schulden\\
+  ſiehſt du, Mutter, deinen Sohn.
+\end{movement}
 
-\begin{description}
-	\item[Tenore]
-	Gerne, Mutter, will ich leiden,\\
-	was dein Sohn gelitten hat.\\
-	Folgen will ich ihm mit Freuden\\
-	auf des Lebens Dornenpfad.\\
-	Will den Koseweg verschmähen,\\
-	deinem Sohne folge ich,\\
-	will mit dir am Kreuze stehen,\\
-	Mutter, ach, ach lasse mich.
-\end{description}
+\begin{movement}{verlassen}
+  \voice[Tenore]
+  Verlasſen!\\
+  Im letzten Kampfe ganz verlasſen,\\
+  o Mutter, ſiehſt du deinen Sohn,\\
+  Er ſtirbt, dein Sohn, er ſtirbt.
+\end{movement}
 
-\lyrefgenre{wirwollen}
+\begin{movement}{wenneinst}
+  \voice[Soprano, Alto]
+  Wenn einſt mein lezter Kampf beginnet,\\
+  laß mich, Gott, jene Städte ſehen,\\
+  wo du gehängt auf Golgatha.\\
+  Wenn einſt mein Tropfen Zeit verrinnet,\\
+  laß meinen Geiſt vorüber gehen,\\
+  was heute deine Mutter ſah.\\
+  Dein Blut iſt auch für mich geflosſen,\\
+  für mich haſt du es auch vergosſen,\\
+  es wird im Kampfe Kraft mir geben,\\
+  der matten Seele neues Leben:\\
+  Dann, Bundesmittler, ſiegen wir,\\
+  und danken ewig dir.
+\end{movement}
 
-\begin{description}
-	\item[Coro]
-	Wir wollen wie der Mittler leiden,\\
-	das wollen wir, zu Gott gekehrt.\\
-	Wir wollen sterben, wollen es mit Freuden,\\
-	weil Jesus Tod und Sterben lehrt.\\
-	Wir trozen allen Quallen, allen Schmerzen,\\
-	dem Todespfeile, er ist stumpf.\\
-	Wir sehn ins Grab mit unerschrocknem Herzen,\\
-	dies machet, Jesus, dein Triumph.
-\end{description}
+\begin{movement}{gernemutter}\enlargethispage\baselineskip
+  \voice[Tenore]
+  Gerne, Mutter, will ich leiden,\\
+  was dein Sohn gelitten hat.\\
+  Folgen will ich ihm mit Freuden\\
+  auf des Lebens Dornenpfad.\\
+  Will den Koſeweg verſchmähen,\\
+  deinem Sohne folge ich,\\
+  will mit dir am Kreuze ſtehen,\\
+  Mutter, ach, ach lasſe mich.
+\end{movement}
 
-\lyrefgenre{omutter}
+\begin{movement}{wirwollen}
+  \voice[Coro]
+  Wir wollen wie der Mittler leiden,\\
+  das wollen wir, zu Gott gekehrt.\\
+  Wir wollen ſterben, wollen es mit Freuden,\\
+  weil Jeſus Tod und Sterben lehrt.\\
+  Wir trozen allen Quallen, allen Schmerzen,\\
+  dem Todespfeile, er iſt ſtumpf.\\
+  Wir ſehn ins Grab mit unerſchrocknem Herzen,\\
+  dies machet, Jeſus, dein Triumph.
+\end{movement}
 
-\begin{description}
-	\item[Alto]
-	O Mutter aller reinen Liebe,\\
-	o zürne doch mir schwachem nicht.\\
-	Entzieh nicht, wenn ich dich betrübe,\\
-	mir fallendem dein Angesicht.\\
-	Vergieb mir, deinem Kinde,\\
-	das einmal ganz aus Boßheit irrt,\\
-	vergieb mir, weil so manche Sinde\\
-	aus Schwachheit nur begangen wird.
-\end{description}
+\begin{movement}{omutter}
+  \voice[Alto]
+  O Mutter aller reinen Liebe,\\
+  o zürne doch mir ſchwachem nicht.\\
+  Entzieh nicht, wenn ich dich betrübe,\\
+  mir fallendem dein Angeſicht.\\
+  Vergieb mir, deinem Kinde,\\
+  das einmal ganz aus Boßheit irrt,\\
+  vergieb mir, weil ſo manche Sinde\\
+  aus Schwachheit nur begangen wird.
+\end{movement}
 
-\lyrefgenre{undwenn}
+\begin{movement}{undwenn}
+  \voice[Basso]
+  Und wenn einſt am großen Tage\\
+  aller Welten Richter kommt,\\
+  fürchterlich mit Schwerdt und Waage,\\
+  Mutter, nihm dich meiner an.\\
+  Wenn er zürnet, und die Erde\\
+  unter ſeinem Fußtritt bebt,\\
+  dann, o Gnadenmutter, werde\\
+  meine Mittlerin.
+\end{movement}
 
-\begin{description}
-	\item[Basso]
-	Und wenn einst am großen Tage\\
-	aller Welten Richter kommt,\\
-	fürchterlich mit Schwerdt und Waage,\\
-	Mutter, nihm dich meiner an.\\
-	Wenn er zürnet, und die Erde\\
-	unter seinem Fußtritt bebt,\\
-	dann, o Gnadenmutter, werde\\
-	meine Mittlerin.
-\end{description}
+\begin{movement}{wennernte}
+  \voice[Soprano]
+  Wenn einſt am Erndtetage\\
+  die Garben ausgereifet ſind,\\
+  dann werde ich erſtehn,\\
+  dann laſse unter Millionen Halmen\\
+  auch meinen Halme wähn.
+\end{movement}
 
-\clearpage
-\lyrefgenre{wennernte}
+\begin{movement}{vater}
+  \voice[Coro]
+  Vater, in des Sohnes Nahmen bitten wir:\\
+  Schenke uns jene ſchöne Friedenshütten\\
+  die er ſterbend uns erſtritten.\\
+  Ach, wir wollen gerne leyden,\\
+  ſchenk uns nur jene unnennbare Freuden.\\
+  Amen.
+\end{movement}
+}
 
-\begin{description}
-	\item[Soprano]
-	Wenn einst am Erndtetage\\
-	die Garben ausgereifet sind,\\
-	dann werde ich erstehn,\\
-	dann lase unter Millionen Halmen\\
-	auch meinen Halme wähn.
-\end{description}
-
-\lyrefgenre{vater}
-
-\begin{description}
-	\item[Coro]
-	Vater, in des Sohnes Nahmen bitten wir:\\
-	Schenke uns jene schöne Friedenshütten\\
-	die er sterbend uns erstritten.\\
-	Ach, wir wollen gerne leyden,\\
-	schenk uns nur jene unnennbare Freuden.\\
-	Amen.
-\end{description}
-
-
-\cleardoublepage
-\fi
-
-\iftemplate
-\includepdf[pages=-]{../out/\lypdfname.pdf}
-\fi
+\eesScore
 
 \end{document}

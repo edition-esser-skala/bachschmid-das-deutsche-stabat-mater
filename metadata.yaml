@@ -1,17 +1,22 @@
-composer: Bachschmid, Anton Adam
+composer:
+  last: Bachschmid
+  first: Anton Adam
 title: Das deutsche Stabat Mater
-id: (D-Eu Esl II 59)
+subtitle: Welch ein Anblikk?
 genre: sequence
-scoring: S, A, T, B (solo), S, A, T, B (coro), 2 fl, 2 ob, 2 cor (D/Es/F), 2 clno (D), 2 vl, 2 vla, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 fl, 2 ob, 2 cor (D/\flat E/F),\\2 clno (D), 2 vl, 2 vla, b, org
+license: cc-by-sa-4.0
 sources:
-  1:
+  A1:
     siglum: D-Eu
     shelfmark: Esl II 59
-    type: autograph manuscript
     date: 1794-08-02
     rism: 450200756
     url: https://nbn-resolving.org/urn:nbn:de:bvb:824-esl-ii-59-3
-github: bachschmid-das-deutsche-stabat-mater
+    license: CC BY-SA 4.0
+    principal: true
+    notes: contains the autograph manuscript (movements 1–7) and contemporary parts (all movements)
 imslp: Das_deutsche_Stabat_Mater_(Bachschmid,_Anton_Adam)
-notes:
-
+parts:
+  cor12: Corno I, II in D/\flat E/F
+  clno12: Clarino I, II in D
